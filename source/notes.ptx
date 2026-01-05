@@ -10,7 +10,7 @@
       </p>
     </introduction>
 
-    <xi:include href="./notes/starting.ptx" />
+    <xi:include href="./notes/Section_1_1.ptx" />
     <xi:include href="./notes/builds.ptx" />
 
     <!-- Add more xi:include files here to include them in the main course -->

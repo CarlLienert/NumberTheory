@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--pretext-->
+    <!--article xml:id="Sec_1_1"-->
+        <section xml:id="Section_1_1">
+        <title>Section 1.1</title>
+        <p>
+            
+
+Question 1. 
+
+For <m>n=4</m>: <m>4!=24</m> and <m>4^2=16</m> so the inequality holds.  Assume <m>n!>n^2</m> and consider:
+
+
+<md>
+<mrow>(n+1)!\amp =(n+1)\cdot n!</mrow>
+<mrow>\amp &gt; (n+1)\cdot n^2  \text{ by the inductive hypothesis } </mrow>
+<mrow>\amp &gt; (n+1)\cdot (n+1)</mrow>
+<mrow>\amp =(n+1)^2.</mrow>
+</md>
+
+
+The second inequality requires that we prove <m>n^2>n+1</m> for <m>n\geq 4</m>. The following inequalities are equivalent:
+<md>>
+<mrow>n^2 \amp &gt; n+1</mrow>
+<mrow>n^2-n-1 \amp &gt;0</mrow>
+<mrow>(n-2)(n+1)\amp &gt;0.</mrow>
+</md>
+
+The last inequality is true if <m>n&gt;-1</m> or <m>n&gt;2</m>.  So, <m>n^2&gt;n+1</m> for <m>n\geq 4 </m>.
+
+We have shown that <m>n!&gt;n^2</m> implies <m>(n+1)!&gt;(n+1)^2</m>, and we have shown the inequality is true for <m>n=4</m>.  By induction, <m>n!&gt;n^2</m> is true for all integers <m>n\geq 4</m>.
+       
+       
+</p>
+       
+
+        </section>
+    <!--/article-->
+<!--/pretext-->
