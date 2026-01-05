@@ -27,7 +27,7 @@ The second inequality requires that we prove <m>n^2>n+1</m> for <m>n\geq 4</m>. 
 <mrow>(n-2)(n+1)\amp &gt;0.</mrow>
 </md>
 
-The last inequality is true if <m>n&gt;-1</m> or <m>n&gt;2</m>.  So, <m>n^2&gt;n+1</m> for <m>n\geq 4 </m>.
+The last inequality is true if <m>n&lt;-1</m> or <m>n&gt;2</m>.  So, <m>n^2&gt;n+1</m> for <m>n\geq 4 </m>.
 
 We have shown that <m>n!&gt;n^2</m> implies <m>(n+1)!&gt;(n+1)^2</m>, and we have shown the inequality is true for <m>n=4</m>.  By induction, <m>n!&gt;n^2</m> is true for all integers <m>n\geq 4</m>.
        
