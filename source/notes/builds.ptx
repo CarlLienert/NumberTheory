@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--pretext-->
+    <!--article xml:id="notes"-->
+        <section xml:id="build-types">
+        <title>Building the Components of Your Course</title>
+        <p>
+            This covers the different ways to build each component of your PreTeXt course. The instructions here are minimal, and meant to give you an overview. Details will be best understood by going into the source for this course and seeing how things work.
+        </p>
+        <subsection xml:id="syllabus-structure">
+            <title>Course Syllabus</title>
+        <p>
+            The main syllabus file is <c>syllabus.ptx</c>. This file contains the basic structure of the syllabus with various "include" statements for components of syllabus that complies with FLC's syllabus policy (see <url href="https://www.fortlewis.edu/LinkClick.aspx?fileticket=KjN1iIQ1iu8%3d&amp;portalid=37" visual="FLC Syllabus Policy" />). The main components are as follows: land acknowledgement, course info, learning outcomes (GTPathways outcomes for Math 113, 121, 221, and 222 are included in this template), grading scheme, course explectations, campus policies, and tentative schedule. Each of these components is a <c>&lt; section &gt;</c> (un-numbered according to the publication file) uses the <c>&lt; paragraphs &gt;</c> division, which is like a subsection but with a smaller font for the heading.
+        </p>
+        <p>
+            Build types are the following:
+            <ul>
+                <li>
+                    <p>
+                        <term>Web:</term> To build the html version of the syllabus, use <c>pretext build syllabus-web</c>. To view this, use <c>pretext view syllabus-web</c>. Deployment is then done using <c>pretext deploy</c>, which also deploys course notes and activities. You can then embed these pages in Canvas pages/assignments using the <c>&lt; &gt;</c> button at the top of the syllabus webpage (this applies to all pages generated with this course template).
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <term>Print:</term> If you would like to print your syllabus to hand out in class, you can use <c>pretext build syllabus-print</c>. This will generate a pdf in the output folder, which can be downloaded by opening the codespace in VScode desktop.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <term>SCORM:</term> Finally, you can use <c>pretext build syllabus-canvas</c> to generate a SCORM of the syllabus for inclusion in Canvas without publishing your course to the web.
+                    </p>
+                </li>
+            </ul>
+        </p>
+        
+        
+        
+        </subsection>
+
+        <subsection xml:id="activities-notes-builds">
+          <title>Activities and Notes</title>
+          <p>
+            Activities (worksheets) are small documents that can include workspace. Several examples are included in this template to show how they work. Notes largely work the same way as Activities, they are just structures as sections rather than worksheets.
+          </p>
+          <p>
+            Build types for activities are as follows:
+            <ul>
+                <li>
+                    <p>
+                        <term>Web:</term> This works the same way as the syllabus, just using <c>activities-web</c> or <c>notes-web</c> in place of <c>syllabus-web</c>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <term>Print (all at once):</term> To generate a pdf version of all of your activities or notes at once, do it like the syllabus, but replace the appropriate word like you did for web output.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <term>Print (one at a time):</term> Generating a pdf for a single activity requires two steps:
+                        <ol>
+                            <li>
+                                <p>
+                                    First, you must un-comment <c>&lt; pretext &gt;</c> and <c>&lt; article &gt;</c> tags at the beginning and end of the activity/notes source file. This way it will be treated as a standalone document rather than something that is included in a larger document.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Now run the command <c>pretext build  pdf -i ./source/activities/worksheet-name.ptx</c> (edit worksheet-name to whatever it is). For notes, change "activities" to "notes" in the path.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <term>SCORM (one at a time, also do this for exams):</term> This works similarly to printing, but using <c>pretext build scorm -i</c> before the path of the file being built.
+                    </p>
+                </li>
+            </ul>
+          </p>
+            
+        </subsection>
+
+
+        </section>
+    <!--/article-->
+<!--/pretext-->
