@@ -10,7 +10,7 @@
         </li>
         <li><title>Course Number</title>
           <p>
-            MATH XXX
+            MATH 316
           </p>
         </li>
         <li><title>Credits</title>
@@ -22,8 +22,9 @@
         <!--e.g.-->
         <ul>
         <li>  
-          <em>Section 1 Time and Room(s):</em> 8:00-8:55am, MWF Noble 110, Th Noble 160
+          <em></em> 10:10-11:05am, MWF EBH 240
         </li>
+        <!--
         <li>
             <em>Section 2 Time and Room(s):</em> 10:10-11:05am, MWF Noble 110, Th Berndt 340
         </li>
@@ -32,14 +33,14 @@
         </li>
         <li>
             <em>Section 4 Time and Room(s):</em> 2:30-3:25pm, MWF Noble 110, Th Berndt 340
-        </li>
+        </li> -->
       </ul>
     </li>
         <li><title>Instructors</title>
           <ul>
             <li>
               <p>
-                <em>Section 1 - </em> Eddie Math (<url href="mailto:math_e@fortlewis.edu">math_e@fortlewis.edu</url>)
+                <em></em> Carl Lienert (<url href="mailto:math_e@fortlewis.edu">lienert_c@fortlewis.edu</url>)
               </p>
             </li>
             <li>
