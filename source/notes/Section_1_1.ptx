@@ -106,7 +106,7 @@ Assume <m>(1+a)^n \geq 1+na</m>  and consider <m>(1+a)^{n+1}</m>:
 <mrow> \amp =1+na+a+na^2</mrow>
 <mrow> \amp =1+(n+1)a+na^2</mrow>
 <mrow>\geq 1+(n+1)a</mrow>
-</md>>
+</md>
 
 The first inequality follows from the inductive hypothesis. 
 This first inequality is also where we need to use the assumption that <m>1+a &lt; 0</m>.  If <m>1+a&lt; 0</m>, the direction of the inequality would change. 
@@ -116,31 +116,40 @@ The second inequality is true since <m>na^2\geq 0</m>.
 </p>
 </subsection>
 
+
+<subsection xml:id="Problem_1_1_9_10">
+<title> Problem 10</title>
+
+<p>
+
+
+(a)
+
+The following is not a complete proof or explanation.  It is only the algebra part. 
+Make sure you can identify where the induction hypothesis is used.  Make sure you can justify both of the inequalities.
+
+<md>
+<mrow>\frac{1}{1^2}+\frac{1}{2^2}+\dots+\frac{1}{n^2}+\frac{1}{(n+1)^2}\amp\leq 2-\frac{1}{n}+\frac{1}{(n+1)^2}</mrow>
+<mrow> \amp =2-\left(\frac{1}{n}-\frac{1}{(n+1)^2}\right)</mrow>
+<mrow> \amp=2-\left(\frac{(n+1)^2-n}{n(n+1)^2}\right)</mrow>
+<mrow> \amp=2-\left(\frac{n^2+n+1}{n(n+1)^2}\right)</mrow>
+<mrow> \amp=2-\left(\frac{n^2+n+1}{(n^2+n)(n+1)}\right)</mrow>
+<mrow> \amp\leq 2-\left(\frac{n^2+n+1}{(n^2+n+1)(n+1)}\right)</mrow>
+<mrow> \amp=2-\frac{1}{n+1}</mrow>
+</md>
+
+(b)
+ Again, the following is only the algebra.  It does not constitute a complete proof.
+
+<md>
+<mrow>2-\frac{n+2}{2^n}+\frac{n+1}{2^{n+1}}\amp=2-\left(\frac{n+2}{2^n}-\frac{n+1}{2^{n+1}}\right)</mrow>
+<mrow> \amp=2-\frac{(2n+4)-(n+1)}{2^{n+1}}</mrow>
+<mrow> \amp= 2-\frac{n+3}{2^{n+1}}</mrow>
+</md>
+
+</p>
+</subsection>
 <!--
-**10.**
-
-(a) 
-The following is not a complete proof or explanation.  It is only the algebra part. Make sure you can identify where the induction hypothesis is used.  Make sure you can justify both of the inequalities.
-
-$$\begin{align*}
-\frac{1}{1^2}+\frac{1}{2^2}+\dots+\frac{1}{n^2}+\frac{1}{(n+1)^2}&\leq 2-\frac{1}{n}+\frac{1}{(n+1)^2}\\
-&=2-\left(\frac{1}{n}-\frac{1}{(n+1)^2}\right)\\
-&=2-\left(\frac{(n+1)^2-n}{n(n+1)^2}\right)\\
-&=2-\left(\frac{n^2+n+1}{n(n+1)^2}\right)\\
-&=2-\left(\frac{n^2+n+1}{(n^2+n)(n+1)}\right)\\
-&\leq 2-\left(\frac{n^2+n+1}{(n^2+n+1)(n+1)}\right)\\
-&=2-\frac{1}{n+1}
-\end{align*}$$
-
-(b) Again, the following is only the algebra.  It does not constitute a complete proof.
-
-$$\begin{align*}
-2-\frac{n+2}{2^n}+\frac{n+1}{2^{n+1}}&=2-\left(\frac{n+2}{2^n}-\frac{n+1}{2^{n+1}}\right)\\
-&=2-\frac{(2n+4)-(n+1)}{2^{n+1}}\\
-&= 2-\frac{n+3}{2^{n+1}}
-\end{align*}$$
-
-
 **11.** (save for exam)
 
 $$\begin{align*}
