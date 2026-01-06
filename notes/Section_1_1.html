@@ -155,6 +155,9 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Section_1_1.html#Problem_1_1_6" class="internal"><span class="title">Problem 6</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Section_1_1.html#Problem_1_1_7" class="internal"><span class="title">Problem 7</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Section_1_1.html#Problem_1_1_8" class="internal"><span class="title">Problem 8</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Section_1_1.html#Problem_1_1_9" class="internal"><span class="title">Problem 9</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Section_1_1.html#Problem_1_1_9_10" class="internal"><span class="title">Problem 10</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Section_1_1.html#Problem_1_1_9_11" class="internal"><span class="title">Problem 11</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -248,7 +251,7 @@ n^2-n-1 \amp &gt;0\\
 <div class="para">is equivalent to</div>
 <div class="displaymath process-math" id="Problem_1_1_8-2-8">
 \begin{gather*}
-^n(n!) \leq \frac{(2n)!}{n!}
+2^n(n!) \leq \frac{(2n)!}{n!}
 \end{gather*}
 </div>
 <div class="para">so from part (a), we need to show that</div>
@@ -270,15 +273,15 @@ n^2-n-1 \amp &gt;0\\
 n! \leq (1 \cdot 3 \cdot 5 \cdot (2n-1))
 \end{gather*}
 </div>
-<div class="para">since there are $n$ factors in both products and all but the first factor are greater in the right hand side.  For example, if <span class="process-math">\(n=4\text{:}\)</span>
+<div class="para">since there are <span class="process-math">\(n\)</span> factors in both products and all but the first factor are greater in the right hand side.  For example, if <span class="process-math">\(n=4\text{:}\)</span>
 </div>
-<div class="displaymath process-math" id="Problem_1_1_8-2-13">
+<div class="displaymath process-math" id="Problem_1_1_8-2-14">
 \begin{gather*}
 1\cdot 2 \cdot 3 \cdot 4 \leq 1 \cdot 3 \cdot 5 \cdot 7.
 \end{gather*}
 </div>
 <div class="para">Multiply both sides of</div>
-<div class="displaymath process-math" id="Problem_1_1_8-2-14">
+<div class="displaymath process-math" id="Problem_1_1_8-2-15">
 \begin{gather*}
 n! \leq (1 \cdot 3 \cdot 5 \cdot (2n-1))
 \end{gather*}
@@ -286,7 +289,79 @@ n! \leq (1 \cdot 3 \cdot 5 \cdot (2n-1))
 <div class="para">by <span class="process-math">\(2^n\)</span> to obtain the desired result.</div>
 <div class="autopermalink" data-description="Paragraph"><a href="#Problem_1_1_8-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection: Problem 8"><a href="#Problem_1_1_8" title="Copy heading and permalink for Subsection: Problem 8" aria-label="Copy heading and permalink for Subsection: Problem 8">🔗</a></div></section><div class="autopermalink" data-description="Section: Section 1.1"><a href="#Section_1_1" title="Copy heading and permalink for Section: Section 1.1" aria-label="Copy heading and permalink for Section: Section 1.1">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Subsection: Problem 8"><a href="#Problem_1_1_8" title="Copy heading and permalink for Subsection: Problem 8" aria-label="Copy heading and permalink for Subsection: Problem 8">🔗</a></div></section><section class="subsection" id="Problem_1_1_9"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Problem 9</span>
+</h3>
+<div class="para logical" id="Problem_1_1_9-2">
+<div class="para">For <span class="process-math">\(n=1\text{,}\)</span> <span class="process-math">\(1+a \geq 1+a\text{.}\)</span> Assume <span class="process-math">\((1+a)^n \geq 1+na\)</span>  and consider <span class="process-math">\((1+a)^{n+1}\text{:}\)</span>
+</div>
+<div class="displaymath process-math" id="Problem_1_1_9-2-5">
+\begin{align*}
+(1+a)^{n+1}\amp=(1+a)^n(1+a)\\
+\amp \geq (1+na)(1+a)\\
+\amp =1+na+a+na^2\\
+\amp =1+(n+1)a+na^2\\
+\geq 1+(n+1)a
+\end{align*}
+</div>
+<div class="para">The first inequality follows from the inductive hypothesis. This first inequality is also where we need to use the assumption that <span class="process-math">\(1+a &lt; 0\text{.}\)</span>  If <span class="process-math">\(1+a&lt; 0\text{,}\)</span> the direction of the inequality would change. The second inequality is true since <span class="process-math">\(na^2\geq 0\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Problem_1_1_9-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection: Problem 9"><a href="#Problem_1_1_9" title="Copy heading and permalink for Subsection: Problem 9" aria-label="Copy heading and permalink for Subsection: Problem 9">🔗</a></div></section><section class="subsection" id="Problem_1_1_9_10"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Problem 10</span>
+</h3>
+<div class="para logical" id="Problem_1_1_9_10-2">
+<div class="para">(a) The following is not a complete proof or explanation.  It is only the algebra part. Make sure you can identify where the induction hypothesis is used.  Make sure you can justify both of the inequalities.</div>
+<div class="displaymath process-math" id="Problem_1_1_9_10-2-1">
+\begin{align*}
+\frac{1}{1^2}+\frac{1}{2^2}+\dots+\frac{1}{n^2}+\frac{1}{(n+1)^2}\amp\leq 2-\frac{1}{n}+\frac{1}{(n+1)^2}\\
+\amp =2-\left(\frac{1}{n}-\frac{1}{(n+1)^2}\right)\\
+\amp=2-\left(\frac{(n+1)^2-n}{n(n+1)^2}\right)\\
+\amp=2-\left(\frac{n^2+n+1}{n(n+1)^2}\right)\\
+\amp=2-\left(\frac{n^2+n+1}{(n^2+n)(n+1)}\right)\\
+\amp\leq 2-\left(\frac{n^2+n+1}{(n^2+n+1)(n+1)}\right)\\
+\amp=2-\frac{1}{n+1}
+\end{align*}
+</div>
+<div class="para">(b) Again, the following is only the algebra.  It does not constitute a complete proof.</div>
+<div class="displaymath process-math" id="Problem_1_1_9_10-2-2">
+\begin{align*}
+2-\frac{n+2}{2^n}+\frac{n+1}{2^{n+1}}\amp=2-\left(\frac{n+2}{2^n}-\frac{n+1}{2^{n+1}}\right)\\
+\amp=2-\frac{(2n+4)-(n+1)}{2^{n+1}}\\
+\amp= 2-\frac{n+3}{2^{n+1}}
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Problem_1_1_9_10-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection: Problem 10"><a href="#Problem_1_1_9_10" title="Copy heading and permalink for Subsection: Problem 10" aria-label="Copy heading and permalink for Subsection: Problem 10">🔗</a></div></section><section class="subsection" id="Problem_1_1_9_11"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Problem 11</span>
+</h3>
+<div class="para logical" id="Problem_1_1_9_11-2">
+<div class="para">(save for exam)</div>
+<div class="displaymath process-math" id="Problem_1_1_9_11-2-1">
+\begin{align*}
+\frac{(2n+2)!}{2^{n+1}(n+1)!}\amp=\frac{(2n)!(2n+1)(2n+2)}{2^n\cdot2\cdot n!\cdot (n+1)}\\
+\amp=\left(\frac{(2n)!}{2^nn!}\right)\left(\frac{(2n+1)(2n+2)}{2(n+1)}\right)\\
+\amp= \left(\frac{(2n)!}{2^nn!}\right)(2n+1)
+\end{align*}
+</div>
+<div class="para">So, if</div>
+<div class="displaymath process-math" id="Problem_1_1_9_11-2-2">
+\begin{gather*}
+\frac{(2n)!}{2^nn!}
+\end{gather*}
+</div>
+<div class="para">is an integer, then so is</div>
+<div class="displaymath process-math" id="Problem_1_1_9_11-2-3">
+\begin{gather*}
+\frac{(2n+2)!}{2^{n+1}(n+1)!}.
+\end{gather*}
+</div>
+<div class="para">If <span class="process-math">\(n=1\)</span> the expression equals <span class="process-math">\(1\text{,}\)</span> an integer.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Problem_1_1_9_11-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection: Problem 11"><a href="#Problem_1_1_9_11" title="Copy heading and permalink for Subsection: Problem 11" aria-label="Copy heading and permalink for Subsection: Problem 11">🔗</a></div></section><div class="autopermalink" data-description="Section: Section 1.1"><a href="#Section_1_1" title="Copy heading and permalink for Section: Section 1.1" aria-label="Copy heading and permalink for Section: Section 1.1">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="ch-course-notes.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="Section_2_2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
