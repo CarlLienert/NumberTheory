@@ -6,7 +6,7 @@
         <title>Section 2.2</title>
         
 
-<subsection xml:id="Question_1">
+<subsection xml:id="Question_2_2_1">
     <title> Question 1</title>
     <p>
         From the division algorithm,  <m>a</m> can be written uniquely as <m>a=bq+r</m> where <m>0 \leq r &lt; b</m>. 
@@ -55,7 +55,7 @@
 </subsection>
     
     <subsection sml:id="Question_9">
-    <title>Question 9</title>
+    <title>Problem 9</title>
 
     <p>
         Let <m>n \in \mathbb{Z}</m> and write <m>n=7q+r</m> where <m>0 \leq r &lt; 7</m>.  
@@ -89,6 +89,26 @@
         
     </p>
     </subsection>
+
+     <subsection sml:id="Question_2_2_10">
+    <title>Problem 10</title>
+    <p>
+        There are 6 cases.  We'll illustrate here with one case: say <m>n=6l+2</m>. 
+        Rather than deal with the entire expression let's try to build one piece at a time:
+        <md>
+            <mrow>n^2 \amp =(6l+2)^2=6j+4 \text{ for some } j</mrow>
+            <mrow>7n^2 \amp = 7(6j+4)=6s+4 \text{ for some } s</mrow>
+            <mrow> 7n^2+5 \amp =7(6s+4) +5 = 6t+3 \text{ for some } t </mrow>
+            <mrow> n(7n^2+5) \amp (6l+2)(6t+3) =6u \text{ for some } u.</mrow>
+        </md>
+        
+        This proves the result. It's a bit tedious to find each of the integers <m>j,s,t,u</m> but not computationally difficult. 
+        For this problem we are only concerned that such integers exist, not what they are.
+        
+    </p>
+
+     </subsection>
+
         </section>
     <!--/article-->
 <!--/pretext-->
