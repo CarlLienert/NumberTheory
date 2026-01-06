@@ -6,8 +6,8 @@
         <title>Section 1.1</title>
         
             
-<subsection xml:id="Question_1">
-<title> Question 1</title>
+<subsection xml:id="Problem_1_1_6">
+<title> Problem 6</title>
 <p>
 
 
@@ -37,6 +37,118 @@ We have shown that <m>n!&gt;n^2</m> implies <m>(n+1)!&gt;(n+1)^2</m>, and we hav
 </p>
        
 </subsection>
+
+
+<subsection xml:id="Problem_1_1_7">
+<title> Problem 7</title>
+<p>
+    (quiz or exam)
+For <m>n=1</m>: <md>1(1!)=2!-1</md>
+
+Consider:
+
+<md>
+    <mrow> 1(1!)+2(2!)+\dots+n(n!)+(n+1)((n+1)!)\amp=(n+1)!-1+(n+1)(n+1)!  </mrow>
+    <mrow> \amp =(n+1)!(1+n+1)-1</mrow>
+    <mrow> \amp=(n+1)!(n+2)-1 </mrow>
+    <mrow> \amp=(n+2)!-1 </mrow>
+</md>
+</p>
+</subsection>
+
+
+<subsection xml:id="Problem_1_1_8">
+<title> Problem 8</title>
+
+<p>
+For <m>n=1</m>: <md>2=\frac{2!}{1!}.</md>
+
+Assume the identity is true for <m>n</m> and consider:
+
+<md>
+<mrow>2\cdot 6 \cdot 10 \cdots (4n-2)\cdot (4n+2)\amp=\frac{(2n)!}{n!}\cdot (4n+2)</mrow>
+<mrow> \amp=\frac{(2n)!\cdot 2 \cdot (2n+1)}{n!}</mrow>
+<mrow> \amp = \frac{(2n)!\cdot 2 \cdot (2n+1)\cdot (n+1)}{n!\cdot (n+1)}</mrow>
+<mrow> \amp= \frac{(2n)! \cdot (2n+1)\cdot (2n+2)}{n!\cdot (n+1)}</mrow>
+<mrow> \amp=\frac{(2(n+1))!}{(n+1)!}=\frac{(2n+2)!}{(n+1)!}</mrow>
+</md>
+which shows the identity is true for <m>n+1</m>. By induction the identity is true for all integers <m>n\geq1</m>.
+
+The inequality <md><mrow>2^n(n!)^2\leq(2n)!</mrow></md>
+is equivalent to <md><mrow>2^n(n!) \leq \frac{(2n)!}{n!}</mrow></md> so from part (a), we need to show that <md><mrow>2^n(n!) \leq 2\cdot 6 \cdot 10 \cdots (4n-2).</mrow></md>
+
+The right hand side is:
+<md>
+<mrow>2\cdot 6 \cdot 10 \cdots (4n-2)\amp=(2\cdot1)\cdot(2\cdot3)\cdot(2\cdot 5)\cdots (2\cdot (2n-1))</mrow>
+<mrow> \amp=2^n\cdot (1\cdot 3 \cdot 5 \cdots (2n-1))</mrow>
+</md>
+
+
+
+Clearly <md><mrow>n! \leq (1 \cdot 3 \cdot 5 \cdot (2n-1))</mrow> </md> since there are <m>n</m> factors in both products and all but the first factor are greater in the right hand side.  For example, if <m>n=4</m>: <md><mrow>1\cdot 2 \cdot 3 \cdot 4 \leq 1 \cdot 3 \cdot 5 \cdot 7.</mrow></md>  
+Multiply both sides of <md><mrow>n! \leq (1 \cdot 3 \cdot 5 \cdot (2n-1))</mrow></md> by <m>2^n</m> to obtain the desired result.
+</p>
+</subsection>
+
+
+
+<!--
+**9.**
+
+For $n=1$, $1+a \geq 1+a$.
+
+Assume $(1+a)^n \geq 1+na$  and consider $(1+a)^{n+1}$:
+
+$$\begin{align*}
+(1+a)^{n+1}&=(1+a)^n(1+a)\\
+&\geq (1+na)(1+a)\\
+&=1+na+a+na^2\\
+&=1+(n+1)a+na^2\\
+&\geq 1+(n+1)a
+\end{align*}$$
+
+The first inequality follows from the inductive hypothesis. This first inequality is also where we need to use the assumption that $1+a >0$.  If $1+a<0$, the direction of the inequality would change. The second inequality is true since $na^2\geq 0$.
+
+**10.**
+
+(a) 
+The following is not a complete proof or explanation.  It is only the algebra part. Make sure you can identify where the induction hypothesis is used.  Make sure you can justify both of the inequalities.
+
+$$\begin{align*}
+\frac{1}{1^2}+\frac{1}{2^2}+\dots+\frac{1}{n^2}+\frac{1}{(n+1)^2}&\leq 2-\frac{1}{n}+\frac{1}{(n+1)^2}\\
+&=2-\left(\frac{1}{n}-\frac{1}{(n+1)^2}\right)\\
+&=2-\left(\frac{(n+1)^2-n}{n(n+1)^2}\right)\\
+&=2-\left(\frac{n^2+n+1}{n(n+1)^2}\right)\\
+&=2-\left(\frac{n^2+n+1}{(n^2+n)(n+1)}\right)\\
+&\leq 2-\left(\frac{n^2+n+1}{(n^2+n+1)(n+1)}\right)\\
+&=2-\frac{1}{n+1}
+\end{align*}$$
+
+(b) Again, the following is only the algebra.  It does not constitute a complete proof.
+
+$$\begin{align*}
+2-\frac{n+2}{2^n}+\frac{n+1}{2^{n+1}}&=2-\left(\frac{n+2}{2^n}-\frac{n+1}{2^{n+1}}\right)\\
+&=2-\frac{(2n+4)-(n+1)}{2^{n+1}}\\
+&= 2-\frac{n+3}{2^{n+1}}
+\end{align*}$$
+
+
+**11.** (save for exam)
+
+$$\begin{align*}
+\frac{(2n+2)!}{2^{n+1}(n+1)!}&=\frac{(2n)!(2n+1)(2n+2)}{2^n\cdot2\cdot n!\cdot (n+1)}\\
+&=\left(\frac{(2n)!}{2^nn!}\right)\left(\frac{(2n+1)(2n+2)}{2(n+1)}\right)\\
+&= \left(\frac{(2n)!}{2^nn!}\right)(2n+1)
+\end{align*}$$
+
+So, if $$\frac{(2n)!}{2^nn!}$$ is an integer, then so is $$\frac{(2n+2)!}{2^{n+1}(n+1)!}.$$
+
+If $n=1$ the expression equals $1$, an integer.
+
+-->
+
+
+
 
         </section>
     <!--/article-->
