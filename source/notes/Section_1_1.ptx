@@ -4,10 +4,12 @@
     <!--article xml:id="Sec_1_1"-->
         <section xml:id="Section_1_1">
         <title>Section 1.1</title>
-        <p>
+        
             
+<subsection xml:id="Question_1">
+<title> Question 1</title>
+<p>
 
-Question 1. 
 
 For <m>n=4</m>: <m>4!=24</m> and <m>4^2=16</m> so the inequality holds.  Assume <m>n!>n^2</m> and consider:
 
@@ -34,6 +36,7 @@ We have shown that <m>n!&gt;n^2</m> implies <m>(n+1)!&gt;(n+1)^2</m>, and we hav
        
 </p>
        
+</subsection>
 
         </section>
     <!--/article-->
