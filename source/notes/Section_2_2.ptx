@@ -7,7 +7,7 @@
         
 
 <subsection xml:id="Question_2_2_1">
-    <title> Question 1</title>
+    <title> Problem 1</title>
     <p>
         From the division algorithm,  <m>a</m> can be written uniquely as <m>a=bq+r</m> where <m>0 \leq r &lt; b</m>. 
         We'll add and subtract <m>2b</m>:
@@ -26,8 +26,8 @@
     </p>
 </subsection>        
             
-<subsection xml:id="Question_2">
-<title> Question 2</title>
+<subsection xml:id="Question_2_2_2">
+<title> Problem 2</title>
 
 <p>
     Suppose <m>n=6k+5</m>. Then, <m>n=3(2k)+3+2=3(2k+1)+2</m> and so <m>n</m> is of the form <m>3j+1</m> where <m>j=2k+1</m>.
@@ -38,8 +38,8 @@
        
 </subsection>
 
-<subsection sml:id="Question_3">
-    <title>Question 3</title>
+<subsection sml:id="Question_2_2_3">
+    <title>Problem 3</title>
 
     <p>
         By the division algorithm, any integer, <m>n</m>, is of the form <m>3k</m>, <m>3k+1</m>, or <m>3k+2</m>.
@@ -54,6 +54,27 @@
     </p>
 </subsection>
     
+<subsection sml:id="Question_2_2_4">
+    <title>Problem 4</title>
+<p>
+    If <m>a</m> is an integer then <m>a^2</m> is of the form <m>3k</m> or <m>3k+1</m> by problem 3a. If <m>a=3k</m> then:
+    <md>
+        <mrow>3a^1-1 \amp =3(3k)^2-1</mrow>
+    </md>
+     which is neither of the form  <m>3k</m> or <m>3k+1</m>.  (It is of the form <m>3k+2</m>.)
+     If <m>a=3k+1 </m>  then:
+     <md>
+        3a^2-1=3(3k+1)^2-1=27k^2+18k+2=3(9k^2+6k)+2.
+     </md>
+
+     Again, this is neither of the form <m>3k</m> or <m>3k+1</m>.
+
+    Since <m>3a^2-1</m> is never of the form <m>3k</m> or <m>3k+1</m> it cannot be a square.
+     
+</p>
+
+</subsection>
+
     <subsection sml:id="Question_9">
     <title>Problem 9</title>
 
