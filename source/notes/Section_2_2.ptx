@@ -5,6 +5,26 @@
         <section xml:id="Section_2_2">
         <title>Section 2.2</title>
         
+
+<subsection xml:id="Question_1">
+    <title> Question 1</title>
+    <p>
+        From the division algorithm,  <m>a</m> can be written uniquely as <m>a=bq+r</m> where <m>0 \leq r &lt; b</m>. 
+        We'll add and subtract <m>2b</m>:
+        <md>
+            <mrow>a \amp = bq+r</mrow>
+            <mrow>a \amp =(bq-2b)+(2b+r)</mrow>
+            <mrow>a \amp =b(q-2)+(2b+r).</mrow>
+        </md> 
+        For the inequality we have:
+        <md>
+            <mrow>0 \amp \leq r &lt; b </mrow>
+            <mrow>2b \amp \leq r+2b &lt; 3b. </mrow>
+        </md>
+        
+        
+    </p>
+</subsection>        
             
 <subsection xml:id="Question_2">
 <title> Question 2</title>
