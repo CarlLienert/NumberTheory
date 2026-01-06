@@ -99,7 +99,7 @@
             <mrow>n^2 \amp =(6l+2)^2=6j+4 \text{ for some } j</mrow>
             <mrow>7n^2 \amp = 7(6j+4)=6s+4 \text{ for some } s</mrow>
             <mrow> 7n^2+5 \amp =7(6s+4) +5 = 6t+3 \text{ for some } t </mrow>
-            <mrow> n(7n^2+5) \amp (6l+2)(6t+3) =6u \text{ for some } u.</mrow>
+            <mrow> n(7n^2+5) \amp= (6l+2)(6t+3) =6u \text{ for some } u.</mrow>
         </md>
         
         This proves the result. It's a bit tedious to find each of the integers <m>j,s,t,u</m> but not computationally difficult. 
