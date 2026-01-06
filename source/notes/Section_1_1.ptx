@@ -90,25 +90,33 @@ Multiply both sides of <md><mrow>n! \leq (1 \cdot 3 \cdot 5 \cdot (2n-1))</mrow>
 </p>
 </subsection>
 
+<subsection xml:id="Problem_1_1_9">
+<title> Problem 9</title>
 
+<p>
+
+
+For <m>n=1</m>, <m>1+a \geq 1+a</m>.
+
+Assume <m>(1+a)^n \geq 1+na</m>  and consider <m>(1+a)^{n+1}</m>:
+
+<md>>
+<mrow>(1+a)^{n+1}\amp=(1+a)^n(1+a)</mrow>
+<mrow> \amp \geq (1+na)(1+a)</mrow>
+<mrow> \amp =1+na+a+na^2</mrow>
+<mrow> \amp =1+(n+1)a+na^2</mrow>
+<mrow>\geq 1+(n+1)a</mrow>
+</md>>
+
+The first inequality follows from the inductive hypothesis. 
+This first inequality is also where we need to use the assumption that <m>1+a &lt; 0</m>.  If <m>1+a&lt; 0</m>, the direction of the inequality would change. 
+The second inequality is true since <m>na^2\geq 0</m>.
+
+
+</p>
+</subsection>
 
 <!--
-**9.**
-
-For $n=1$, $1+a \geq 1+a$.
-
-Assume $(1+a)^n \geq 1+na$  and consider $(1+a)^{n+1}$:
-
-$$\begin{align*}
-(1+a)^{n+1}&=(1+a)^n(1+a)\\
-&\geq (1+na)(1+a)\\
-&=1+na+a+na^2\\
-&=1+(n+1)a+na^2\\
-&\geq 1+(n+1)a
-\end{align*}$$
-
-The first inequality follows from the inductive hypothesis. This first inequality is also where we need to use the assumption that $1+a >0$.  If $1+a<0$, the direction of the inequality would change. The second inequality is true since $na^2\geq 0$.
-
 **10.**
 
 (a) 
