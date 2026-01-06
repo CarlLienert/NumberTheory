@@ -149,20 +149,30 @@ Make sure you can identify where the induction hypothesis is used.  Make sure yo
 
 </p>
 </subsection>
-<!--
-**11.** (save for exam)
 
-$$\begin{align*}
-\frac{(2n+2)!}{2^{n+1}(n+1)!}&=\frac{(2n)!(2n+1)(2n+2)}{2^n\cdot2\cdot n!\cdot (n+1)}\\
-&=\left(\frac{(2n)!}{2^nn!}\right)\left(\frac{(2n+1)(2n+2)}{2(n+1)}\right)\\
-&= \left(\frac{(2n)!}{2^nn!}\right)(2n+1)
-\end{align*}$$
 
-So, if $$\frac{(2n)!}{2^nn!}$$ is an integer, then so is $$\frac{(2n+2)!}{2^{n+1}(n+1)!}.$$
 
-If $n=1$ the expression equals $1$, an integer.
+<subsection xml:id="Problem_1_1_9_11">
+<title> Problem 11</title>
 
--->
+<p>
+ (save for exam)
+
+
+
+
+<md>
+<mrow>\frac{(2n+2)!}{2^{n+1}(n+1)!}\amp=\frac{(2n)!(2n+1)(2n+2)}{2^n\cdot2\cdot n!\cdot (n+1)}</mrow>
+<mrow> \amp=\left(\frac{(2n)!}{2^nn!}\right)\left(\frac{(2n+1)(2n+2)}{2(n+1)}\right)</mrow>
+<mrow> \amp= \left(\frac{(2n)!}{2^nn!}\right)(2n+1)</mrow>
+</md>
+
+So, if <md><mrow>\frac{(2n)!}{2^nn!}</mrow></md> is an integer, then so is <md><mrow>\frac{(2n+2)!}{2^{n+1}(n+1)!}.</mrow></md>
+
+If <m>n=1</m> the expression equals <m>1</m>, an integer.
+
+</p>
+</subsection>
 
 
 
