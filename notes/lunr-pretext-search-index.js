@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Section 2.2",
-  "body": " Section 2.2   Question 2  Suppose . Then, and so is of the form where . Conversely, for example, is not of the form since has no integer solutions.    Question 3  By the division algorithm, any integer, , is of the form , , or . Square each of these cases: So the square of any integer is of the form or    "
+  "body": " Section 2.2   Question 2  Suppose . Then, and so is of the form where . Conversely, for example, is not of the form since has no integer solutions.    Question 3  By the division algorithm, any integer, , is of the form , , or . Square each of these cases: So the square of any integer is of the form or     Question 9  Let and write where . Consider the squares in each of the cases: ( represents some integer below. For example would be in the first line.) And, similarly, the cubes: So, squares of integers are of the form , , , or . Cubes are of the form , , or . If an integer is both a square and a cube it must be of the form or .   "
 }
 ]
 
