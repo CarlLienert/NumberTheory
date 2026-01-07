@@ -94,36 +94,29 @@ Apply this to each term above on the right except the first:
 </p>
 </subsection>
 
+<subsection xml:id="Problem_1_2_4">
+<title> Problem 4</title>
+<p>
 
 
 
+<me>\binom{n}{r}=\frac{n!}{r!(n-r)!}</me>
+<me>\binom{n}{r+1}=\frac{n!}{(r+1)!(n-r-1)!}</me>
 
 
+So <md>
+<mrow>\binom{n}{r} &lt;\binom{n}{r+1}  \amp \phantom{4+5} \text{  iff  } \phantom{4+5} r!(n-r)!&gt;(r+1)!(n-r-1)!</mrow>
+<mrow> \amp \phantom{4+5} \text{  iff  } \phantom{4+5} n-r  &gt;r+1</mrow>
+<mrow> \amp \phantom{4+5} \text{  iff  } \phantom{4+5} n-1  &gt;2r</mrow>
+<mrow> \amp \phantom{4+5} \text{  iff } \phantom{4+5} \frac{1}{2}(n-1)  &gt; r.</mrow>
+</md>
 
-
-
-
-
-
-<!--
-
-**4.**
-
-$$\binom{n}{r}=\frac{n!}{r!(n-r)!}$$
-$$\binom{n}{r+1}=\frac{n!}{(r+1)!(n-r-1)!}$$
-
-So $$\begin{align*}
-\binom{n}{r}<\binom{n}{r+1} &\text{ \ \ iff \ \ } r!(n-r)!>(r+1)!(n-r-1)!\\
-&\text{ \ \ iff \ \ } n-r >r+1\\
-&\text{ \ \ iff \ \ } n-1 >2r\\
-&\text{ \ \ iff \ \ } \frac{1}{2}(n-1) > r
-\end{align*}.$$
-
-Of course, we need $r \geq 0$.
+Of course, we need <m>r \geq 0</m>.
 
 The other parts are similar.
 
--->
+</p>
+</subsection>
 
 <!--
 
