@@ -10,6 +10,15 @@ var ptx_lunr_docs = [
   "body": " Section 1.1   Problem 6  For : and so the inequality holds. Assume and consider: The second inequality requires that we prove for . The following inequalities are equivalent: The last inequality is true if or . So, for . We have shown that implies , and we have shown the inequality is true for . By induction, is true for all integers .    Problem 7  (quiz or exam) For : Consider:     Problem 8  For : Assume the identity is true for and consider: which shows the identity is true for . By induction the identity is true for all integers . The inequality is equivalent to so from part (a), we need to show that The right hand side is: Clearly since there are factors in both products and all but the first factor are greater in the right hand side. For example, if : Multiply both sides of by to obtain the desired result.    Problem 9  For , . Assume and consider : The first inequality follows from the inductive hypothesis. This first inequality is also where we need to use the assumption that . If , the direction of the inequality would change. The second inequality is true since .    Problem 10  (a) The following is not a complete proof or explanation. It is only the algebra part. Make sure you can identify where the induction hypothesis is used. Make sure you can justify both of the inequalities. (b) Again, the following is only the algebra. It does not constitute a complete proof.     Problem 11  (save for exam) So, if is an integer, then so is If the expression equals , an integer.   "
 },
 {
+  "id": "Section_1_2",
+  "level": "1",
+  "url": "Section_1_2.html",
+  "type": "Section",
+  "number": "",
+  "title": "Section 1.2",
+  "body": " Section 1.2   Problem 1   Let in the identity:     Problem 3    If the binomial theorem is precisely the desired identity.  Similar idea: let and in the binomial theorem.   Differentiating with respect to gives: Setting gives the desired result.  Use the expansion of with .  Follow the hint. Make sure to justify both equalities.   First: Each of the binomial terms is of the form Apply this to each term above on the right except the first:        Problem 4    So Of course, we need . The other parts are similar.      "
+},
+{
   "id": "Section_2_2",
   "level": "1",
   "url": "Section_2_2.html",
