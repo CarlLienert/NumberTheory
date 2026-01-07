@@ -17,7 +17,7 @@
     <target name="notes-web" format="html" source="notes.ptx"
             publication="publication.ptx" deploy-dir="notes" />
     <target name="notes-print" format="pdf" source="notes.ptx"
-            publication="publication.ptx" output-filename="notes.pdf"/>
+            publication="publication-notes-print.ptx" output-filename="notes.pdf"/>
 
   <!-- The following targets are used to create stand-alone documents, -->
   <!-- either scorm archives or pdfs. Run with `pretext build scorm -i source/[filename.ptx]`-->

@@ -8,6 +8,12 @@
             
 <subsection xml:id="Problem_1_1_6">
 <title> Problem 6</title>
+<exercise>
+
+
+<statement>
+</statement>    
+<answer>
 <p>
 
 
@@ -35,12 +41,17 @@ We have shown that <m>n!&gt;n^2</m> implies <m>(n+1)!&gt;(n+1)^2</m>, and we hav
        
        
 </p>
-       
+</answer>       
+</exercise>
 </subsection>
 
 
 <subsection xml:id="Problem_1_1_7">
 <title> Problem 7</title>
+<exercise>
+<statement>
+</statement> 
+<solution>
 <p>
     (quiz or exam)
 For <m>n=1</m>: <md>1(1!)=2!-1</md>
@@ -54,6 +65,8 @@ Consider:
     <mrow> \amp=(n+2)!-1 </mrow>
 </md>
 </p>
+</solution>
+</exercise>
 </subsection>
 
 

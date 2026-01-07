@@ -34,7 +34,7 @@
   </latex-image-preamble>
 
   <!-- It is possible to rename elements: -->
-  <!-- <rename element="assemblage" xml:lang="en-US">Summary</rename> -->
+  <rename element="inlineexercise" xml:lang="en-US">Problem </rename>
 
   <!-- Specify the default type of cross reference: -->
   <!-- <cross-references text="type-global" /> -->
