@@ -167,6 +167,10 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Section_1_2.html#Problem_1_2_1" class="internal"><span class="title">Problem 1</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Section_1_2.html#Problem_1_2_3" class="internal"><span class="title">Problem 3</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Section_1_2.html#Problem_1_2_4" class="internal"><span class="title">Problem 4</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Section_1_2.html#Problem_1_2_6" class="internal"><span class="title">Problem 6</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Section_1_2.html#Problem_1_2_7" class="internal"><span class="title">Problem 7</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Section_1_2.html#Problem_1_2_8" class="internal"><span class="title">Problem 8</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Section_1_2.html#Problem_1_2_9" class="internal"><span class="title">Problem 9</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -301,7 +305,100 @@ n(1+b)^{n-1}=\binom{n}{1}+2\binom{n}{2}b+3\binom{n}{3}b^2+\cdots+n\binom{n}{n}b^
 <div class="para">Of course, we need <span class="process-math">\(r \geq 0\text{.}\)</span> The other parts are similar.</div>
 <div class="autopermalink" data-description="Paragraph"><a href="#Problem_1_2_4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection: Problem 4"><a href="#Problem_1_2_4" title="Copy heading and permalink for Subsection: Problem 4" aria-label="Copy heading and permalink for Subsection: Problem 4">🔗</a></div></section><div class="autopermalink" data-description="Section: Section 1.2"><a href="#Section_1_2" title="Copy heading and permalink for Section: Section 1.2" aria-label="Copy heading and permalink for Section: Section 1.2">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Subsection: Problem 4"><a href="#Problem_1_2_4" title="Copy heading and permalink for Subsection: Problem 4" aria-label="Copy heading and permalink for Subsection: Problem 4">🔗</a></div></section><section class="subsection" id="Problem_1_2_6"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Problem 6</span>
+</h3>
+<div class="para logical" id="Problem_1_2_6-2">
+<div class="displaymath process-math" id="Problem_1_2_6-2-1">
+\begin{align*}
+\binom{2}{2}+\binom{4}{2}+ \cdots+\binom{2n}{2}\amp=\binom{2}{2}+2\binom{2}{2}+2^2+2\binom{3}{2}+3^2+\cdots +2\binom{n}{2}+n^2\\
+\amp=\binom{2}{2}+2\left(\binom{2}{2}+\binom{3}{2}+\cdots \binom{n}{2}\right)+2^2+3^3+\cdots+n^2\\
+\amp=2\binom{n+1}{3}+\frac{n(n+1)(2n+1)}{6}\\
+\amp=2\frac{(n+1)!}{3!(n-2)!}+ \frac{n(n+1)(2n+1)}{6}\\
+\amp=\frac{2(n+1)!+n(n+1)(2n+1)(n-2)!}{3!(n-2)!}\\
+\amp=\frac{(n-2)!(2(n+1)(n)(n-1)+n(n+1)(2n+1))}{3!(n-2)!}\\
+\amp=\frac{2(n+1)(n)(n-1)+n(n+1)(2n+1))}{6}\\
+\amp=\frac{n(n+1)(2(n-1)+(2n+1))}{6}\\
+\amp=\frac{n(n+1)(4n-1)}{6}
+\end{align*}
+</div>
+<div class="para">Let’s prove the hint:</div>
+<div class="displaymath process-math" id="Problem_1_2_6-2-2">
+\begin{align*}
+\binom{2m}{2}\amp=\frac{(2m)!}{2!(2m-2)!}\\
+\amp=\frac{(2m)(2m-1)}{2}\\
+\amp=2m^2-m\\
+\amp=m^2+m^2-m
+\end{align*}
+</div>
+<div class="para">&gt; and since</div>
+<div class="displaymath process-math" id="Problem_1_2_6-2-3">
+\begin{align*}
+2\binom{m}{2}\amp=2\frac{m!}{2!(m-2)!}\\
+\amp=m(m-1)\\
+\amp=m^2-m
+\end{align*}
+</div>
+<div class="para">we’re done.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Problem_1_2_6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection: Problem 6"><a href="#Problem_1_2_6" title="Copy heading and permalink for Subsection: Problem 6" aria-label="Copy heading and permalink for Subsection: Problem 6">🔗</a></div></section><section class="subsection" id="Problem_1_2_7"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Problem 7</span>
+</h3>
+<div class="para logical" id="Problem_1_2_7-2">
+<div class="para">Use induction:</div>
+<div class="displaymath process-math" id="Problem_1_2_7-2-1">
+\begin{align*}
+\binom{2n+1}{3}+(2n+1)^2\amp=\frac{(2n+1)!}{3!(2n-2)!}+(2n+1)^2\\
+\amp=\frac{(2n+1)(2n)(2n-1)}{3!}+(2n+1)^2\\
+\amp=\frac{(2n+1)(2n)(2n-1)+6(2n+1)^2}{3!}\\
+\amp=\frac{(2n+1)((2n)(2n-1)+6(2n+1))}{3!}\\
+\amp=\frac{(2n+1)(4n^2+10n+6)}{3!}\\
+\amp=\frac{(2n+1)(2(2n^2+5n+3))}{3!}\\
+\amp=\frac{2(2n+1)(2n+3)(n+1)}{3!}\\
+\amp=\frac{(2n+3)(2n+2)(2n+1)(2n)!}{3!(2n)!}\\
+\amp=\frac{(2n+3)!}{3!(2n+3-3)!}
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Problem_1_2_7-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection: Problem 7"><a href="#Problem_1_2_7" title="Copy heading and permalink for Subsection: Problem 7" aria-label="Copy heading and permalink for Subsection: Problem 7">🔗</a></div></section><section class="subsection" id="Problem_1_2_8"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Problem 8</span>
+</h3>
+<div class="para logical" id="Problem_1_2_8-2">
+<div class="displaymath process-math" id="Problem_1_2_8-2-1">
+\begin{align*}
+\binom{2n}{n} \amp= \frac{(2n)!}{n!n!}\\
+\amp=\frac{(2n)(2n-1)(2n-2)(2n-3)(2n-4)\cdots(5)(4)(3)(2)(1)}{[(n)(n-1)(n-2)\cdots(4)(3)(2)(1)][(n)(n-1)(n-2)\cdots(4)(3)(2)(1)]}\\
+\amp=\frac{2^n\cdot(n)(2n-1)(n-1)(2n-3)(n-2)\cdots(5)(2)(3)(1)(1)}{[(n)(n-1)(n-2)\cdots(4)(3)(2)(1)][(n)(n-1)(n-2)\cdots(4)(3)(2)(1)]}\\
+\amp= \frac{2^n\cdot(2n-1)(2n-3)\cdots(5)(3)(1)}{[(n)(n-1)(n-2)\cdots(4)(3)(2)(1)]}\\
+\amp= \frac{2^{2n}\cdot(2n-1)(2n-3)\cdots(5)(3)(1)}{2^n[(n)(n-1)(n-2)\cdots(4)(3)(2)(1)]}\\
+\amp= \frac{2^{2n}\cdot(2n-1)(2n-3)\cdots(5)(3)(1)}{(2n)(2n-2)(2n-4)\cdots(8)(6)(4)(2)}
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Problem_1_2_8-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection: Problem 8"><a href="#Problem_1_2_8" title="Copy heading and permalink for Subsection: Problem 8" aria-label="Copy heading and permalink for Subsection: Problem 8">🔗</a></div></section><section class="subsection" id="Problem_1_2_9"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Problem 9</span>
+</h3>
+<div class="para logical" id="Problem_1_2_9-2">
+<div class="para">Using #8, this is equivalent to:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{1}{2^n}&lt; \frac{1\cdot3\cdot5\cdots(2n-1)}{2\cdot4\cdot6 \cdots (2n)} &lt; 1.
+\end{equation*}
+</div>
+<div class="para">Consider the fraction as:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\left(\frac{1}{2}\right)\left(\frac{3}{4}\right)\left(\frac{5}{6}\right)\cdots\left(\frac{2n-1}{2n}\right).
+\end{equation*}
+</div>
+<div class="para">Each of these fractions is less than one, so the product is less than one, which gives the right hand inequality. With the exception of <span class="process-math">\(\frac{1}{2}\text{,}\)</span> each of these fractions is greater than <span class="process-math">\(\frac{1}{2}\text{.}\)</span>  There are <span class="process-math">\(n\)</span> factors so the product is greater than <span class="process-math">\(\frac{1}{2^n}\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Problem_1_2_9-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection: Problem 9"><a href="#Problem_1_2_9" title="Copy heading and permalink for Subsection: Problem 9" aria-label="Copy heading and permalink for Subsection: Problem 9">🔗</a></div></section><div class="autopermalink" data-description="Section: Section 1.2"><a href="#Section_1_2" title="Copy heading and permalink for Section: Section 1.2" aria-label="Copy heading and permalink for Section: Section 1.2">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="Section_1_1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="Section_2_2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
