@@ -147,43 +147,42 @@ since <m>1-\frac{1}{n+1}&lt;1</m>.
     </p>
 </subsection>
 
-<!--
+ <subsection xml:id="Question_2_1_11">
+    <title> Problem 11</title>
+    <ol marker="(a)">
+        <li><m>\phantom{empty}</m>
+            <p>
+                <me>
+\frac{(n-1)(n)}{2}+n^2=\frac{3n^2-n}{2}=\frac{n(3n-1)}{2}</me>
+
+            </p>
+        </li>
+        <li><m>\phantom{empty}</m>
+            <p>
+                <md>
+                <mrow>3t_{n-1}+n\amp=3\frac{(n-1)(n)}{2}+n</mrow>
+                <mrow>\amp=\frac{3n^2-3n+2n}{2}</mrow>
+                <mrow>\amp=\frac{3n(n-1)}{2}=p_n</mrow>
+                </md>
+            
+
+
+<md>
+<mrow>2t_{n-1}+t_n\amp=2\frac{(n-1)(n)}{2}+\frac{n(n+1)}{2}</mrow>
+<mrow>\amp=\frac{2n^2-2n+n^2+n}{2}</mrow>
+<mrow>\amp=\frac{3n^2-n}{2}</mrow>
+<mrow>\amp=\frac{3n(n-1)}{2}=p_n</mrow>
+</md>
+            </p>
+        </li>
+    </ol>
+    
+</subsection>
 
 
 
 
-**10.**
 
-
-
-**11.**
-
-
-(a)
-
-$$\begin{align*}
-\frac{(n-1)(n)}{2}+n^2&=\frac{3n^2-n}{2}=\frac{n(3n-1)}{2}
-\end{align*}$$
-
-
-
-(b) 
-
-$$\begin{align*}
-3t_{n-1}+n&=3\frac{(n-1)(n)}{2}+n\\ \\
-&=\frac{3n^2-3n+2n}{2}\\ \\
-&=\frac{3n(n-1)}{2}=p_n
-\end{align*}$$
-
-
-$$\begin{align*}
-2t_{n-1}+t_n&=2\frac{(n-1)(n)}{2}+\frac{n(n+1)}{2}\\ \\
-&=\frac{2n^2-2n+n^2+n}{2}\\ \\
-&=\frac{3n^2-n}{2}\\ \\
-&=\frac{3n(n-1)}{2}=p_n
-\end{align*}$$
-
--->
 
         </section>
     <!--/article-->
