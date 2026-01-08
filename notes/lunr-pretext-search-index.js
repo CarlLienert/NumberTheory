@@ -25,7 +25,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Section 2.1",
-  "body": " Section 2.1   Problem 1    The triangular number is of the form You can prove this equals using induction.                where . So, if is the triangular number, then is the triangular number.      Problem 2       Problem 3  The hint follows from question 1(a). If is even, let : where we have used the result from section 1.1 concerning the sum of the first squares. If is odd:     Problem 6   The first triangular number that is also a square is 1. Use this to find another: And use to find another example:     Problem 7       Problem 8   since .    Problem 10  Use induction. The key algebraic step is:     Problem 11                "
+  "body": " Section 2.1   Problem 1                 Problem 3  The hint follows from question 1(a). If is even, let : where we have used the result from section 1.1 concerning the sum of the first squares. If is odd:      Problem 7        Problem 10  Use induction. The key algebraic step is:     Problem 11              "
 },
 {
   "id": "Section_2_2",
