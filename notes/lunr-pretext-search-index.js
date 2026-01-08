@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Section 1.2",
-  "body": " Section 1.2   Problem 1   Let in the identity:     Problem 3    If the binomial theorem is precisely the desired identity.  Similar idea: let and in the binomial theorem.   Differentiating with respect to gives: Setting gives the desired result.  Use the expansion of with .  Follow the hint. Make sure to justify both equalities.   First: Each of the binomial terms is of the form Apply this to each term above on the right except the first:        Problem 4    So Of course, we need . The other parts are similar.    Problem 6   Let’s prove the hint: and since we're done.    Problem 7  Use induction:     Problem 8       Problem 9  Using #8, this is equivalent to: Consider the fraction as: Each of these fractions is less than one, so the product is less than one, which gives the right hand inequality. With the exception of , each of these fractions is greater than . There are factors so the product is greater than .   "
+  "body": " Section 1.2    Problem 3       Similar idea: let and in the binomial theorem.     Use the expansion of with .  Follow the hint. Make sure to justify both equalities.         Problem 7  Use induction:     Problem 8       Problem 9  Using #8, this is equivalent to: Consider the fraction as: Each of these fractions is less than one, so the product is less than one, which gives the right hand inequality. With the exception of , each of these fractions is greater than . There are factors so the product is greater than .   "
 },
 {
   "id": "Section_2_1",
