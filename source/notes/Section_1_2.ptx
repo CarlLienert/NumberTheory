@@ -5,7 +5,8 @@
         <section xml:id="Section_1_2">
         <title>Section 1.2</title>
         
-            
+           
+ <!--       
 <subsection xml:id="Problem_1_2_1">
 <title> Problem 1</title>
 <p>
@@ -35,6 +36,7 @@ Let <m>r=1</m> in the identity:
        
 </subsection>
 
+        -->
 
 
 <subsection xml:id="Problem_1_2_3">
@@ -44,7 +46,7 @@ Let <m>r=1</m> in the identity:
 
 <ol marker="(a)">
 
-<li> If <m>a=b=1</m> the binomial theorem is precisely the desired identity. </li>
+<li> <!-- If <m>a=b=1</m> the binomial theorem is precisely the desired identity. --> </li>
 
 
 
@@ -52,7 +54,7 @@ Let <m>r=1</m> in the identity:
 
 
 
-<li>
+<li> <!--
     
 <me>(1+b)^{n}=\binom{n}{0}1^{n}+\binom{n}{1}(1)^{n-1}b+\binom{n}{2}b^2+\binom{n}{3}b^3+\cdots+\binom{n}{n}b^n</me>
 
@@ -60,7 +62,8 @@ Let <m>r=1</m> in the identity:
 Differentiating with respect to <m>b</m> gives:
 <md><mrow>n(1+b)^{n-1}=\binom{n}{1}+2\binom{n}{2}b+3\binom{n}{3}b^2+\cdots+n\binom{n}{n}b^{n-1}</mrow></md>
 
-Setting <m>b=1</m> gives the desired result.
+Setting <m>b=1</m> gives the desired result.-->
+
 </li>
 
 <li><p>
@@ -69,7 +72,7 @@ Setting <m>b=1</m> gives the desired result.
 
 <li>Follow the hint.  Make sure to justify both equalities.
 </li>
-
+<!--
 <li>
     <p> First:
         <md>
@@ -88,12 +91,14 @@ Apply this to each term above on the right except the first:
 </md>
     </p>
 </li>
+-->
 
 </ol>
 
 </p>
 </subsection>
 
+<!--
 <subsection xml:id="Problem_1_2_4">
 <title> Problem 4</title>
 <p>
@@ -118,7 +123,9 @@ The other parts are similar.
 </p>
 </subsection>
 
+--> 
 
+<!--
 <subsection xml:id="Problem_1_2_6">
 <title> Problem 6</title>
 <p>
@@ -160,7 +167,7 @@ we're done.
 
 </p>
 </subsection>
-
+-->
 
 <subsection xml:id="Problem_1_2_7">
 <title> Problem 7</title>
