@@ -8,12 +8,13 @@
             
 <subsection xml:id="Problem_1_1_6">
 <title> Problem 6</title>
+<!--
 <exercise number="6">
 
 
 <statement>
 </statement>    
-<answer>
+<answer>-->
 <p>
 
 
@@ -29,7 +30,7 @@ For <m>n=4</m>: <m>4!=24</m> and <m>4^2=16</m> so the inequality holds.  Assume 
 
 
 The second inequality requires that we prove <m>n^2>n+1</m> for <m>n\geq 4</m>. The following inequalities are equivalent:
-<md>>
+<md>
 <mrow>n^2 \amp &gt; n+1</mrow>
 <mrow>n^2-n-1 \amp &gt;0</mrow>
 <mrow>(n-2)(n+1)\amp &gt;0.</mrow>
@@ -41,17 +42,17 @@ We have shown that <m>n!&gt;n^2</m> implies <m>(n+1)!&gt;(n+1)^2</m>, and we hav
        
        
 </p>
-</answer>       
-</exercise>
+<!-- </answer>       
+</exercise>-->
 </subsection>
 
 
 <subsection xml:id="Problem_1_1_7">
 <title> Problem 7</title>
-<exercise>
+<!--<exercise>
 <statement>
 </statement> 
-<solution>
+<solution>-->
 <p>
     (quiz or exam)
 For <m>n=1</m>: <md>1(1!)=2!-1</md>
@@ -65,8 +66,9 @@ Consider:
     <mrow> \amp=(n+2)!-1 </mrow>
 </md>
 </p>
+<!--
 </solution>
-</exercise>
+</exercise>-->
 </subsection>
 
 
