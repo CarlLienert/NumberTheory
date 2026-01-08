@@ -11,20 +11,23 @@
    
         
      <ol marker="(a)">
-        <li><m>\phantom{empty}</m>
+        
+        <li><!--
+            <m>\phantom{empty}</m>
             <p>
                The <m>n^\text{th}</m> triangular number is of the form 
 <me>1+2+3+\cdots n.</me>
 
 You can prove this equals <m>\frac{n(n+1)}{2}</m> using induction. 
-            </p>
+            </p> -->
         </li>
 
-        <li><m>\phantom{empty}</m>
+        <li><!--
+            <m>\phantom{empty}</m>
             <p>
               <me>8\cdot \frac{m(m+1)}{2}+1=4m^2+4m+1=(2m+1)^2</me>
 
-            </p>
+            </p>-->
         </li>
 
         <li><m>\phantom{empty}</m>
@@ -35,7 +38,7 @@ You can prove this equals <m>\frac{n(n+1)}{2}</m> using induction.
             </md>
             </p>
         </li>
-
+<!--
         <li> <m>\phantom{empty}</m>
             <p>
                 <md>
@@ -50,18 +53,21 @@ where <m>k=3m+1</m>. So, if <m>n=\frac{m(m+1)}{2}</m> is the <m>m^\text{th}</m> 
 
             </p>
         </li>
-
+    -->
 
     </ol>
         
 </subsection>        
-            
+       
+<!--
 <subsection xml:id="Question_2_1_2">
     <title> Problem 2</title>
     <p>
         <me>\binom{n+1}{2}=\frac{(n+1)!}{2!\cdot (n-1)!}=\frac{(n+1)(n)}{2}</me>
     </p>
 </subsection>
+
+-->
 
 <subsection xml:id="Question_2_1_3">
     <title> Problem 3</title>
@@ -93,6 +99,7 @@ If <m>n</m> is odd:
     </p>
 </subsection>
 
+<!--
 <subsection xml:id="Question_2_1_6">
     <title> Problem 6</title>
     <p>
@@ -108,6 +115,7 @@ The first triangular number that is also a square is 1. Use this to find another
     </p>
     
 </subsection>
+-->
 
 <subsection xml:id="Question_2_1_7">
     <title> Problem 7</title>
@@ -119,6 +127,8 @@ The first triangular number that is also a square is 1. Use this to find another
         </md>
     </p>
 </subsection>
+
+<!--
 
 <subsection xml:id="Question_2_1_8">
     <title> Problem 8</title>
@@ -132,6 +142,7 @@ The first triangular number that is also a square is 1. Use this to find another
 since <m>1-\frac{1}{n+1}&lt;1</m>.
     </p>
     </subsection>
+-->
 
     <subsection xml:id="Question_2_1_10">
     <title> Problem 10</title>
@@ -150,12 +161,14 @@ since <m>1-\frac{1}{n+1}&lt;1</m>.
  <subsection xml:id="Question_2_1_11">
     <title> Problem 11</title>
     <ol marker="(a)">
-        <li><m>\phantom{empty}</m>
+        <li>
+            <!-- 
+            <m>\phantom{empty}</m>
             <p>
                 <me>
 \frac{(n-1)(n)}{2}+n^2=\frac{3n^2-n}{2}=\frac{n(3n-1)}{2}</me>
 
-            </p>
+            </p>-->
         </li>
         <li><m>\phantom{empty}</m>
             <p>
