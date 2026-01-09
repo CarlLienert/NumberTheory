@@ -6,13 +6,15 @@
         <title>Section 2.3</title>
         
 
-<subsection xml:id="Question_2_3_1">
-    <title> Problem 1</title>
-    <p>
-       This is new.
-        
-        
-    </p>
+<subsection xml:id="Question_2_3_2">
+    <title> Problem 2</title>
+    <ol marker="(a)">  
+        <li>
+            <p>
+                If <m>a|b</m>, there exists <m>s</m> such that <m>as=b</m>. Then <m>asc=bc=a(sc)=bc</m> so <m>a|bc</m>.
+            </p>
+        </li>
+    </ol>
 </subsection>        
      
 
