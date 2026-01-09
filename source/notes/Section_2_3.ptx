@@ -14,6 +14,18 @@
                 If <m>a|b</m>, there exists <m>s</m> such that <m>as=b</m>. Then <m>asc=bc=a(sc)=bc</m> so <m>a|bc</m>.
             </p>
         </li>
+
+        <li>
+            <p>
+                If <m>a|b</m> and <m>a|c</m> then there exist integers <m>s,t</m> such that <m>as=b</m> and <m>at=c</m>. Multiply these two equations: <m>a^2st=a^2(st)=bc</m>, so <m>a^2|bc</m>.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                If <m>a|b</m> then <m>as=b</m> for some integer <m>s</m>. Then <m>asc=ac(s)=bc</m> so <m>ac|bc</m>. Conversely, if <m>ac|bc</m> then <m>act=bc</m> for some integer <m>t</m>. Divide by <m>c</m> to obtain <m>at=b</m>, so <m>a|b</m>.
+            </p>
+        </li>
     </ol>
 </subsection>        
      
