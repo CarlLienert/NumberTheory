@@ -26,8 +26,47 @@
                 If <m>a|b</m> then <m>as=b</m> for some integer <m>s</m>. Then <m>asc=ac(s)=bc</m> so <m>ac|bc</m>. Conversely, if <m>ac|bc</m> then <m>act=bc</m> for some integer <m>t</m>. Divide by <m>c</m> to obtain <m>at=b</m>, so <m>a|b</m>.
             </p>
         </li>
+
+        <li>
+            <p>
+                similar
+            </p>
+        </li>
     </ol>
 </subsection>        
+
+<subsection xml:id="Question_2_3_3">
+    <title> Problem 3</title>
+    <p>
+        This is false.  For example: <m>a=5, b=2, c=3</m>.
+    </p>
+</subsection>
+
+
+<subsection xml:id="Question_2_3_5">
+    <title> Problem 5</title>
+    <p>
+        By the division algorithm, <m>a=3q</m>, <m>a=3q+1</m>, or <m>a=3q+2</m>. 
+        <ul>
+            <li>
+                <p>
+                    If <m>a=3q</m>, then <m>3|a</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    If <m>a=3q+1</m>, then <m>a+2=3q+3=3(a+1)</m>, and <m>3|(a+2)</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    If <m>a=3q+2</m>, then <m>a+4=3q+6=3(q+2)</m>, and <m>3|(a+4)</m>.
+                </p>
+            </li>
+        </ul>
+    </p>
+</subsection>
+
      
 
         </section>
