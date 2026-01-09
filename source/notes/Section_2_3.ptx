@@ -67,6 +67,12 @@
     </p>
 </subsection>
 
+<subsection xml:id="Question_2_3_12">
+    <title> Problem 12</title>
+    <p> Let <m>d=\text{gcd}(a, a+n).</m> We'll use Theorem 2.2(g):
+        <m>d|a</m> and <m>d|(a+n)</m> so <m>d|(a+n)-a</m>, that is <m>d|n</m>.  With <m>n=1</m> we have <m>\text{gcd}(a, a+1)|1</m> so it must be that <m>\text{gcd}(a,a+1)=1.</m>
+    </p>
+</subsection>
      
 
         </section>
