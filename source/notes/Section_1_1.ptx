@@ -73,18 +73,18 @@ Consider:
 <title> Problem 8</title>
 
 <p>
-For <m>n=1</m>: <md>2=\frac{2!}{1!}.</md>
+For <m>n=1</m>: <me>2=\frac{2!}{1!}.</me>
 
 Assume the identity is true for <m>n</m> and consider:
 
 <md>
-<mrow>2\cdot 6 \cdot 10 \cdots (4n-2)\cdot (4n+2)\amp=\frac{(2n)!}{n!}\cdot (4n+2)</mrow>
+<mrow>2\cdot 6 \cdot 10 \cdots (4n-2)\cdot (4n+2)\amp=\frac{(2n)!}{n!}\cdot (4n+2) \text{ by the inductive hypothesis}</mrow>
 <mrow> \amp=\frac{(2n)!\cdot 2 \cdot (2n+1)}{n!}</mrow>
 <mrow> \amp = \frac{(2n)!\cdot 2 \cdot (2n+1)\cdot (n+1)}{n!\cdot (n+1)}</mrow>
 <mrow> \amp= \frac{(2n)! \cdot (2n+1)\cdot (2n+2)}{n!\cdot (n+1)}</mrow>
-<mrow> \amp=\frac{(2(n+1))!}{(n+1)!}=\frac{(2n+2)!}{(n+1)!}</mrow>
+<mrow> \amp=\frac{(2(n+1))!}{(n+1)!}=\frac{(2n+2)!}{(n+1)!}.</mrow>
 </md>
-which shows the identity is true for <m>n+1</m>. By induction the identity is true for all integers <m>n\geq1</m>.
+Thus, if the identity is true for <m>n</m>, then it is true for <m>n+1</m>.  By induction the identity is true for all integers <m>n\geq1</m>.
 
 The inequality <md><mrow>2^n(n!)^2\leq(2n)!</mrow></md>
 is equivalent to <md><mrow>2^n(n!) \leq \frac{(2n)!}{n!}</mrow></md> so from part (a), we need to show that <md><mrow>2^n(n!) \leq 2\cdot 6 \cdot 10 \cdots (4n-2).</mrow></md>
@@ -117,11 +117,11 @@ Assume <m>(1+a)^n \geq 1+na</m>  and consider <m>(1+a)^{n+1}</m>:
 <mrow> \amp \geq (1+na)(1+a)</mrow>
 <mrow> \amp =1+na+a+na^2</mrow>
 <mrow> \amp =1+(n+1)a+na^2</mrow>
-<mrow>\geq 1+(n+1)a</mrow>
+<mrow>\amp \geq 1+(n+1)a</mrow>
 </md>
 
 The first inequality follows from the inductive hypothesis. 
-This first inequality is also where we need to use the assumption that <m>1+a &lt; 0</m>.  If <m>1+a&lt; 0</m>, the direction of the inequality would change. 
+This first inequality is also where we need to use the assumption that <m>1+a &gt; 0</m>.  If <m>1+a&lt; 0</m>, the direction of the inequality would change. 
 The second inequality is true since <m>na^2\geq 0</m>.
 
 
