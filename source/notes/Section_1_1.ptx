@@ -5,6 +5,34 @@
         <section xml:id="Section_1_1">
         <title>Section 1.1</title>
         
+<subsection xml:id="Problem_1_1_1">
+<title> Problem 1</title>
+ <ol marker="(a)">  
+    <li>
+        <p>
+            nothing yet
+        </p>
+    </li>
+
+    <li>
+        <p>
+            nothing yet
+        </p>
+    </li>
+
+    <li>
+        <p><m>\phantom{stuff}</m>
+            <md>
+                <mrow>1\cdot 2 +2 \cdot 3 + \cdots + n(n+1) +(n+1)(n+2)\amp =\frac{n(n+1)(n+2)}{3}+(n+1)(n+2)</mrow>
+                <mrow> \amp = \frac{(n+1)(n+2)(n+3)}{3} </mrow>
+            </md>
+            
+        </p>
+    </li>
+ </ol>
+
+</subsection>
+
             
 <subsection xml:id="Problem_1_1_6">
 <title> Problem 6</title>
