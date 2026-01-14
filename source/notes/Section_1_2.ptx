@@ -126,6 +126,7 @@ The other parts are similar.
 --> 
 
 <!--
+
 <subsection xml:id="Problem_1_2_6">
 <title> Problem 6</title>
 <p>
@@ -133,8 +134,8 @@ The other parts are similar.
 
 
 <md>
-<mrow>\binom{2}{2}+\binom{4}{2}+ \cdots+\binom{2n}{2}\amp=\binom{2}{2}+2\binom{2}{2}+2^2+2\binom{3}{2}+3^2+\cdots +2\binom{n}{2}+n^2</mrow>
-<mrow>\amp=\binom{2}{2}+2\left(\binom{2}{2}+\binom{3}{2}+\cdots \binom{n}{2}\right)+2^2+3^3+\cdots+n^2</mrow>
+<mrow>\binom{2}{2}+\binom{4}{2}+ \cdots+\binom{2n}{2}\amp=\binom{2}{2}+2\binom{2}{2}+2^2+2\binom{3}{2}+3^2+\cdots +2\binom{n}{2}+n^2 \text{ use the hint:}</mrow>
+<mrow>\amp=\binom{2}{2}+2\left(\binom{2}{2}+\binom{3}{2}+\cdots \binom{n}{2}\right)+2^2+3^2+\cdots+n^2 \text{ use #5 and result from chap. 1}</mrow>
 <mrow>\amp=2\binom{n+1}{3}+\frac{n(n+1)(2n+1)}{6}</mrow>
 <mrow>\amp=2\frac{(n+1)!}{3!(n-2)!}+ \frac{n(n+1)(2n+1)}{6}</mrow>
 <mrow>\amp=\frac{2(n+1)!+n(n+1)(2n+1)(n-2)!}{3!(n-2)!}</mrow>
@@ -167,6 +168,7 @@ we're done.
 
 </p>
 </subsection>
+
 -->
 
 <subsection xml:id="Problem_1_2_7">
