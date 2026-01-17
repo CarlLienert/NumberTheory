@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Section 1.1",
-  "body": " Section 1.1   Problem 6   For : and so the inequality holds. Assume and consider: The second inequality requires that we prove for . The following inequalities are equivalent: The last inequality is true if or . So, for . We have shown that implies , and we have shown the inequality is true for . By induction, is true for all integers .      Problem 8  For : Assume the identity is true for and consider: Thus, if the identity is true for , then it is true for . By induction the identity is true for all integers . The inequality is equivalent to so from part (a), we need to show that The right hand side is: Clearly since there are factors in both products and all but the first factor are greater in the right hand side. For example, if : Multiply both sides of by to obtain the desired result.    Problem 9  For , . Assume and consider : The first inequality follows from the inductive hypothesis. This first inequality is also where we need to use the assumption that . If , the direction of the inequality would change. The second inequality is true since .    Problem 10  (a) The following is not a complete proof or explanation. It is only the algebra part. Make sure you can identify where the induction hypothesis is used. Make sure you can justify both of the inequalities. (b) Again, the following is only the algebra. It does not constitute a complete proof.     "
+  "body": " Section 1.1   Problem 1    nothing yet    nothing yet           Problem 6   For : and so the inequality holds. Assume and consider: The second inequality requires that we prove for . The following inequalities are equivalent: The last inequality is true if or . So, for . We have shown that implies , and we have shown the inequality is true for . By induction, is true for all integers .      Problem 8  For : Assume the identity is true for and consider: Thus, if the identity is true for , then it is true for . By induction the identity is true for all integers . The inequality is equivalent to so from part (a), we need to show that The right hand side is: Clearly since there are factors in both products and all but the first factor are greater in the right hand side. For example, if : Multiply both sides of by to obtain the desired result.    Problem 9  For , . Assume and consider : The first inequality follows from the inductive hypothesis. This first inequality is also where we need to use the assumption that . If , the direction of the inequality would change. The second inequality is true since .    Problem 10  (a) The following is not a complete proof or explanation. It is only the algebra part. Make sure you can identify where the induction hypothesis is used. Make sure you can justify both of the inequalities. (b) Again, the following is only the algebra. It does not constitute a complete proof.     "
 },
 {
   "id": "Section_1_2",
@@ -34,7 +34,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Section 2.2",
-  "body": " Section 2.2   Problem 1  From the division algorithm, can be written uniquely as where . We'll add and subtract : For the inequality we have:     Problem 2  Suppose . Then, and so is of the form where . Conversely, for example, is not of the form since has no integer solutions.    Problem 3  By the division algorithm, any integer, , is of the form , , or . Square each of these cases: So the square of any integer is of the form or     Problem 4  If is an integer then is of the form or by problem 3a. If then: which is neither of the form or . (It is of the form .) If then: Again, this is neither of the form or . Since is never of the form or it cannot be a square.    Problem 6  Let by the division algorithm. There are 6 cases. Below the results are shown for some . For example on the first line .     Problem 9  Let and write where . Consider the squares in each of the cases: ( represents some integer below. For example would be in the first line.) And, similarly, the cubes: So, squares of integers are of the form , , , or . Cubes are of the form , , or . If an integer is both a square and a cube it must be of the form or .    Problem 10  There are 6 cases. We'll illustrate here with one case: say . Rather than deal with the entire expression let's try to build one piece at a time: This proves the result. It's a bit tedious to find each of the integers but not computationally difficult. For this problem we are only concerned that such integers exist, not what they are.   "
+  "body": " Section 2.2     Problem 3       Any integer, can be written in the form where Then It remains to show that is of the desired form:        Problem 6  Let by the division algorithm. There are 6 cases. Below the results are shown for some . For example on the first line .       Problem 11  If is odd, then where is 1, 3, 5, 7, 9, 11, 13, or 15. Then It remains to check that is of the form for each of the possible values of . (You should do this.)   "
 },
 {
   "id": "Section_2_3",
@@ -44,6 +44,15 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "Section 2.3",
   "body": " Section 2.3   Problem 2    If , there exists such that . Then so .    If and then there exist integers such that and . Multiply these two equations: , so .    If then for some integer . Then so . Conversely, if then for some integer . Divide by to obtain , so .    similar      Problem 3  This is false. For example: .    Problem 5  By the division algorithm, , , or .   If , then .    If , then , and .    If , then , and .       Problem 12  Let We'll use Theorem 2.2(g): and so , that is . With we have so it must be that    "
+},
+{
+  "id": "Section_2_4",
+  "level": "1",
+  "url": "Section_2_4.html",
+  "type": "Section",
+  "number": "",
+  "title": "Section 2.4",
+  "body": " Section 2.4   Problem 2  This is section 2.4   "
 }
 ]
 
