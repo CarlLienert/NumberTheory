@@ -67,6 +67,17 @@
     </p>
 </subsection>
 
+<subsection xml:id="Question_2_3_7">
+    <title> Problem 7</title>
+    <p>
+        <md>
+            <mrow>a^4+b^4-2 \amp (2k+1)^4+(2l+1)^4-2</mrow>
+        </md>
+        
+    </p>
+
+</subsection>
+
 <subsection xml:id="Question_2_3_12">
     <title> Problem 12</title>
     <p> Let <m>d=\text{gcd}(a, a+n).</m> We'll use Theorem 2.2(g):
@@ -74,6 +85,37 @@
     </p>
 </subsection>
      
+<subsection xml:id="Question_2_3_14">
+    <title> Problem 14</title>
+    <p>
+        <ol marker="(a)">   
+            <li> 
+                We want to find integers <m>x</m> and <m>y</m> such that <me>x(2a+1)+y(9a+4)=1</me>.
+
+        Rearrange to obtain: <me>a(2x+9y)+(x+4y)</me> and solve the system of equations:
+        <md>
+            <mrow>2x+9y \amp =0</mrow>
+            <mrow>x+4y \amp = 1.</mrow>
+        </md>
+
+        A solution is <m>y=-2</m>, <m>x=9</m>: <me> 9(2a+1)-2(9a+4)=1</me>.  By Theorem 2.4 <me>\text{gcd}(2a+1, 9a+4)=1.</me>
+        
+        
+            </li>
+            <li>
+                <p>
+                    <me>-7(5a+2)+5(7a+3)=1</me>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    If <m>d|3a</m> and <m>d|3a+2</m>, then <m>d|(3a+2)-(3a)</m>. That is, <m>d|2</m>. So, either <m>d=1</m> or <m>d=2</m>.  But, <m>d \not | 3a</m>.
+                </p>
+            </li>
+        </ol>
+    </p>
+</subsection>
 
         </section>
     <!--/article-->
