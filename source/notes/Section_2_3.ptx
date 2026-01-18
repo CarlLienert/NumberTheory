@@ -139,7 +139,26 @@
             </p>
         </li>
 
-        
+        <li>
+            <p>
+                If <m>\text{gcd}(c,b)=1</m>, then <m>\text{gcd}(ac,b)=1</m> by part (a) and we are finished. 
+            </p> 
+
+               <p> Suppose <m>\text{gcd}(c,b)=d&gt; 1</m>. Since <m>d|c</m>, <m>d|ac</m>. Also <m>d|b</m>, so <m>d|\text{gcd}(ac,b)</m>.
+               </p>
+               <p>
+                Let <m>\hat{d}=\text{gcd}(ac,b)</m>. Since <m>d &gt; 1</m> and since <m>d|\hat{d}</m>, <m>\hat{d}&gt;1</m>.  Now, <m>\hat{d}|ac</m> and <m>\hat{d}\nmid a</m>
+                since <m>\text{gcd}(a,b)=1</m>. So, <m>\hat{d}|c</m> by Euclid's lemma. Hence <m>\hat{d}|\text{gcd}(c,b)</m>. That is <m>d|\hat{d}</m> and <m>\hat{d}|d</m>, so <m>d=\hat{d}</m>.</p>
+            
+        </li>
+
+        <li>
+            <p>
+                I'll restate this result: <m></m>
+            </p>
+        </li>
+
+
     </ol>
 </subsection>
 
