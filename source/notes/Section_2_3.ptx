@@ -109,12 +109,38 @@
             </li>
 
             <li>
-                <p>
-                    If <m>d|3a</m> and <m>d|3a+2</m>, then <m>d|(3a+2)-(3a)</m>. That is, <m>d|2</m>. So, either <m>d=1</m> or <m>d=2</m>.  But, <m>d \not | 3a</m>.
+                <p>Let <m>d=\text{gcd}(3a, 3a+2)</m>.
+                    Since <m>d|3a</m> and <m>d|3a+2</m>, then <m>d|(3a+2)-(3a)</m>. That is, <m>d|2</m>. So, either <m>d=1</m> or <m>d=2</m>.  But, <m>2 \nmid 3a</m> since <m>2 \nmid 3</m> and <m>2 \nmid a</m> (<m>a</m> is odd). So, <m>d=1</m>.
                 </p>
             </li>
         </ol>
     </p>
+</subsection>
+
+<subsection xml:id="Question_2_3_15">
+    <title> Problem 15</title>
+    <p>
+    Let <m>d=\text{gcd}(2a-3b, 4a-5b)</m>. Then <m>d|2a-3b</m> and <m>d|4a-5b</m>.  By Theorem 2.2(g) <m>d|-2(2a-3b)+(4a-5b)</m>.  That is, <m>d|b</m>. Let <m>b=-1</m> to obtain the result.
+    </p>
+</subsection>
+
+<subsection xml:id="Question_2_3_20">
+    <title> Problem 20</title>
+    <ol marker="(a)">
+        <li>
+            <p>
+                The hint is basically the solution.  
+            </p>
+        </li>
+
+        <li>
+            <p>
+                There exist integers <m>x,y</m> such that <m>ax+by=1</m>. Since <m>c|a</m>, there exists an integer <m>k</m> such that <m>ck=a</m>. Then <m>c(kx)+by=1</m>, so <m>\text{gcd}(b,c)=1</m>.
+            </p>
+        </li>
+
+        
+    </ol>
 </subsection>
 
         </section>
