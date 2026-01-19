@@ -20,7 +20,7 @@
                 If <m>a|b</m> and <m>a|c</m> then there exist integers <m>s,t</m> such that <m>as=b</m> and <m>at=c</m>. Multiply these two equations: <m>a^2st=a^2(st)=bc</m>, so <m>a^2|bc</m>.
             </p>
         </li>
-
+<!--
         <li>
             <p>
                 If <m>a|b</m> then <m>as=b</m> for some integer <m>s</m>. Then <m>asc=ac(s)=bc</m> so <m>ac|bc</m>. Conversely, if <m>ac|bc</m> then <m>act=bc</m> for some integer <m>t</m>. Divide by <m>c</m> to obtain <m>at=b</m>, so <m>a|b</m>.
@@ -32,6 +32,7 @@
                 similar
             </p>
         </li>
+    -->
     </ol>
 </subsection>        
 
@@ -42,6 +43,7 @@
     </p>
 </subsection>
 
+<!--
 
 <subsection xml:id="Question_2_3_5">
     <title> Problem 5</title>
@@ -66,7 +68,9 @@
         </ul>
     </p>
 </subsection>
+-->
 
+<!--
 <subsection xml:id="Question_2_3_7">
     <title> Problem 7</title>
     <p>
@@ -77,6 +81,8 @@
     </p>
 
 </subsection>
+-->
+
 
 <subsection xml:id="Question_2_3_12">
     <title> Problem 12</title>
@@ -85,6 +91,7 @@
     </p>
 </subsection>
      
+<!--
 <subsection xml:id="Question_2_3_14">
     <title> Problem 14</title>
     <p>
@@ -116,21 +123,26 @@
         </ol>
     </p>
 </subsection>
+-->
 
+<!--
 <subsection xml:id="Question_2_3_15">
     <title> Problem 15</title>
     <p>
     Let <m>d=\text{gcd}(2a-3b, 4a-5b)</m>. Then <m>d|2a-3b</m> and <m>d|4a-5b</m>.  By Theorem 2.2(g) <m>d|-2(2a-3b)+(4a-5b)</m>.  That is, <m>d|b</m>. Let <m>b=-1</m> to obtain the result.
     </p>
 </subsection>
+-->
 
 <subsection xml:id="Question_2_3_20">
     <title> Problem 20</title>
     <ol marker="(a)">
         <li>
+            <!--
             <p>
                 The hint is basically the solution.  
             </p>
+        -->
         </li>
 
         <li>
@@ -140,22 +152,26 @@
         </li>
 
         <li>
+            <!--
             <p>
                 If <m>\text{gcd}(c,b)=1</m>, then <m>\text{gcd}(ac,b)=1</m> by part (a) and we are finished. 
             </p> 
+        
 
                <p> Suppose <m>\text{gcd}(c,b)=d&gt; 1</m>. Since <m>d|c</m>, <m>d|ac</m>. Also <m>d|b</m>, so <m>d|\text{gcd}(ac,b)</m>.
                </p>
                <p>
                 Let <m>\hat{d}=\text{gcd}(ac,b)</m>. Since <m>d &gt; 1</m> and since <m>d|\hat{d}</m>, <m>\hat{d}&gt;1</m>.  Now, <m>\hat{d}|ac</m> and <m>\hat{d}\nmid a</m>
                 since <m>\text{gcd}(a,b)=1</m>. So, <m>\hat{d}|c</m> by Euclid's lemma. Hence <m>\hat{d}|\text{gcd}(c,b)</m>. That is <m>d|\hat{d}</m> and <m>\hat{d}|d</m>, so <m>d=\hat{d}</m>.</p>
-            
+        -->
         </li>
 
         <li>
+            <!--
             <p>
                 see hint
             </p>
+        -->
         </li>
 
         <li>
