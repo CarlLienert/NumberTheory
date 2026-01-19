@@ -5,7 +5,7 @@
         <section xml:id="Section_2_2">
         <title>Section 2.2</title>
         
-<!--
+
 <subsection xml:id="Question_2_2_1">
     <title> Problem 1</title>
     <p>
@@ -26,9 +26,9 @@
     </p>
 </subsection>        
 
-        -->
         
-<!--        
+        
+    
 <subsection xml:id="Question_2_2_2">
 <title> Problem 2</title>
 
@@ -41,14 +41,14 @@
        
 </subsection>
 
-        -->
+        
 
 <subsection xml:id="Question_2_2_3">
     <title>Problem 3</title>
 
     <ol marker="(a)">
        <li>
-<!--
+
     <p>
         By the division algorithm, any integer, <m>n</m>, is of the form <m>3k</m>, <m>3k+1</m>, or <m>3k+2</m>.
 
@@ -90,7 +90,7 @@
 </li>
 </ol>
 </subsection>
-    <!--
+    
 <subsection xml:id="Question_2_2_4">
     <title>Problem 4</title>
 <p>
@@ -111,7 +111,7 @@
 </p>
 
 </subsection>
--->
+
 
 
 <subsection xml:id="Question_2_2_6">
@@ -132,7 +132,7 @@
 </subsection>
 
 
-<!--
+
     <subsection xml:id="Question_9">
     <title>Problem 9</title>
 
@@ -170,9 +170,9 @@
         
     </p>
     </subsection>
--->
 
-<!--
+
+
      <subsection sml:id="Question_2_2_10">
     <title>Problem 10</title>
     <p>
@@ -190,7 +190,7 @@
         
     </p>
 </subsection>
--->
+
 
     <subsection sml:id="Question_2_2_11">
     <title>Problem 11</title>

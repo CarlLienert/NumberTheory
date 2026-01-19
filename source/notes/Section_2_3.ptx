@@ -43,8 +43,8 @@
     </p>
 </subsection>
 
-<!--
 
+<!--
 <subsection xml:id="Question_2_3_5">
     <title> Problem 5</title>
     <p>
@@ -81,8 +81,8 @@
     </p>
 
 </subsection>
--->
 
+-->
 
 <subsection xml:id="Question_2_3_12">
     <title> Problem 12</title>
@@ -123,6 +123,7 @@
         </ol>
     </p>
 </subsection>
+
 -->
 
 <!--
@@ -132,6 +133,7 @@
     Let <m>d=\text{gcd}(2a-3b, 4a-5b)</m>. Then <m>d|2a-3b</m> and <m>d|4a-5b</m>.  By Theorem 2.2(g) <m>d|-2(2a-3b)+(4a-5b)</m>.  That is, <m>d|b</m>. Let <m>b=-1</m> to obtain the result.
     </p>
 </subsection>
+
 -->
 
 <subsection xml:id="Question_2_3_20">
