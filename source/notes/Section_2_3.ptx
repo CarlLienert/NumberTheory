@@ -178,7 +178,7 @@
 
         <li>
             <p>
-                There exist integers <m>x,y</m> such that <m>xa+yb=1</m>.  Multiply by <m>c</m> to obtain <m>xac+ybc=c</m>.  Now if <m>d|ac</m> and <m>d|bc</m>, then <m>d|xac+ybc</m> by Theorem 2.2(g).  This gives <m>d|c</m> since <m>xac+ybc=c</m>.
+                There exist  integers <m>x,y</m> such that <m>xa+yb=1</m>.  Multiply by <m>c</m> to obtain <m>xac+ybc=c</m>.  Now if <m>d|ac</m> and <m>d|bc</m>, then <m>d|xac+ybc</m> by Theorem 2.2(g).  This gives <m>d|c</m> since <m>xac+ybc=c</m>.
             </p>
         </li>
 
