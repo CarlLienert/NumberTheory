@@ -77,10 +77,10 @@ We have shown that <m>n!&gt;n^2</m> implies <m>(n+1)!&gt;(n+1)^2</m>, and we hav
 
 
 <subsection xml:id="Problem_1_1_7">
-<title> Problem  - quiz solutions</title>
+<title> Problem 7 - quiz solutions</title>
 
 <p>
-    (quiz or exam)
+    
 For <m>n=1</m>: <md>1(1!)=2!-1</md>
 
 Consider:
