@@ -8,13 +8,71 @@
 
 <subsection xml:id="Question_2_4_2">
     <title> Problem 2</title>
-    <p>
-        This is section 2.4
-    </p>
-    
+    <ol marker="(a)">
+        <li><m>\phantom{blank line}</m>
+            <p>
+                <md>
+                    <mrow>72 \amp =56\cdot 1 +16</mrow>
+                    <mrow>56 \amp =16\cdot 3+8</mrow>
+                    <mrow> 16  \amp = 8 \cdot 2 +0 </mrow>
+                </md>
+                So, <m>\text{gcd}(72, 56)=8</m>
+                Working backwards:
+                <md>
+                    <mrow>8 \amp = 56-16\cdot 3</mrow>
+                    <mrow> \amp =56-(72- 56)\cdot 3</mrow>
+                    <mrow> \amp = 4\cdot 56-3\cdot 72</mrow>
+                </md>
+
+                which is the desired linear combination of <m>56</m> and <m>72</m>.
+            
+                
+            </p>
+        </li>
+    </ol>
+    The other parts follow the same process.
+
 </subsection>        
 
-     
+     <subsection xml:id="Question_2_4_4">
+    <title> Problem 4</title>
+    <ol marker="(a)">
+        <li>
+            <p>
+                See the hint.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                
+            </p>
+        </li>
+
+        <li>
+            <p>
+                From the hint we have
+                <md>
+                    \text{gcd}(a+b, a^2+b^2)=\text{gcd}(a+b, (a+b)(a-b)+2b^2)
+                </md>
+
+                Let <m>d=\text{gcd}(a+b, a^2+b^2)</m>. Then <m>d|a+b</m>, and <m>d|(a+b)(a-b)+2b^2</m>. Since <m>d|a+b</m>, <m>d|(a+b)(a-b)</m>. It follows that <m>d|2b^2</m>
+            </p>
+               
+            
+            <p>
+                We claim <m>\text{gcd}(d,b)=1</m>.  
+            Suppose not, and there is a prime <m>p</m> that divides <m>d</m> and <m>b</m>.  Then <m>p|a+b</m> which implies that <m>p|a</m>. But that contradicts the assumption that <m>\text{gcd}(a,b)=1.</m>  
+            </p>
+           
+           <p>
+            If <m>\text{gcd}(d,b)=1</m>, then so too <m>\text{gcd}(d, b^2)=1</m>. Euclid's Lemmas then gives that <m>d|2</m> since <m>d|2b^2</m> and <m>\text{gcd}(d, b^2)=1.</m> If <m>d|2</m> then <m>d=1</m> or <m>d=2</m>.
+                
+                
+            </p>
+        </li>
+    </ol>
+     </subsection>
 
         </section>
     <!--/article-->
