@@ -89,6 +89,26 @@
         
     </p>
 </li>
+
+<li>
+    <p>
+        Let <m>n=5k+r</m> where <m>0 \leq r &lt; 4.</m>
+        <md>
+            (5k+r)^4=5(t)+r^4
+        </md>
+        for some integer <m>t</m>.
+
+        Consider each of the 5 cases for the value of <m>r</m>:
+        <md>
+            <mrow>0^4 \amp=0=5(0) </mrow>
+            <mrow>1^4 \amp =1=5(0)+1</mrow>
+            <mrow>2^4 \amp=16=5(3)+1  </mrow>
+            <mrow>3^4 \amp =81=5(16)+1</mrow>
+        </md>
+        
+        
+    </p>
+</li>
 </ol>
 </subsection>
     <!--
