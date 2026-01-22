@@ -34,7 +34,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Section 2.2",
-  "body": " Section 2.2     Problem 3       Any integer, can be written in the form where Then It remains to show that is of the desired form:        Problem 6  Let by the division algorithm. There are 6 cases. Below the results are shown for some . For example on the first line .       Problem 11  If is odd, then where is 1, 3, 5, 7, 9, 11, 13, or 15. Then It remains to check that is of the form for each of the possible values of . (You should do this.)   "
+  "body": " Section 2.2     Problem 3       Any integer, can be written in the form where Then It remains to show that is of the desired form:     Let where  for some integer . Consider each of the 5 cases for the value of :        Problem 6  Let by the division algorithm. There are 6 cases. Below the results are shown for some . For example on the first line .       Problem 11  If is odd, then where is 1, 3, 5, 7, 9, 11, 13, or 15. Then It remains to check that is of the form for each of the possible values of . (You should do this.)   "
 },
 {
   "id": "Section_2_3",
@@ -52,7 +52,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Section 2.4",
-  "body": " Section 2.4   Problem 2  This is section 2.4   "
+  "body": " Section 2.4   Problem 2     So, Working backwards: which is the desired linear combination of and .   The other parts follow the same process.   Problem 4          From the hint we have Let . Then , and . Since , . It follows that   We claim . Suppose not, and there is a prime that divides and . Then which implies that . But that contradicts the assumption that   If , then so too . Euclid's Lemmas then gives that since and If then or .          Problem 6  Suppose . Then there is some prime such that . We claim must divide at least one of or . Suppose , then and by Euclid's lemmas we'd have . Similarly if we'd have . Suppose, without loss of generality, that . Since also, we have . This contradicts the assumption that . Thus, it must be that    "
 }
 ]
 
