@@ -38,15 +38,19 @@
     <title> Problem 4</title>
     <ol marker="(a)">
         <li>
+            <!--
             <p>
                 See the hint.
             </p>
+        -->
         </li>
 
         <li>
+            <!--
             <p>
                 
             </p>
+        -->
         </li>
 
         <li>
@@ -73,7 +77,9 @@
         </li>
 
         <li>
+            <!--
             <p>
+                
                 Using the hint we have 
                 <md>
                     d|a+b
@@ -92,11 +98,12 @@
                 
                 
             </p>
+        -->
         </li>
     </ol>
      </subsection>
 
-
+<!--
      <subsection xml:id="Question_2_4_5">
     <title> Problem 5</title>
     <ol marker="(a)">
@@ -108,13 +115,30 @@
             </li>
 
             <li>
+                <p>Let <m>\text{gcd}(a,b)=d</m>. By the Corollary to Theorem 2.4 <m>\text{gcd}(a/d, b/d)=1</m>. Let <m>r=a/d</m> and <m>s=b/d</m>. By part (a) of the problem <m>\text{gcd}(r^n,s^n)=1</m>
+                    Since <m>a=rd</m> and <m>b=sd</m>, we have <m>a^n=r^nd^n</m> and <m>b^n=s^nd^n</m>
+                </p>
                 <p>
-                    
+                    Now, <m>a=rd</m> and <m>b=sd</m>, so <m>a^n=r^nd^n</m> and <m>b^n=s^nd^n</m>. Apply the hypotheseis that <m>a^n|b^n</m> to rewrite the second equatio: <m>b^n=ka^n=s^nd^n</m>.  Substitute the expression for <m>a^n</m> to obtain <m>kr^nd^n=s^nd^n</m>. Or <m>kr^n=s^n</m>. Now, suppose <m>r \neq 1</m>. Then there is some prime <m>p</m> such that <m>p|r</m>. From  <m>kr^n=s^n</m> we see this implies that <m>p|s^n</m>.  But this contradicts the fact that <m>\text{gcd}(r^n, s^n)=1</m>.
+                </p>
+                <p>
+                    Hence <m>r=1</m> which gives <m>a=d</m>. Since <m>d|b</m> this yields the desired result.
                 </p>
             </li>
         </ol>
     </subsection>
-
+    -->
+    
+    <subsection xml:id="Question_2_4_6">
+    <title> Problem 6</title>
+    <p>
+        Suppose <m>\text{gcd}(a+b, ab) \neq 1</m>. Then there is some prime <m>p</m> such that <m>p|\text{gcd}(a+b, ab)</m>. We claim <m>p</m> must divide at least one of <m>a</m> or <m>b</m>.  Suppose <m>p \nmid a</m>, then <m>\text{gcd}(a,p)=1</m> and by Euclid's lemmas we'd have <m>p|b</m>.  Similarly if <m>p\nmid b</m> we'd have <m>p|a</m>. Suppose, without loss of generality, that <m>p|a</m>.  Since also, <m>p|a+b</m> we have <m>p|b</m>. This contradicts the assumption that <m>\text{gcd}(a,b)=1</m>.  Thus, it must be that <m>\text{gcd}(a+b, ab)=1.</m>
+           
+               
+            
+       
+    </p>
+    </subsection>
         </section>
     <!--/article-->
 <!--/pretext-->
