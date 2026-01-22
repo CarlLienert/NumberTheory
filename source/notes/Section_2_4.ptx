@@ -71,8 +71,49 @@
                 
             </p>
         </li>
+
+        <li>
+            <p>
+                Using the hint we have 
+                <md>
+                    d|a+b
+                </md>
+                and 
+                <md>
+                    d|(a+b)^2-3ab
+                </md>
+                from which we can conclude that
+                <md>
+                    d|3ab.
+                </md>
+
+                Next, we claim <m>\text{gcd}(d,a)=1</m>. Suppose there is an integer <m>k. &gt; 1</m>such that <m>k|d</m> and <m>d|a</m>.  Then also <m>k|a+b</m> which implies that <m>k|b.</m> This contradicts the assumption that <m>\text{gcd}(a,b)=1.</m>. Similarly, <m>\text{gcd}(d,b)=1</m>.  Now, since <m>d|3ab</m> we have <m>d|3</m> by Euclid's lemma.  Thus, <m>d=1</m> or <m>d=3</m>.
+                
+                
+                
+            </p>
+        </li>
     </ol>
      </subsection>
+
+
+     <subsection xml:id="Question_2_4_5">
+    <title> Problem 5</title>
+    <ol marker="(a)">
+            <li>
+                <p>
+                    This follows from repeated use of the result from problem 20(a) in Section 2.2.
+                    If <m>\text{gcd}(a,b)=1</m> and <m>\text{gcd}(a,b)=1</m>, then <m>\text{gcd}(a,b^2)=1</m>.  Continue until you have <m>\text{gcd}(a,b^n)=1.</m> Now think of this as <m>\text{gcd}(b^n,a)=1</m> and <m>\text{gcd}(b^n,a)</m> and problem 20(a) gives <m>\text{gcd}(b^n,a^2)=1.</m> Continue until you have <m>\text{gcd}(a^n, b^n).</m>. (A more careful presentation of this proof is inductive, but this is the idea.  Watch out for a result from chapter 3 which will give a "nicer" proof of this result.)
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    
+                </p>
+            </li>
+        </ol>
+    </subsection>
 
         </section>
     <!--/article-->
