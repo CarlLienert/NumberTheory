@@ -70,6 +70,54 @@
 </ol>
 </subsection>
 
+
+
+        <subsection xml:id="Question_2_5_6">
+    <title> Problem 6</title>
+
+    <p> From the total number of livestock:
+        <md>
+            c+l+p=100
+        </md>
+From the cost information:
+        <md>
+            120c+50l+25p=4000
+        </md>
+        Solve for <m>c</m>:
+        <md>
+            c=100-l-p
+        </md>
+Combine the two equations and simplify:
+        <md>
+            <mrow>120(100-l-p)+50l+25p \amp = 4000</mrow>
+            <mrow> 12000-120l-120p+50l+25p \amp = 4000  </mrow>
+            <mrow>8000 \amp = 70l +95p  </mrow>
+        </md>
+Find one solution to the Diophantine equation:
+        <md>
+           <mrow> -4\cdot 70 + 3 \cdot 95 \amp =5 </mrow>
+           <mrow>-6400\cdot 70 +4800 \cdot 95 \amp = 8000 </mrow>
+        </md>
+        The general solution for <m>l</m> and <m>p</m>is:
+        <md>
+            <mrow>l \amp =-6400+\frac{95}{5}t </mrow>
+            <mrow> p \amp = 4800 -\frac{70}{5}t </mrow>
+        </md>
+        
+        or 
+
+         <md>
+            <mrow>l \amp =-6400+19t </mrow>
+            <mrow> p \amp = 4800 -14t </mrow>
+        </md>
+        
+        These are both postive if <m>t=337, 338, 339, 340, 341, 342</m>.
+
+        If you compute the resulting number of calves for each of these cases you'll find that <m>t=337, 338, 339</m> also give a positive number of calves.  So, there are 3 possible answers to the question.
+    </p>
+    </subsection>
+
+
     </section>
     <!--/article-->
 <!--/pretext-->
