@@ -16,6 +16,9 @@
     <xi:include href="./notes/Section_2_2.ptx" />
     <xi:include href="./notes/Section_2_3.ptx" />
     <xi:include href="./notes/Section_2_4.ptx" />
+    <xi:include href="./notes/Section_2_5.ptx" />
+    <xi:include href="./notes/Section_3_1.ptx" />
+    <xi:include href="./notes/Section_3_2.ptx" />
     
 
     <!-- Add more xi:include files here to include them in the main course -->

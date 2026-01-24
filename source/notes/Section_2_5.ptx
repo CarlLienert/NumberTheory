@@ -1,0 +1,34 @@
+<!--pretext-->
+    <!--article xml:id="Sec_2_5"-->
+        <section xml:id="Section_2_5">
+        <title>Section 2.5</title>
+        
+
+<subsection xml:id="Question_2_5_2">
+    <title> Problem 1</title>
+<ol marker="(a)">
+    <li>
+        <p>
+            <m>8=(56,72)</m> Use the Euclidean Algorith to find: <md>
+                4\cdot 56-3\cdot72=8.
+            </md>
+            This gives one solution to the Diophantine equation:
+            <md>
+                20\cdot 56-15\cdot 72=40.
+            </md>
+            The general solution is then of the form
+            <md>
+                <mrow>x \amp = 20+\frac{72}{8}t=20+9t </mrow>
+                <mrow>y \amp = -15-\frac{56}{8}t=-15-7t</mrow>.
+            </md>
+            
+            
+        </p>
+    </li>
+</ol>
+        </subsection>
+
+
+    </section>
+    <!--/article-->
+<!--/pretext-->
