@@ -5,7 +5,7 @@
         
 
 <subsection xml:id="Question_2_5_2">
-    <title> Problem 1</title>
+    <title> Problem 2</title>
 <ol marker="(a)">
     <li>
         <p>
@@ -24,10 +24,51 @@
             
             
         </p>
+
+    </li>
+    <li>
+        <p>
+            Start with: <m>(24,138)=6</m>, <m>6=6\cdot24-138</m>. Follow the process.
+        </p>
     </li>
 </ol>
         </subsection>
 
+        <subsection xml:id="Question_2_5_3">
+    <title> Problem 3</title>
+<ol marker="(a)">
+
+    <li>
+        <p>
+        <m>(18,5)=1</m>,  <m>2 \cdot 18 -7\cdot 5=1</m>, <m>96\cdot 18-336\cdot 5=48</m>
+        The general solution is:
+        <md>
+            <mrow>x \amp =96+5t</mrow>
+            <mrow>y \amp = -336-18t</mrow>
+        </md>
+
+        If we want <md>
+            <mrow>96+5t \amp &gt; 0 \text{ and}</mrow>
+            <mrow> -336-18t \amp &gt; 0 </mrow>
+        </md>
+        or 
+        <md>
+            <mrow> t \amp &gt; -\frac{96}{5} \text{and}</mrow>
+            <mrow>t \amp  &lt; -\frac{336}{18}.</mrow>
+        </md>
+        
+        So, only <m>t=-19</m> gives a positive solution:
+        <md>
+            <mrow>x \amp = 96-19\cdot 5=1 \text{ and} </mrow>
+            <mrow> y \amp= -336-18(-19)=6</mrow>
+        </md>
+        
+        
+
+        </p>
+    </li>
+</ol>
+</subsection>
 
     </section>
     <!--/article-->
