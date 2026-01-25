@@ -53,6 +53,33 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "Section 2.4",
   "body": " Section 2.4   Problem 2     So, Working backwards: which is the desired linear combination of and .   The other parts follow the same process.   Problem 4          From the hint we have Let . Then , and . Since , . It follows that   We claim . Suppose not, and there is a prime that divides and . Then which implies that . But that contradicts the assumption that   If , then so too . Euclid's Lemmas then gives that since and If then or .          Problem 6  Suppose . Then there is some prime such that . We claim must divide at least one of or . Suppose , then and by Euclid's lemmas we'd have . Similarly if we'd have . Suppose, without loss of generality, that . Since also, we have . This contradicts the assumption that . Thus, it must be that    "
+},
+{
+  "id": "Section_2_5",
+  "level": "1",
+  "url": "Section_2_5.html",
+  "type": "Section",
+  "number": "",
+  "title": "Section 2.5",
+  "body": " Section 2.5   Problem 2     Use the Euclidean Algorith to find: This gives one solution to the Diophantine equation: The general solution is then of the form     Start with: , . Follow the process.      Problem 3     , , The general solution is: If we want or So, only gives a positive solution:       Problem 6  From the total number of livestock: From the cost information: Solve for : Combine the two equations and simplify: Find one solution to the Diophantine equation: The general solution for and is: or These are both postive if . If you compute the resulting number of calves for each of these cases you'll find that also give a positive number of calves. So, there are 3 possible answers to the question.   "
+},
+{
+  "id": "Section_3_1",
+  "level": "1",
+  "url": "Section_3_1.html",
+  "type": "Section",
+  "number": "",
+  "title": "Section 3.1",
+  "body": " Section 3.1   Problem 1   "
+},
+{
+  "id": "Section_3_2",
+  "level": "1",
+  "url": "Section_3_2.html",
+  "type": "Section",
+  "number": "",
+  "title": "Section 3.2",
+  "body": " Section 3.2   Problem 1   "
 }
 ]
 
