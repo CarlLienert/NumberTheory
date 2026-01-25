@@ -98,7 +98,7 @@ Find one solution to the Diophantine equation:
            <mrow> -4\cdot 70 + 3 \cdot 95 \amp =5 </mrow>
            <mrow>-6400\cdot 70 +4800 \cdot 95 \amp = 8000 </mrow>
         </md>
-        The general solution for <m>l</m> and <m>p</m>is:
+        The general solution for <m>l</m> and <m>p</m> is:
         <md>
             <mrow>l \amp =-6400+\frac{95}{5}t </mrow>
             <mrow> p \amp = 4800 -\frac{70}{5}t </mrow>
