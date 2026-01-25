@@ -61,7 +61,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Section 2.5",
-  "body": " Section 2.5   Problem 2     Use the Euclidean Algorith to find: This gives one solution to the Diophantine equation: The general solution is then of the form     Start with: , . Follow the process.      Problem 3     , , The general solution is: If we want or So, only gives a positive solution:       Problem 6  From the total number of livestock: From the cost information: Solve for : Combine the two equations and simplify: Find one solution to the Diophantine equation: The general solution for and is: or These are both postive if . If you compute the resulting number of calves for each of these cases you'll find that also give a positive number of calves. So, there are 3 possible answers to the question.   "
+  "body": " Section 2.5   Problem 2     Use the Euclidean Algorith to find: This gives one solution to the Diophantine equation: The general solution is then of the form        Problem 3     , , The general solution is: If we want or So, only gives a positive solution:       Problem 6  From the total number of livestock: From the cost information: Solve for : Combine the two equations and simplify: Find one solution to the Diophantine equation: The general solution for and is: or These are both postive if . If you compute the resulting number of calves for each of these cases you'll find that also give a positive number of calves. So, there are 3 possible answers to the question.   "
 },
 {
   "id": "Section_3_1",
@@ -70,7 +70,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Section 3.1",
-  "body": " Section 3.1   Problem 1   "
+  "body": " Section 3.1    Problem 3       All primes are of the form or . Suppose an integer, , is of the form and that all of its prime factors are of the form . That is: Expand the right hand side to see that which contradicts being of the form . Thus must have at least one prime factor of the form .           If is prime and then so , and         Problem 5       Write out prime factorizations. These should show the answers are:s , , and       Problem 15  If is a square, then . Write the canonical form of : Then Conversely if then is a square:     Problem 16    If an integer , , cannot be factored into distinct primes, then its prime factorization contains at least one prime repeated. That is, there is some prime such that . Thus, is not square free.  Conversely if is not square free, there is some integer such that . The integer by definition, so there is some prime such that . Then , and hence so cannot be factored into distinct primes.    Follow the hint and use properties of exponent.     "
 },
 {
   "id": "Section_3_2",
