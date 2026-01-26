@@ -4,12 +4,38 @@
         <title>Section 3.2</title>
         
 
-<subsection xml:id="Question_3_2_1">
-    <title> Problem 1</title>
-
+<subsection xml:id="Question_3_2_3">
+    <title> Problem 3</title>
+<p>
+    Let's restate this first to make sure what the claim is. Let <m>n</m> be a positive integer. If a prime <m>p \leq \sqrt[3]{n}</m>, implies <m>p \nmid n</m>, then <m>n</m> is either prime or a product of two primes.
+</p>
+<p>
+    By way of contradiction, suppose <m>n=p_1p_2p_3m</m>. That is, <m>n</m> contains 3 or more prime factors. (Notice <m>p_1</m>, <m>p_2</m>, <m>p_3</m> need not necessarily distinct.) Suppose, without loss of generality, that <m>p_1</m> is the smallest of <m>p_1</m>, <m>p_2</m>, <m>p_3.</m> Then we have:
+    <md>
+        <mrow>n  =p_1p_2p_3m  \amp \geq p_1^3m</mrow>
+        <mrow>\sqrt[3]{n} \amp \geq p_1\sqrt[3]{m} \geq p_1. </mrow>
+    </md>
+    So, <m>p_1 \leq \sqrt[3]{n}</m> but <m>p_1|n.</m>
+</p>
         </subsection>
 
+<subsection xml:id="Question_3_2_5">
+    <title> Problem 5</title>
+    <p>
+        Let <m>n</m> be the composite 3 digit number. Suppose all the prime factors are greater than or equal to <m>37</m>. The smallest <m>n</m> can be is then <m>37^2=1369,</m> that is <m>n</m> wouldn't be a 3 digit number.
+    </p>
+    </subsection>
         
+   <subsection xml:id="Question_3_2_6">
+    <title> Problem 6</title>
+    <p>
+        First, notice that <m>A+B &gt;1</m> since both <m>A</m> and <m>B</m> are greater than or equal to 1.
+    </p>
+
+    <p>
+        Suppose, for example, <m>p_1|A+B</m>. If <m>p_1|A</m> then we'd also have <m>p_1|(A+B)-A</m>. That is <m>p_1|B</m>. But this contradicts the construction of <m>A</m> and <m>B</m>; <m>p_1</m> divides exactly one of <m>A</m> or <m>B</m>.  Similarly, if <m>p_1|B</m> we arrive at a contradiction.  Hence any prime divisor of <m>A+B</m> is NOT one of the primes <m>p_1, p_2, \dots, p_n</m>. The assumpution there were finitely many primes must be wrong.
+    </p>
+   </subsection> 
     </section>
     <!--/article-->
 <!--/pretext-->
