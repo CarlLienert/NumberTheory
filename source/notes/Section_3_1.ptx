@@ -3,7 +3,7 @@
         <section xml:id="Section_3_1">
         <title>Section 3.1</title>
         
-
+<!--
 <subsection xml:id="Question_3_1_1">
     <title> Problem 1</title>
 <p>
@@ -21,12 +21,13 @@
     
 </p>
         </subsection>
-
+        -->
 
     <subsection xml:id="Question_3_1_3">
     <title> Problem 3</title>
     <ol marker="(a)">
         <li>
+            <!--
             <p>
                 Any integer is of one of the following forms:
                 <md>
@@ -43,6 +44,7 @@
                 Any integer <m>k</m> can be written in the form <m>k=6k+r</m> where <m>r=0,1,2,3,4, \text{ or} 5</m>.
                 Suppose <m>6m+1</m> is not prime
             </p>
+        -->
         </li>
 
         <li>
@@ -61,9 +63,108 @@
 
             </p>
         </li>
+        <li>
+            <p>
+                
+            </p>
+        </li>
+
+        <li>
+            <!--
+            <p>
+                Let <m>p</m> be prime and suppose <m>3p+1=k^2</m> for some integer <m>k</m>. Then <md>
+                    3p=k^2-1=(k-1)(k+1).
+                </md>
+                By the FTA <m>3=k-1</m> and <m>p=k+1</m>.  This has only one solution: <m>k=4</m> and hence <m>p=5.</m>
+                
+            </p>
+        -->
+        </li>
+        <li>
+            <p>
+                If <m>p</m> is prime and <md>
+                    p=n^2-4=(n-2)(n+2)
+                </md>
+                then <m>n-2=1</m> so <m>n=3</m>, and <m>p=5.</m>
+                    
+                        <p>
+                            
+                        </p>
+                   
+               
+                
+            </p>
+        </li>
     </ol>
     </subsection>
+
+    <subsection xml:id="Question_3_1_5">
+    <title> Problem 5</title>
+    <ol marker="(a)">
+        <li>
+            <!--
+            <p>
+                Write the prime factorization of <m>a</m>: <md>a=p_1^{e_1}\cdots p_m^{e_m}.</md>
+                Then <md>
+                    a^n=p_1^{ne_1}\cdots p_m^{ne_m}.
+                </md>
+                If <m>p|a^n</m> then (wlog) <m>p=p_1</m> and <m>p_1^n |a^n.</m>
+            </p>
+        -->
+        </li>
+        <li>
+            <p>
+                Write out prime factorizations. These should show the answers are:s <m>p^2</m>, <m>p</m>, and <m>p^2.</m>
+            </p>
+        </li>
+    </ol>
+    </subsection>
+
+    <subsection xml:id="Question_3_1_15">
+    <title> Problem 15</title>
+    <p>
+        If <m>a</m> is a square, then <m>a=k^2</m>.  Write the canonical form of <m>k</m>:
+        <md>
+            k=p_1^{e_1}\cdot p_t^{e_t}.
+        </md>
+        Then 
+        <md>
+            a=k^2=p_1^{2e_1}\cdot p_t^{2e_t}.
+        </md>
+        Conversely if 
+        <md>
+            a=p_1^{2f_1}\cdots p_t^{2f_t}
+        </md>
+        then <m>a</m> is a square:
+
+        <md>
+            a=(p_1^{f_1}\cdots p_t^{f_t})^2.
+        </md>
         
+    </p>
+    </subsection>
+
+    <subsection xml:id="Question_3_1_16">
+    <title> Problem 16</title>
+<ol marker="(a)">
+<li>
+    <p>
+        If an integer ,<m>n</m>, cannot be factored into <em>distinct</em> primes, then its prime factorization contains at least one prime repeated. That is, there is some prime <m>p</m> such that <m>p^2|n</m>. Thus, <m>n</m> is not square free. 
+    </p>
+    <p>
+        Conversely if <m>n</m> is not square free, there is some integer <m>k</m> such that <m>k^2|n</m>. The integer <m>k \neq 1</m> by definition, so there is some prime <m>p</m> such that <m>p|k</m>. Then <m>p^2|k^2</m>, and hence <m>p^2|n</m> so <m>p</m> cannot be factored into <em>distinct</em> primes.
+    
+    </p> 
+</li>
+<li>
+    <p>
+        Follow the hint and use properties of exponent.
+    </p>
+</li>
+
+</ol>
+    </subsection>
+
     </section>
     <!--/article-->
 <!--/pretext-->
