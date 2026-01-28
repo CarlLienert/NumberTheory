@@ -3,11 +3,11 @@
         <section xml:id="Section_3_2">
         <title>Section 3.2</title>
         
-
+<!--
 <subsection xml:id="Question_3_2_3">
     <title> Problem 3</title>
 <p>
-    Let's restate this first to make sure what the claim is. Let <m>n</m> be a positive integer. If a prime <m>p \leq \sqrt[3]{n}</m>, implies <m>p \nmid n</m>, then <m>n</m> is either prime or a product of two primes.
+    Let's restate this first to clarify the claim. Let <m>n</m> be a positive integer. If a prime <m>p \leq \sqrt[3]{n}</m>, implies <m>p \nmid n</m>, then <m>n</m> is either prime or a product of two primes.
 </p>
 <p>
     By way of contradiction, suppose <m>n=p_1p_2p_3m</m>. That is, <m>n</m> contains 3 or more prime factors. (Notice <m>p_1</m>, <m>p_2</m>, <m>p_3</m> need not necessarily distinct.) Suppose, without loss of generality, that <m>p_1</m> is the smallest of <m>p_1</m>, <m>p_2</m>, <m>p_3.</m> Then we have:
@@ -18,14 +18,17 @@
     So, <m>p_1 \leq \sqrt[3]{n}</m> but <m>p_1|n.</m>
 </p>
         </subsection>
+        -->
 
+        <!--
 <subsection xml:id="Question_3_2_5">
     <title> Problem 5</title>
     <p>
-        Let <m>n</m> be the composite 3 digit number. Suppose all the prime factors are greater than or equal to <m>37</m>. The smallest <m>n</m> can be is then <m>37^2=1369,</m> that is <m>n</m> wouldn't be a 3 digit number.
+        Let <m>n</m> be the composite 3 digit number. Suppose all the prime factors are greater than or equal to <m>37</m>. The smallest <m>n</m> can be is then <m>37^2=1369.</m> That is, <m>n</m> wouldn't be a 3 digit number.
     </p>
     </subsection>
         
+        -->
    <subsection xml:id="Question_3_2_6">
     <title> Problem 6</title>
     <p>
@@ -33,9 +36,81 @@
     </p>
 
     <p>
-        Suppose, for example, <m>p_1|A+B</m>. If <m>p_1|A</m> then we'd also have <m>p_1|(A+B)-A</m>. That is <m>p_1|B</m>. But this contradicts the construction of <m>A</m> and <m>B</m>; <m>p_1</m> divides exactly one of <m>A</m> or <m>B</m>.  Similarly, if <m>p_1|B</m> we arrive at a contradiction.  Hence any prime divisor of <m>A+B</m> is NOT one of the primes <m>p_1, p_2, \dots, p_n</m>. The assumpution there were finitely many primes must be wrong.
+        The number <m>A+B</m> must have prime divisors since <m>A+B &gt; 1.</m> If there are finitely many primes: <m>p_1, p_2, \dots, p_n</m>, then one of the primes in this list must divide <m>A+B.</m>  Suppose <m>p_1|A+B</m>. If <m>p_1|A</m> then we'd also have <m>p_1|(A+B)-A</m>. That is <m>p_1|B</m>. But this contradicts the construction of <m>A</m> and <m>B</m>; <m>p_1</m> divides exactly one of <m>A</m> or <m>B</m>.  Similarly, if <m>p_1|B</m> we arrive at a contradiction.  Hence any prime divisor of <m>A+B</m> is NOT one of the primes <m>p_1, p_2, \dots, p_n</m>. The assumpution there were finitely many primes must be wrong.
     </p>
    </subsection> 
+
+   <subsection xml:id="Question_3_2_9">
+    <title> Problem 9</title>
+    <ol marker="(a)">
+        <li>
+            <!--
+            <p>
+                Following the hint: If <m>n!-1</m> is prime, we are done. Suppose <m>n!-1</m> is not prime, then <m>n!-1</m> has a prime divisor: <m>p|n!-1.</m>  Clearly, <m>p &lt; n!-1 &lt; n!.</m> Suppose <m>p \leq n.</m> Then <m>p</m> is in the product expansion of <m>n!</m> and <m>p|n!.</m> But, since also <m>p|n!-1</m> so <m>p|1</m> which is impossible. So, <m>p&gt; n</m>.
+            </p>
+        -->
+        </li>
+        <li>
+            <p>
+                For all integers <m>n>1</m> <m>n!</m> is even. So <m>n!+1</m> is odd and all its prime divisors must also be odd. Let's follow the same idea as above.  Let <m>p</m> be any prime divisor of <m>n!+1.</m>. Suppose <m>p \leq n.</m> Then <m>p|n!</m> and <m>p|(n!+1)-(n!)</m>. That is <m>p!|1</m>  which is impossible.
+            </p>
+        </li>
+    </ol>
+   </subsection>
+
+    <subsection xml:id="Question_3_2_12">
+    <title> Problem 12</title>
+    <ol marker="(a)">
+        <li>
+            <p>
+                For <m>n=5</m>: <m>p_5=11</m> which is greater than <m>2(5)-1=9.</m>
+                Suppose <m>p_n>2n-1</m>. Then 
+                <md>
+                    <mrow> p_{n+1}  \amp &gt; p_n+2</mrow>
+                    <mrow> \amp  &gt; 2n-1+2</mrow>
+                    <mrow> \amp =2n+1=2(n+1)-1.</mrow>
+                </md>
+                
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Notice: <m>p_1=2</m>  and <m>p_2p_3\dots p_n</m> is odd.  So <md>
+                    p_1p_2\dots p_n+1 =2(2k+1)+1=4k+3
+                </md> for some integer <m>k</m>.
+                On the othen hand perfect squares are always of the form <m>4k</m> or <m>4k+1.</m>
+                Thus, <m>p_1p_2\dots p_n+1</m> is never a perfect square.
+                
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Let <md>
+                    \frac{1}{p_1}+\frac{1}{p_2}+\cdots + \frac{1}{p_n}=\frac{A}{p_1p_2\dots p_n}
+                </md> and reduce this fraction so the numerator and denominator are relatively prime:
+                <md>
+                    \frac{a}{b}.
+                </md>
+                
+                We have <m>\text{gcd}(a,b)=1</m> and <m>b</m> is a product of some subset of the primes <m>p_1,p_2, \dots, p_n</m>. 
+
+                Now consider
+                <md>
+                    \frac{a}{b}+\frac{1}{p_{n+1}}=\frac{ap_{n+1}+b}{bp_{n+1}}.
+                </md>
+
+                If this were an integer we'd have <m>p_{n+1}|ap_{n+1}+b.</m>. Clearly <m>p_{n+1}|ap_{n+1}</m>, so <m>p_{n+1}|b</m>.  This contradicts the construction of <m>b</m> can only be divisible by primes 
+                 <m>p_1,p_2, \dots, p_n</m>. 
+
+                 (Note this is the <em>outline</em> of an inductive proof.)
+                
+            </p>
+        </li>
+    </ol>
+
+    </subsection>
     </section>
     <!--/article-->
 <!--/pretext-->

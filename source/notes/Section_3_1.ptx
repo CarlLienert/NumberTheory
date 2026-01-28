@@ -33,7 +33,7 @@
                 <md>
                     <mrow> 6k+0 \amp = 3(3k)+0</mrow>
                     <mrow> 6k+1 \amp = 3(2k)+1</mrow>
-                    <mrow> 6K+2 \amp = 3(2k)+2</mrow>
+                    <mrow> 6k+2 \amp = 3(2k)+2</mrow>
                     <mrow> 6k+3 \amp = 3(2k+1)+0</mrow>
                     <mrow> 6k+4 \amp = 3(2k+1)+1</mrow>
                     <mrow> 6k+5 \amp 3(2k+1)+2.</mrow>
@@ -41,8 +41,7 @@
 
                 So, if an integer is of the form <m>3n+1</m>, then it is either of the form <m>6k+1</m> or <m>6k+4</m>. An integer of the form <m>6k+4=2(3k+2)</m> is never prime so a prime of the form <m>3n+1</m> must also of the form <m>6m+1</m>.
                 
-                Any integer <m>k</m> can be written in the form <m>k=6k+r</m> where <m>r=0,1,2,3,4, \text{ or} 5</m>.
-                Suppose <m>6m+1</m> is not prime
+               
             </p>
         -->
         </li>
@@ -114,7 +113,46 @@
         </li>
         <li>
             <p>
-                Write out prime factorizations. These should show the answers are:s <m>p^2</m>, <m>p</m>, and <m>p^2.</m>
+                Write out prime factorizations:
+             <md>
+                <mrow> a \amp= p\cdot q_1^{e_1}q_2^{e_2}\cdots q_k^{e_k} </mrow>
+                <mrow> b \amp = p \cdot w_1^{f_1}w_2^{f_2}\cdots w_l^{f_l} </mrow>
+             </md> 
+             where <m>p, q_i, w_j</m> are all prime.  None of the <m>q</m>s are equal to the <m>w</m>s. One of the <m>q</m>s or one of the <m>w</m>s may equal <m>p</m> BUT not both.  (otherwise <m>\text{gcd}(a,b)</m> would be greater than <m>p</m>.)
+            </p>
+            <p>
+                Now, 
+<md>
+                <mrow> a^2 \amp= p^2\cdot q_1^{2e_1}q_2^{2e_2}\cdots q_k^{2e_k} </mrow>
+                <mrow> b^2 \amp = p^2 \cdot w_1^{2f_1}w_2^{2f_2}\cdots w_l^{2f_l} </mrow>
+             </md> 
+
+             from which we see that <m>\text{gcd}(a^2, b^2)=p^2.</m>
+
+            The others are similar.  The answers are: <m>p</m>, and <m>p^2.</m>
+            </p>
+        </li>
+    </ol>
+    </subsection>
+
+
+    <subsection xml:id="Question_3_1_6">
+    <title> Problem 6</title>
+    <ol marker="(a)">
+        <li>
+            <p>
+                
+            </p>
+        </li>
+        <li>
+            <p>
+                First notice for <m>n=4</m> <m>4 \nmid 3!</m>.
+
+                Let <m>p|n</m>. Since <m>n</m> is composite <m>p &lt; n</m>. Let <m>p^\alpha</m> be the highest power of <m>p</m> that divides <m>n</m>. That is <m>p^\alpha|n</m> and <m>p^{\alpha+1} \nmid n</m>. Then <m>(n-1)!</m> contains factors of <m>p, p^2, \dots p^{\alpha-1}.</m>. (It may also contain a factor of <m>p^\alpha</m>, but not if <m>n=p^\alpha</m>.) So 
+                <md>
+                    p\cdot p^2 \cdots p^{\alpha-1}|(n-1)!
+                </md>
+                
             </p>
         </li>
     </ol>
