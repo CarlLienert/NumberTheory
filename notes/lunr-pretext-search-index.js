@@ -80,6 +80,15 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "Section 3.2",
   "body": " Section 3.2     Problem 6  First, notice that since both and are greater than or equal to 1.  The number must have prime divisors since If there are finitely many primes: , then one of the primes in this list must divide Suppose . If then we'd also have . That is . But this contradicts the construction of and ; divides exactly one of or . Similarly, if we arrive at a contradiction. Hence any prime divisor of is NOT one of the primes . The assumpution there were finitely many primes must be wrong.    Problem 9       For all integers  is even. So is odd and all its prime divisors must also be odd. Let's follow the same idea as above. Let be any prime divisor of . Suppose Then and . That is which is impossible.      Problem 12    For : which is greater than Suppose . Then     Notice: and is odd. So for some integer . On the othen hand perfect squares are always of the form or Thus, is never a perfect square.    Let and reduce this fraction so the numerator and denominator are relatively prime: We have and is a product of some subset of the primes . Now consider If this were an integer we'd have . Clearly , so . This contradicts the construction of can only be divisible by primes . (Note this is the outline of an inductive proof.)     "
+},
+{
+  "id": "Section_3_3",
+  "level": "1",
+  "url": "Section_3_3.html",
+  "type": "Section",
+  "number": "",
+  "title": "Section 3.3",
+  "body": " Section 3.3   Problem 2    Write down the expression described and factor.    Show that must always be of the form and of the form . Then you'll have that and which gives the desired result.      Problem 3  Think about odd and even. What can you say about and if ?    Problem 9    Write down a few examples. One of the three numbers in the list must always be divisible by a particular number. Prove it.      Problem 18  Let be a prime such that The arithmetic progress is where . Our goal is to produce the values of such that Since , there exist integers and such that Let . This is the value we'll use for in the arithmetic progression: Clearly . Also since . This gives the desired result: Notice that each of these constructed terms are apart: If is odd, then so every other term is divisible by    "
 }
 ]
 
