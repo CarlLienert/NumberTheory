@@ -1,0 +1,76 @@
+<!--pretext-->
+    <!--article xml:id="Sec_3_3"-->
+        <section xml:id="Section_3_3">
+        <title>Section 3.3</title>
+
+        <subsection xml:id="Question_3_3_2">
+    <title> Problem 2</title>
+
+    <ol marker="(a)">
+        <li>
+            <p>
+                Write down the expression described and factor.
+            </p>
+        </li>
+        <li>
+            <p>
+                Show that <m>p+(p+2)</m> must always be of the form <m>4k+0</m> and of the form <m>3k+0</m>.  Then you'll have that <m>4|p+p+2</m> and <m>3|p+p+2</m> which gives the desired result.
+            </p>
+        </li>
+    </ol>
+
+        </subsection>
+
+           <subsection xml:id="Question_3_3_3">
+    <title> Problem 3</title>
+<p>
+    Think about odd and even.  What can you say about <m>p</m> and <m>q</m> if <m>p-q=3</m>?
+</p>
+           </subsection>
+
+
+ <subsection xml:id="Question_3_3_9">
+    <title> Problem 9</title>
+    <ol marker="(a)">
+        <li>
+            <p>
+                Write down a few examples. One of the three numbers in the list must <em>always</em> be divisible by a particular number. Prove it.
+            </p>
+        </li>
+    </ol>
+ </subsection>
+
+  <subsection xml:id="Question_3_3_18">
+    <title> Problem 18</title>
+    <p>
+
+    Let <m>p</m> be a prime such that <m>p \nmid b.</m>
+
+    The arithmetic progress is <m>a+kb</m> where <m>k \in \mathbb{Z}.</m>. Our goal is to produce the values of <m>k</m> such that <m>p|a+kb.</m>
+
+    Since <m>p \nmid b</m>, there exist integers <m>r</m> and <m>s</m> such that <md number="yes">
+        pr+bs=1.
+    </md>
+
+    Let <m>n_k=kp-as</m>. This is the value we'll use for <m>k</m> in the arithmetic progression:
+
+    <md>
+        <mrow>a+kb \amp = a+(kp-as)b</mrow>
+        <mrow> \amp = a-asb+kpb</mrow>
+        <mrow> \amp = a(1-sb)+kpb.</mrow>
+    </md>
+
+    Clearly <m>p|kpb</m>. Also <m>p|1-sb</m> since  <m>pr+bs=1</m>.  This gives the desired result: <m>p|a+kb.</m>
+    Notice that each of these constructed terms are <m>p</m> apart: <md>
+        ((k+1)p-as)-(kp-as)=p.
+    </md>
+    
+    If <m>b</m> is odd, then <m>2 \nmid b</m> so every other term is divisible by <m>2.</m>
+
+    </p>
+
+  </subsection>
+        
+        </section>
+            <!--/article-->
+<!--/pretext-->
