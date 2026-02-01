@@ -2,7 +2,46 @@
     <!--article xml:id="Sec_3_3"-->
         <section xml:id="Section_3_3">
         <title>Section 3.3</title>
+<subsection xml:id="Section_3_3_overview">
+    <title> Overview</title>
 
+    <p>
+        
+    This section elaborates on a theme already begun: primes and their distribution in the positive integers is mysterious. We know from the previous section that there are infintely many primes.  But, where are they?!
+    </p> 
+    <subsubsection xml:id="TP">
+        <title>Twin prime conjecture</title>
+        <p>
+        It is conjectured that there are infintitely many primes right next to each other.  For example 3 and 5. Or 11 and 13.  This is an open question: no one has given a proof one way or the other. This illustrates how difficult it is to prove things about primes.
+        </p>
+    </subsubsection>
+    <subsubsection xml:id="LG">
+        <title>Arbitrarily large gaps</title>
+        <p>
+            On the other hand it is easy to find arbitrarily large gaps in the integers where there are NO primes!
+        </p>
+    </subsubsection>
+
+    <subsubsection xml:id="Goldbach">
+        <title>Goldbach conjecture</title>
+        <p>
+            This is yet another very easy to state but unproven conjecture: All integers <m>n</m> can be written <md>
+                n=p+q
+            </md>
+            where <m>p,q</m> are either prime or <m>1</m>.
+            The discussion in the text illustrates how number theorists often do their work. They try to prove a weakened version of the result and work their way towards the stated conjecture.  For example, all sufficiently large integers can be written as the sum of three odd primes has been proven.  
+            
+        </p>
+    </subsubsection>
+
+    <subsubsection xml:id="Dirichlet">
+        <title>Arithmetic Progressions</title>
+        <p>
+            The last portion of this section discusses arithmetic progressions. The main result is that any arithmetic progression of the form given in Theorem 3.7 contains infinitely many primes.  This is remarkable! Imagine walking through the integers.  Start anywhere you like, take any step size you like (well, don't cheat by starting on an even number and taking even sized steps) and you CANNOT avoid stepping on primes. Infinitely many primes!  This result has been proved: by Dirichlet. The title of our book is <em>Elementary</em> Number Theory.  Elementary does not mean <em>easy.</em> Roughly it means without Complex Analysis. (as in complex numbers).  Dirichlet's proof requires Complex Analysis; that's why it isn't in this textbook.
+        </p>
+    </subsubsection>
+
+</subsection>
         <subsection xml:id="Question_3_3_2">
     <title> Problem 2</title>
 
