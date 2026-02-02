@@ -1,0 +1,27 @@
+<!--pretext-->
+    <!--article xml:id="Sec_3_3"-->
+        <section xml:id="Section_4_1and2">
+        <title>Section 4.1 and 4.2</title>
+<subsection xml:id="Section_3_3_overview">
+    <title> Overview</title>
+    <p>
+        Section 4.1 provides a brief biography of Gauss. These sections are interesting; you should read them.
+    </p>
+    <p>
+        Section 4.2 introduces congruences and modular arithmetic.  Among other things this concept simplifies many of the results we've proved using the division algorithm. In particular it focuses on the remainders.  If you go back and look at the things we've proved using the division algorithm, it was always the remainder that was the important part.
+    </p>
+</subsection>
+
+ <subsection xml:id="Question4_2_1">
+    <title> Problem 1</title>
+    <ol marker="(a)">
+        <li>
+            <p>
+                Since <m>a \equiv b \pmod{n}</m>
+            </p>
+        </li>
+    </ol>
+ </subsection>
+            </section>
+            <!--/article-->
+<!--/pretext-->
