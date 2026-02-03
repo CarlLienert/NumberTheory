@@ -47,7 +47,7 @@
  </subsection>
 
   <subsection xml:id="Question4_2_2">
-    <title> Problem 1</title>
+    <title> Problem 2</title>
 <p>
     <md>
         8^2 \equiv 2^2 \pmod{4}
@@ -60,6 +60,89 @@
     To build an example, pick <m>a,b,n</m> such that <m>n|(a-b)(a+b)</m> but <m>n \nmid a-b.</m> An easy way to do this is to distribute the prime factors of <m>n</m> between <m>a-b</m> and <m>a+b</m> such that neither contains all the prime factors of <m>n.</m>
 </p>
   </subsection>
+
+   <subsection xml:id="Question4_2_3">
+    <title> Problem 3</title>
+<p>
+    Let <m>d=\text{gcd}(a,n)</m> and <m>d^\prime=\text{gcd}(b,n).</m>  Then
+    <md>
+        d|a \text{ and } d|n.
+    </md>
+
+    Also, since <m>n|a-b</m>, <m>d|a-b</m>. Since <m>d|a</m> we have <m>d|b.</m> Thus, <m>d|d^\prime.</m>
+    Similarly <m>d^\prime|d</m> and hence <m>d=d^\prime.</m>
+    
+       
+   
+    
+</p>
+
+   </subsection>
+
+     <subsection xml:id="Question4_2_6">
+    <title> Problem 6</title>
+<ol marker="(a)">
+<li>
+    <p>
+        
+    </p>
+</li>
+
+<li> <m>\phantom{line}</m>
+    <p>
+        <md>
+            <mrow>3^{n+2}+4^{2n+1} \amp=3^n3^2+(4^2)^n\cdot 4 </mrow>
+            <mrow> \amp \equiv 9\cdot 3^n+3^n\cdot 4 \pmod{13} </mrow>
+            <mrow> \amp \equiv 13\cdot 3^n \pmod{13}</mrow>
+            <mrow> \amp \equiv 0 \pmod{13}</mrow>
+        </md>
+        
+    </p>
+</li>
+     </ol>
+     </subsection>
+
+       <subsection xml:id="Question4_2_8">
+    <title> Problem 8</title>
+<ol marker="(a)">
+    <li>
+        <p>
+            Consider the possibilities for <m>a</m> modulo 8.  Square each case.
+        </p>
+    </li>
+</ol>
+       </subsection>
+
+
+       <subsection xml:id="Question4_2_17">
+    <title> Problem 17</title>
+<p>
+    Keep in mind that I did this problem on paper first and am presenting it in a "cleaned up" form.
+    
+</p>
+<p>
+    Since <m>b \equiv d \pmod{n}</m>, <m>n|b-d</m> and so <md>
+        d=b-nk
+    </md> for some integer <m>k.</m>
+    Since <m>ab \equiv cd \pmod{n}</m>, 
+    <md>
+        <mrow> \amp  n|ab-cd </mrow>
+        <mrow> \amp n| ab-c(b-nk)</mrow>
+        <mrow> \amp n|ab-cb+cnk.</mrow>
+    </md>
+Since <m>n|cnk</m> we have
+<md>
+    <mrow> \amp n|ab-cb</mrow>
+    <mrow> \amp n|b(a-c)</mrow>.
+</md>
+Finally, since <m>\text{gcd}(n,b)=1</m> we have <md>
+    n|a-c
+</md>
+by Euclid's lemma.  That is, <m>a\equiv c \pmod{n}.</m>
+
+    
+</p>
+</subsection>
             </section>
             <!--/article-->
 <!--/pretext-->
