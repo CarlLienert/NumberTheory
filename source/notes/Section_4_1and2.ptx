@@ -2,7 +2,7 @@
     <!--article xml:id="Sec_3_3"-->
         <section xml:id="Section_4_1and2">
         <title>Section 4.1 and 4.2</title>
-<subsection xml:id="Section_3_3_overview">
+<subsection xml:id="Section_4_1and2_overview">
     <title> Overview</title>
     <p>
         Section 4.1 provides a brief biography of Gauss. These sections are interesting; you should read them.
@@ -17,11 +17,49 @@
     <ol marker="(a)">
         <li>
             <p>
-                Since <m>a \equiv b \pmod{n}</m>
+                Since <m>a \equiv b \pmod{n}</m>, <m>n|(a-b)</m>.  If <m>m|n</m>, then <m>m|(a-b)</m> so <m>a \equiv b \pmod{m}</m>.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                If <m>n|a-b</m>, then <m>nk=a-b</m> for some integer <m>k</m>.   Mutliply by <m>c</m>:
+                <md>
+                    cnk=c(a-b)=ca-cb
+                </md>
+                and notice that <m>cn|ca-cb</m> which gives the desired congruence.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                We have <m>nk=a-b</m> and, since <m>a,b,n</m> are all divisible by <m>d</m> we also have 
+                <md>
+                   \frac{n}{d}k=\frac{a}{d}-\frac{b}{d} 
+                </md>
+                which gives the desired congruence.
+                
+             
+        
             </p>
         </li>
     </ol>
  </subsection>
+
+  <subsection xml:id="Question4_2_2">
+    <title> Problem 1</title>
+<p>
+    <md>
+        8^2 \equiv 2^2 \pmod{4}
+    </md>
+    but 
+    <md>
+        8 \not \equiv 2 \pmod{4}.
+    </md>
+
+    To build an example, pick <m>a,b,n</m> such that <m>n|(a-b)(a+b)</m> but <m>n \nmid a-b.</m> An easy way to do this is to distribute the prime factors of <m>n</m> between <m>a-b</m> and <m>a+b</m> such that neither contains all the prime factors of <m>n.</m>
+</p>
+  </subsection>
             </section>
             <!--/article-->
 <!--/pretext-->
