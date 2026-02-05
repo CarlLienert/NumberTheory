@@ -27,7 +27,7 @@
     <title> Problem 3</title>
     <ol marker="(a)">
         <li>
-            <!--
+            
             <p>
                 Any integer is of one of the following forms:
                 <md>
@@ -36,14 +36,19 @@
                     <mrow> 6k+2 \amp = 3(2k)+2</mrow>
                     <mrow> 6k+3 \amp = 3(2k+1)+0</mrow>
                     <mrow> 6k+4 \amp = 3(2k+1)+1</mrow>
-                    <mrow> 6k+5 \amp 3(2k+1)+2.</mrow>
+                    <mrow> 6k+5 \amp = 3(2k+1)+2.</mrow>
                 </md>
 
                 So, if an integer is of the form <m>3n+1</m>, then it is either of the form <m>6k+1</m> or <m>6k+4</m>. An integer of the form <m>6k+4=2(3k+2)</m> is never prime so a prime of the form <m>3n+1</m> must also of the form <m>6m+1</m>.
                 
                
             </p>
-        -->
+
+            <p>
+                Or:
+                Except for <m>p=2</m> and <m>p=3</m> all primes are congruent to either <m>1</m>   or <m>5</m> modulo 6. If <m>p \equiv 5 \pmod{6}</m>, then <m>p\equiv  2\pmod{3}.</m> So, all primes <m>p\equiv 1 \pmod{3}</m> must be <m>p\equiv 1 \pmod{6}.</m>
+            </p>
+        
         </li>
 
         <li>
@@ -69,7 +74,7 @@
         </li>
 
         <li>
-            <!--
+            
             <p>
                 Let <m>p</m> be prime and suppose <m>3p+1=k^2</m> for some integer <m>k</m>. Then <md>
                     3p=k^2-1=(k-1)(k+1).
@@ -77,7 +82,7 @@
                 By the FTA <m>3=k-1</m> and <m>p=k+1</m>.  This has only one solution: <m>k=4</m> and hence <m>p=5.</m>
                 
             </p>
-        -->
+        
         </li>
         <li>
             <p>
