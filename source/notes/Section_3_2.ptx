@@ -44,11 +44,14 @@
     <title> Problem 9</title>
     <ol marker="(a)">
         <li>
-            <!--
+            
             <p>
-                Following the hint: If <m>n!-1</m> is prime, we are done. Suppose <m>n!-1</m> is not prime, then <m>n!-1</m> has a prime divisor: <m>p|n!-1.</m>  Clearly, <m>p &lt; n!-1 &lt; n!.</m> Suppose <m>p \leq n.</m> Then <m>p</m> is in the product expansion of <m>n!</m> and <m>p|n!.</m> But, since also <m>p|n!-1</m> so <m>p|1</m> which is impossible. So, <m>p&gt; n</m>.
+                Following the hint: If <m>n!-1</m> is prime, we are done. 
             </p>
-        -->
+            <p>
+                Suppose <m>n!-1</m> is not prime, then <m>n!-1</m> has a prime divisor: <md>p|n!-1.</md>  Clearly, <m>p &lt; n!-1 &lt; n!.</m> Suppose <m>p \leq n.</m> Then <m>p</m> is in the product expansion of <m>n!</m> and so <m>p|n!.</m> But, since also <m>p|n!-1</m> so <m>p|1</m> which is impossible. So, <m>p&gt; n</m>.
+            </p>
+        
         </li>
         <li>
             <p>
