@@ -109,6 +109,26 @@
     </p>
 
   </subsection>
+
+    <subsection xml:id="Question_3_3_24">
+    <title> Problem 24</title>
+    <p>
+        Except for <m>p=2</m> and <m>p=3</m>, all primes are congruent to either <m>1</m> or <m>5</m> modulo 6.
+        Suppose <m>p</m> is the first of a twin pair.  That is, <m>q=p+2</m> is the second. 
+    </p>
+        
+        <p> If <m>p\equiv 1 \pmod{6}</m>, then <m>q\equiv 3 \pmod{6}</m> which is only prime if <m>q=3</m>. 
+        </p>
+          <p>  Thus, if  <m>p</m> is the first of a twin prime pair, <m>p\equiv 5 \pmod{6}</m>.  The second prime <m>q\equiv 1 \pmod {6}.</m> Then <md>
+            <mrow>pq-2 \amp \equiv 3 \pmod{6}</mrow>
+        </md> which, again, is prime only if <m>pq-2=3.</m> But this would give <m>pq=5</m> which is impossible.
+    </p>
+
+    <p>
+        This leaves <m>p=3</m> and <m>q=5</m>. Check that <m>pq-2=13</m> which is indeed prime.  The only twin prime pair such that <m>pq-2</m> is also prime is <m>p=3</m> and <m>q=5.</m>
+        
+    </p>
+    </subsection>
         
         </section>
             <!--/article-->
