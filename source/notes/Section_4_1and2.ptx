@@ -143,6 +143,27 @@ by Euclid's lemma.  That is, <m>a\equiv c \pmod{n}.</m>
     
 </p>
 </subsection>
+
+     <subsection xml:id="Question4_2_18">
+    <title> Problem 18</title>
+<p>
+    We have:
+    <md>
+        <mrow>\amp n_1|a-b  </mrow>
+        <mrow> \amp n_2|a-c.</mrow>
+    </md>
+    Let <m>\text{gcd}(n_1,n_2)=n</m>, then 
+    <md number="yes">
+        <mrow> \amp n|a-b</mrow>
+        <mrow> \amp n|a-c</mrow>
+    </md>
+    So, <md>
+        <mrow> \amp n|(a-b)-(a-c)</mrow>    
+        <mrow> \amp n|c-b .</mrow>
+    </md>
+    That is, <m>c\equiv b \pmod{n}.</m>
+</p>
+     </subsection>
             </section>
             <!--/article-->
 <!--/pretext-->

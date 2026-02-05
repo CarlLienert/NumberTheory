@@ -52,7 +52,7 @@
         </li>
         <li>
             <p>
-                For all integers <m>n>1</m> <m>n!</m> is even. So <m>n!+1</m> is odd and all its prime divisors must also be odd. Let's follow the same idea as above.  Let <m>p</m> be any prime divisor of <m>n!+1.</m>. Suppose <m>p \leq n.</m> Then <m>p|n!</m> and <m>p|(n!+1)-(n!)</m>. That is <m>p!|1</m>  which is impossible.
+                For all integers <m>n>1</m> <m>n!</m> is even. So <m>n!+1</m> is odd and all its prime divisors must also be odd. Let's follow the same idea as above.  Let <m>p</m> be any prime divisor of <m>n!+1.</m> Suppose <m>p \leq n.</m> Then <m>p|n!</m> and <m>p|(n!+1)-(n!)</m>. That is <m>p|1</m>  which is impossible.
             </p>
         </li>
     </ol>
