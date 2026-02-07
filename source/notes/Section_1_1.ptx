@@ -4,7 +4,7 @@
     <!--article xml:id="Sec_1_1"-->
         <section xml:id="Section_1_1">
         <title>Section 1.1</title>
-        
+      <!--  
 <subsection xml:id="Problem_1_1_1">
 <title> Problem 1</title>
  <ol marker="(a)">  
@@ -32,7 +32,7 @@
  </ol>
 
 </subsection>
-
+        -->
             
 <subsection xml:id="Problem_1_1_6">
 <title> Problem 6</title>
@@ -74,7 +74,7 @@ We have shown that <m>n!&gt;n^2</m> implies <m>(n+1)!&gt;(n+1)^2</m>, and we hav
 </exercise>-->
 </subsection>
 
-
+<!--
 
 <subsection xml:id="Problem_1_1_7">
 <title> Problem 7 - quiz solutions</title>
@@ -95,7 +95,7 @@ Consider:
 
 </subsection>
 
-
+-->
 
 <subsection xml:id="Problem_1_1_8">
 <title> Problem 8</title>
