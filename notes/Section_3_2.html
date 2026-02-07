@@ -101,7 +101,7 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.11.12';
+eBookConfig.runestone_version = '7.11.13';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
@@ -247,6 +247,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Section_3_3.html#Question_3_3_3" class="internal"><span class="title">Problem 3</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Section_3_3.html#Question_3_3_9" class="internal"><span class="title">Problem 9</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Section_3_3.html#Question_3_3_18" class="internal"><span class="title">Problem 18</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Section_3_3.html#Question_3_3_24" class="internal"><span class="title">Problem 24</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -259,6 +260,16 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Section_4_1and2.html#Question4_2_6" class="internal"><span class="title">Problem 6</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Section_4_1and2.html#Question4_2_8" class="internal"><span class="title">Problem 8</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Section_4_1and2.html#Question4_2_17" class="internal"><span class="title">Problem 17</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Section_4_1and2.html#Question4_2_18" class="internal"><span class="title">Problem 18</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="Quiz_4.html" class="internal"><span class="title">Quiz 4</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Quiz_4.html#Quiz_4_Solutions" class="internal"><span class="title">Question 1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Quiz_4.html#Quiz_4_2" class="internal"><span class="title">Question 2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Quiz_4.html#Quiz_4_3" class="internal"><span class="title">Question 3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Quiz_4.html#Quiz_4_4" class="internal"><span class="title">Question 4</span></a></div></li>
 </ul>
 </li>
 </ul></nav></div>
@@ -277,11 +288,23 @@ eBookConfig.enable_chatcodes =  false;
 </h3>
 <ol class="lower-alpha ol-marker-1" id="Question_3_2_9-2">
 <li id="Question_3_2_9-2-1">
-<div class="para" id="p-derived-Question_3_2_9-2-1"></div>
+<div class="para" id="Question_3_2_9-2-1-1">Following the hint: If <span class="process-math">\(n!-1\)</span> is prime, we are done.<div class="autopermalink" data-description="Paragraph"><a href="#Question_3_2_9-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="Question_3_2_9-2-1-2">
+<div class="para">Suppose <span class="process-math">\(n!-1\)</span> is not prime, then <span class="process-math">\(n!-1\)</span> has a prime divisor:</div>
+<div class="displaymath process-math" id="Question_3_2_9-2-1-2-3">
+\begin{equation*}
+p|n!-1.
+\end{equation*}
+</div>
+<div class="para">Clearly, <span class="process-math">\(p &lt; n!-1 &lt; n!.\)</span> Suppose <span class="process-math">\(p \leq n.\)</span> Then <span class="process-math">\(p\)</span> is in the product expansion of <span class="process-math">\(n!\)</span> and so <span class="process-math">\(p|n!.\)</span> But, since also <span class="process-math">\(p|n!-1\)</span> so <span class="process-math">\(p|1\)</span> which is impossible. So, <span class="process-math">\(p&gt; n\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Question_3_2_9-2-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <div class="autopermalink" data-description="Item a"><a href="#Question_3_2_9-2-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
 </li>
 <li id="Question_3_2_9-2-2">
-<div class="para" id="Question_3_2_9-2-2-1">For all integers <span class="process-math">\(n&gt;1\)</span> <span class="process-math">\(n!\)</span> is even. So <span class="process-math">\(n!+1\)</span> is odd and all its prime divisors must also be odd. Let’s follow the same idea as above.  Let <span class="process-math">\(p\)</span> be any prime divisor of <span class="process-math">\(n!+1.\text{.}\)</span> Suppose <span class="process-math">\(p \leq n.\)</span> Then <span class="process-math">\(p|n!\)</span> and <span class="process-math">\(p|(n!+1)-(n!)\text{.}\)</span> That is <span class="process-math">\(p!|1\)</span>  which is impossible.<div class="autopermalink" data-description="Paragraph"><a href="#Question_3_2_9-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="Question_3_2_9-2-2-1">For all integers <span class="process-math">\(n&gt;1\)</span> <span class="process-math">\(n!\)</span> is even. So <span class="process-math">\(n!+1\)</span> is odd and all its prime divisors must also be odd. Let’s follow the same idea as above.  Let <span class="process-math">\(p\)</span> be any prime divisor of <span class="process-math">\(n!+1.\)</span> Suppose <span class="process-math">\(p \leq n.\)</span> Then <span class="process-math">\(p|n!\)</span> and <span class="process-math">\(p|(n!+1)-(n!)\text{.}\)</span> That is <span class="process-math">\(p|1\)</span>  which is impossible.<div class="autopermalink" data-description="Paragraph"><a href="#Question_3_2_9-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item b"><a href="#Question_3_2_9-2-2" title="Copy heading and permalink for Item b" aria-label="Copy heading and permalink for Item b">🔗</a></div>
 </li>
