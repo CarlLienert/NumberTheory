@@ -1,0 +1,65 @@
+  <section xml:id="Quiz_4">
+        <title>Quiz 4</title>
+<subsection xml:id="Quiz_4_Solutions">
+    <title>Question 1</title>
+
+    <p> The idea is to use the Fundamental Theorem of Arithmetic.
+        Since <m>p|a^n</m>, <m>p|a.</m> 
+        
+    </p>
+    
+    <p>(This follows from Corollary 1 to Theorem 3.1.   You don't need to be able to cite the Theorem/Corollary.) </p>
+        
+
+    <p>
+
+        Thus, we can write <m>a</m> as
+        <md>
+            a=p\cdot p_1^{e_1}p_s^{e_2}\cdots p_t^{e_t}
+        </md>
+    </p>
+        <p>(alterntively you could simply write <m>a=p\cdot w</m>)</p>
+            
+        <p>
+
+        Then <md>
+            a^n=p^n\cdot p_1^{ne_1}p_s^{ne_2}\cdots p_t^{ne_t}
+        </md>
+
+        and hence <m>p^n|a^n.</m>
+    </p>
+
+    </subsection>
+
+    <subsection xml:id="Quiz_4_2">
+    <title>Question 2</title>
+    <p>
+        Counter-example: <m>12|6^2</m>, <m>12^2 \nmid 6^2</m>
+    </p>
+    </subsection>
+
+    <subsection xml:id="Quiz_4_3">
+    <title>Question 3</title>
+
+    <p>
+        
+   
+ For all integers <m>n>1</m>, <m>n!</m> is even. So <m>n!+1</m> is odd and all its prime divisors must also be odd.   Let <m>p</m> be any prime divisor of <m>n!+1.</m> Suppose <m>p \leq n.</m> Then <m>p|n!</m> and so <m>p|(n!+1)-(n!)</m>. That is, <m>p|1</m>  which is impossible.
+ </p>
+</subsection>
+
+  <subsection xml:id="Quiz_4_4">
+    <title>Question 4</title>
+
+    <p>
+        
+ The difference of two odd integers is even.  So,  
+if <m>p-q=3</m> then <m>q=2.</m>  (Clearly <m>2-q=3</m> won't work.) Then <md>
+    <mrow>p-2 \amp = 3 </mrow>
+    <mrow>p \amp =5 </mrow>
+</md>
+
+ </p>
+</subsection>
+</section>
+        
