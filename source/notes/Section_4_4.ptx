@@ -1,14 +1,71 @@
  <section xml:id="Section_4_4">
         <title>Section 4.4</title>
 <subsection xml:id="Question_4_4_1">
+     <title>Problem 1</title>
     <ol marker="(a)">
         <li>
             <p>
                 
             </p>
         </li>
+        <li>
+            <p>
+                
+            </p>
+        </li>
+        <li>
+            <p>
+                <m>\text{gcd}(6,21)=3</m> and <m>3|21</m> so the congruence has solutions, and, in fact <m>3</m> incongruent solutions.  In this example, it is easy to fish for a solution: <m>x=6</m> works.
+                The three solutions are then
+                <md>
+                    6, 6+\frac{21}{3}=13, 6+2\cdot \frac{21}{3}=20
+                </md>
+                
+            </p>
+        </li>
+        <li>
+            <p>
+                The numbers are a little larger here.  The Euclidean algorthim can be used to find <m>\text{gcd}(36, 102)=6</m> and <m>6 \nmid 8</m> so there are no solutions to the congruence.
+            </p>
+        </li>
+        <li>
+            <p>
+                
+            </p>
+        </li>
+        <li>
+            <p>
+                Use the Euclidean Algorithm to find <m>\text{gcd}(140,301)=7</m>.  Since <m>7|133</m> there are solutions.  We can use the Euclidean Algorthim to find one solution.  From working the Euclidean Algorithm backwards we have 
+                <md>
+                    -15\cdot 140 + 7\cdot 301=7
+                </md> and
+
+                <md>
+                    (-15 \cdot 19 )140+(7\cdot 19)301=133
+                </md>
+                and reduce modulo <m>301</m> to obtain:
+
+                <md>
+                    <mrow> 140\cdot -285 \amp \equiv 133 \pmod{301}</mrow>
+                    <mrow>140 \cdot 16 \amp  \equiv 133 \pmod{301}.</mrow>
+                </md>
+                
+                The seven incongruent solutions are:
+                <md>
+                    16, 16+\frac{301}{7}=59, 16+2\cdot43=102, 145, 188, 231, 274.
+                </md>
+                
+                
+                
+            </p>
+        </li>
     </ol>
 
 
+</subsection>
+
+<subsection xml:id="subsec-Question_4_4_4">
+    <title>Problem 4</title>
+    
 </subsection>
 </section>
