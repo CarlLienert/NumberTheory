@@ -66,6 +66,81 @@
 
 <subsection xml:id="subsec-Question_4_4_4">
     <title>Problem 4</title>
-    
+    <ol marker="(a)">
+        <li>
+            <p>
+                
+            </p>
+        </li>
+        <li>
+            <p>
+                We build a solution of the form 
+                <md>
+                    x(29)(31)+y(11)(31)+z(11)(29)
+                </md>
+                where
+                <md>
+                    <mrow>(29)(31)x  \amp \equiv 5 \pmod{11}</mrow>
+                    <mrow> (11)(31)y \amp \equiv 14 \pmod{29} </mrow>
+                    <mrow> (11)(29)z  \amp \equiv 15 \pmod{31}.</mrow>
+                </md>
+
+                Here is a solution to the first of the congruences:
+
+                <md>
+                    <mrow>(7)(9)x  \amp \equiv 5 \pmod{11} </mrow>
+                    <mrow> 63 x \amp \equiv 5 \pmod{11} \amp </mrow>
+                    <mrow> 8x \amp \equiv 5 \pmod{11}</mrow>
+                    <mrow> x \amp \equiv 2 \pmod{11}. </mrow>
+                </md>
+
+                The second:
+
+                <md>
+                    <mrow>(11)(31)y \amp \equiv 14 \pmod{29} </mrow>
+                     <mrow>(11)(2)y \amp \equiv 14 \pmod{29} </mrow>
+                     <mrow>22y \amp \equiv 14 \pmod{29} </mrow>
+                      <mrow>-7y \amp \equiv 14 \pmod{29} </mrow>
+                      <mrow>y \amp \equiv -2 \equiv 27 \pmod{29} .</mrow>
+                </md>
+                
+                Similarly, you'll find <m>z=12.</m>
+
+                Then, the solution is:
+                <md>2(29)(31)+27(11)(31)+12(11)(29)=14833 \equiv 4944 \pmod{9889}</md>
+                where the modulus is <m>9889=11\cdot29\cdot 31.</m>
+                
+                
+                
+            </p>
+        </li>
+    </ol>
 </subsection>
+
+<subsection xml:id="subsec-Question_4_4_13">
+    <title>Problem 13</title>
+    <p> 
+        If <m>x \equiv a \pmod{n}</m>, then  <m>nk=x-a</m> from some integer <m>k</m>.
+        If <m>k</m> is even we can write 
+        <md>
+            2n\cdot \frac{k}{2}=x-a
+        </md>
+        and since <m>\frac{k}{2}</m> is an integer this gives 
+        <md>
+            x \equiv a \pmod{2n}.
+        </md>
+        If <m>k</m> is odd subtract <m>n</m> from both sides of <m>nk=x-a</m> to obtain:
+        <md>
+            <mrow> nk-n \amp = x-(a+n)</mrow>
+            <mrow> n(k-1) \amp = x-(a+n)</mrow>
+            <mrow> 2n\cdot \frac{k-1}{2} \amp = x-(a+n) </mrow>
+        </md>
+        and since <m>\frac{k-1}{2}</m> is an integer, we have 
+        <md>x \equiv a+n \pmod{2n}.</md>
+        
+        
+        
+    </p>
+</subsection>
+
 </section>
