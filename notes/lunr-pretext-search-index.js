@@ -109,6 +109,15 @@ var ptx_lunr_docs = [
   "body": " Section 4.4   Problem 1             and so the congruence has solutions, and, in fact incongruent solutions. In this example, it is easy to fish for a solution: works. The three solutions are then     The numbers are a little larger here. The Euclidean algorthim can be used to find and so there are no solutions to the congruence.        Use the Euclidean Algorithm to find . Since there are solutions. We can use the Euclidean Algorthim to find one solution. From working the Euclidean Algorithm backwards we have and and reduce modulo to obtain: The seven incongruent solutions are:       Problem 4        We build a solution of the form where Here is a solution to the first of the congruences: The second: Similarly, you'll find Then, the solution is: where the modulus is       Problem 13  If , then from some integer . If is even we can write and since is an integer this gives If is odd subtract from both sides of to obtain: and since is an integer, we have    "
 },
 {
+  "id": "Section_5_2",
+  "level": "1",
+  "url": "Section_5_2.html",
+  "type": "Section",
+  "number": "",
+  "title": "Section 5.2",
+  "body": " Section 5.2   Problem 1     so          and You might notice 493 is not prime. Repeat for the prime factorization.      Problem 1    Let Use the Euclidean algorithm to find  then        Let and Notice is not prime.      Problem 7        From the hint so Let and      "
+},
+{
   "id": "Quiz_4",
   "level": "1",
   "url": "Quiz_4.html",
