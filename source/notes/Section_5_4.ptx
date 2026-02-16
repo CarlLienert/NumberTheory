@@ -1,0 +1,100 @@
+<section xml:id="Section_5_4">
+        <title>Section 5.4</title>
+<subsection xml:id="Question_5_4_1">
+     <title>Problem 1</title>
+     <ol marker="(a)">
+        <li>
+            <p>
+                <md>
+                    48^2-2279=15=5^2
+                </md>
+              so  
+<md>
+    2279=48^2-5^2=(48-5)(48+5)=43\cdot 53.
+</md>
+                
+            </p>
+        </li>
+        <li>
+            <p>
+                
+            </p>
+        </li>
+        <li>
+            <p>
+                <md>
+                    <mrow>584^2-340663\amp =393 \text{ not a square} </mrow>
+                    <mrow> 585^2-340663 \amp = 1562 \text{ not a square}</mrow>
+                    <mrow> 586^2 -340663 \amp = 2733 \text{ not a square}</mrow>
+                    <mrow> 587^2 - 340663 \amp = 3906 \text{ keep going, until you find:}</mrow>
+                    <mrow> 592^2-340663 \amp = 9801=99^2 </mrow>
+                </md>
+and
+<md>
+    340663=592^2-99^2=(592-99)(592+99)=493 \cdot 691.
+</md>
+                You might notice 493 is not prime.  Repeat for the prime factorization.
+            </p>
+        </li>
+     </ol>
+</subsection>
+
+<subsection xml:id="Question_5_4_5">
+     <title>Problem 1</title>
+     <ol marker="(a)">
+        <li>
+            <p>
+                Let <m>d=\text{gcd}(138-67, 2911).</m> Use the Euclidean algorithm to find <m>d=71.</m>
+            </p>
+            then 
+
+            <md>
+                2911=71\cdot 41
+            </md>
+            
+        </li>
+
+        <li>
+            <p>
+            </p>
+        </li>
+<li>
+        <p>
+            Let <m>d=\text{gcd}(208-93, 6923)=23</m> and
+            <m>6923=23\cdot301.</m>  Notice <m>301</m> is not prime.
+        </p>
+     </li>
+
+     </ol>
+     
+</subsection>
+
+<subsection xml:id="Question_5_4_7">
+     <title>Problem 7</title>
+     <ol marker="(a)">
+        <li>
+            <p>
+                
+            </p>
+        </li>
+        <li>
+            <p>
+                From the hint
+                <md>
+                    <mrow> 120^2-14429  \amp = -29</mrow>
+                    <mrow> 3003^2 - 14429 \amp = -2^2\cdot 29</mrow>
+                </md>
+                so 
+                <md>
+                    <mrow> 120^2 \amp \equiv  -29 \pmod{14429}</mrow>
+                    <mrow> 3003^2 \amp \equiv  -2^2\cdot 29 \pmod{14429}</mrow>
+                    <mrow> (120\cdot 3003)^2 \amp \equiv (2 \cdot 29)^2 \pmod{14429}</mrow>
+                    <mrow> 14064^2 \amp \equiv 58^2 \pmod{14429}.</mrow>
+                </md>
+                Let <m>d=\text{gcd}(14064-58, 14429)=47</m> and <m>14429=47\cdot 307.</m>
+                
+            </p>
+        </li>
+     </ol>
+</subsection>
+</section>

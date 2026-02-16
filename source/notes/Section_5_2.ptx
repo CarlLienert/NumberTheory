@@ -1,76 +1,50 @@
 <section xml:id="Section_5_2">
         <title>Section 5.2</title>
-<subsection xml:id="Question_5_2_1">
-     <title>Problem 1</title>
+<subsection xml:id="Question_5_2_2">
+     <title>Problem 2</title>  
      <ol marker="(a)">
         <li>
             <p>
-                <md>
-                    48^2-2279=15=5^2
-                </md>
-              so  
-<md>
-    2279=48^2-5^2=(48-5)(48+5)=43\cdot 53.
-</md>
                 
             </p>
         </li>
         <li>
             <p>
+                Since <m>42=2\cdot3\cdot 7</m>, and since <m>\text{gcd}(a,42)=1</m>, we also have <m>\text{gcd}(a,2)=\text{gcd}(a,3)=\text{gcd}(a,7)=1.</m>
+                Then, rrom Fermat's theorem we have:
+                <md>
+                    a^2\equiv 1 \pmod{3},
+                </md>
+                cube both sides to obtain
+                <md>
+                    a^6 \equiv 1 \pmod{3}.
+                </md>
+                Also, from Fermat's theorem
+                <md>
+                    a^6 \equiv 1 \pmod{7}.
+                </md>
+                Since <m>\text{gcd}(a,2)=1</m>, <m>a</m> is odd.  Thus, <m>a</m> is congruent to 1, 3, 5, or 7 modulo 8.  Square each of these possibilities to see that <m>a^2 \equiv 1 \pmod{8}.</m> Cubing gives <m>a^6 \pmod{8}.</m>
+                Since the moduli 3, 7, and 8 are pairwise relatively prime we can combine these three congruences to obtain <m>a^6 \equiv 1 \pmod{3\cdot 7 \cdot 8}.</m>
+                    
+             
+                
                 
             </p>
         </li>
-        <li>
-            <p>
-                <md>
-                    <mrow>584^2-340663\amp =393 \text{ not a square} </mrow>
-                    <mrow> 585^2-340663 \amp = 1562 \text{ not a square}</mrow>
-                    <mrow> 586^2 -340663 \amp = 2733 \text{ not a square}</mrow>
-                    <mrow> 587^2 - 340663 \amp = 3906 \text{ keep going, until you find:}</mrow>
-                    <mrow> 592^2-340663 \amp = 9801=99^2 </mrow>
-                </md>
-and
-<md>
-    340663=592^2-99^2=(592-99)(592+99)=493 \cdot 691.
-</md>
-                You might notice 493 is not prime.  Repeat for the prime factorization.
-            </p>
-        </li>
-     </ol>
+     </ol>            
 </subsection>
 
-<subsection xml:id="Question_5_2_5">
-     <title>Problem 1</title>
-     <ol marker="(a)">
-        <li>
-            <p>
-                Let <m>d=\text{gcd}(138-67, 2911).</m> Use the Euclidean algorithm to find <m>d=71.</m>
-            </p>
-            then 
-
-            <md>
-                2911=71\cdot 41
-            </md>
-            
-        </li>
-
-        <li>
-            <p>
-            </p>
-        </li>
-<li>
-        <p>
-            Let <m>d=\text{gcd}(208-93, 6923)=23</m> and
-            <m>6923=23\cdot301.</m>  Notice <m>301</m> is not prime.
-        </p>
-     </li>
-
-     </ol>
+<subsection xml:id="Question_5_2_3">
+     <title>Problem 3</title>  
+     <p>
+        
      
+     This divisibililty statement is the same as showing <m>11^{12n+6} \equiv -1 \pmod{13}.</m>
+     </p>
 </subsection>
 
-<subsection xml:id="Question_5_2_7">
-     <title>Problem 7</title>
+<subsection xml:id="Question_5_2_4">
+     <title>Problem 4</title>  
      <ol marker="(a)">
         <li>
             <p>
@@ -79,22 +53,79 @@ and
         </li>
         <li>
             <p>
-                From the hint
+                
+            </p>
+        </li>
+        <li>
+            <p>
+                We start with three results from Fermat's theorem:
                 <md>
-                    <mrow> 120^2-14429  \amp = -29</mrow>
-                    <mrow> 3003^2 - 14429 \amp = -2^2\cdot 29</mrow>
+                    <mrow> a^3 \amp \equiv a \pmod{3} </mrow>
+                    <mrow> a^7 \amp \equiv a \pmod{7} </mrow>
+                    <mrow> a^{13} \amp \equiv a \pmod{13}. </mrow>
                 </md>
-                so 
+
+                From the first:
                 <md>
-                    <mrow> 120^2 \amp \equiv  -29 \pmod{14429}</mrow>
-                    <mrow> 3003^2 \amp \equiv  -2^2\cdot 29 \pmod{14429}</mrow>
-                    <mrow> (120\cdot 3003)^2 \amp \equiv (2 \cdot 29)^2 \pmod{14429}</mrow>
-                    <mrow> 14064^2 \amp \equiv 58^2 \pmod{14429}.</mrow>
+                    a^{13} \equiv (a^3)^4\cdot a \equiv a^5 \equiv a^3 \cdot a^2 \equiv a \cdot a^2 \equiv a   \pmod{3}. 
                 </md>
-                Let <m>d=\text{gcd}(14064-58, 14429)=47</m> and <m>14429=47\cdot 307.</m>
+
+                From the second:
+                <md>
+                    a^{13} \equiv a^7 \cdot a^6 \equiv a \cdot a^6 \equiv a^7 \equiv a \pmod{7}.
+                </md>
+
+                The third doesn't need any extra work.  Use the lemma from class to combine:
+
+                <md>
+                    a^{13} \equiv a \pmod{3\cdot 7 \cdot 13}.
+                </md>
+                
+                
                 
             </p>
         </li>
      </ol>
 </subsection>
+
+<subsection xml:id="Question_5_2_9">
+     <title>Problem 9</title>  
+<p>
+    This question illustrates an alternative to the Eucldian algorithm for finding an initial solution to a linear congruence.
+</p>
+
+<p>
+    If <m>\text{gcd}(a,p)=1</m> then <m>a^{p-1}\equiv 1 \pmod{p}.</m>
+    Multiply both sides of the linear congruence by <m>a^{p-2}:</m>
+    <md>
+        <mrow>ax  \amp \equiv b \pmod{p} </mrow>
+        <mrow> a\cdot a^{p-2} x \amp \equiv a^{p-2} b \pmod{p}</mrow>
+        <mrow>a^{p-1} x \amp \equiv a^{p-2} b \pmod{p} </mrow>
+        <mrow> x \amp \equiv a^{p-2} b \pmod{p} </mrow>
+    </md>
+    
+</p>
+<p>
+    We'll illustrate with one of the linear congruences. The others are similar.
+    For <m>6x \equiv 5 \pmod{11}</m> we need to compute <m>5 \cdot 6^{9} \pmod{11}.</m>
+    <md>
+        <mrow> 6^2 \amp \equiv 36 \equiv 3 \pmod{11} </mrow>
+        <mrow> 6^4 \amp \equiv 3 \cdot 3 \equiv 9 \pmod{11}</mrow>
+        <mrow> 6^8 \amp \equiv 81 \equiv 4 \pmod{11} </mrow>
+        <mrow> 6^9 \amp \equiv 6^8\cdot 6 \equiv 24 \equiv 2 \pmod{11} </mrow>
+        <mrow> 5 \cdot 6^9  \amp \equiv 10 \pmod{11}.</mrow>
+    </md>
+
+    It is easy to check: <m>6\cdot 10 -5=55</m> which is divisible by 11.
+    
+</p>
+</subsection>
+
+<subsection xml:id="Question_5_2_13">
+     <title>Problem 13</title>  
+     <p>
+        This is similar to other problems we've done in this assignment.
+     </p>
+</subsection>
+
 </section>
