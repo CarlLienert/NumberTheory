@@ -115,7 +115,25 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Section 5.2",
-  "body": " Section 5.2   Problem 1     so          and You might notice 493 is not prime. Repeat for the prime factorization.      Problem 1    Let Use the Euclidean algorithm to find  then        Let and Notice is not prime.      Problem 7        From the hint so Let and      "
+  "body": " Section 5.2   Problem 2        Since , and since , we also have Then, rrom Fermat's theorem we have: cube both sides to obtain Also, from Fermat's theorem Since , is odd. Thus, is congruent to 1, 3, 5, or 7 modulo 8. Square each of these possibilities to see that Cubing gives Since the moduli 3, 7, and 8 are pairwise relatively prime we can combine these three congruences to obtain       Problem 3  This divisibililty statement is the same as showing     Problem 4            We start with three results from Fermat's theorem: From the first: From the second: The third doesn't need any extra work. Use the lemma from class to combine:       Problem 9  This question illustrates an alternative to the Eucldian algorithm for finding an initial solution to a linear congruence.  If then Multiply both sides of the linear congruence by    We'll illustrate with one of the linear congruences. The others are similar. For we need to compute  It is easy to check: which is divisible by 11.    Problem 13  This is similar to other problems we've done in this assignment.   "
+},
+{
+  "id": "Section_5_3",
+  "level": "1",
+  "url": "Section_5_3.html",
+  "type": "Section",
+  "number": "",
+  "title": "Section 5.3",
+  "body": " Section 5.3   Problem 1   "
+},
+{
+  "id": "Section_5_4",
+  "level": "1",
+  "url": "Section_5_4.html",
+  "type": "Section",
+  "number": "",
+  "title": "Section 5.4",
+  "body": " Section 5.4   Problem 1     so          and You might notice 493 is not prime. Repeat for the prime factorization.      Problem 1    Let Use the Euclidean algorithm to find  then        Let and Notice is not prime.      Problem 7        From the hint so Let and      "
 },
 {
   "id": "Quiz_4",
