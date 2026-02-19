@@ -2,8 +2,135 @@
         <title>Section 5.3</title>
 <subsection xml:id="Question_5_3_1">
      <title>Problem 1</title>
-     
+     <ol marker="(a)">
+        <li>
+                <p>
+                        
+                </p>
+        </li>
+        <li>
+                <p>
+                        From Wilson's Theorem we have <m>28! \equiv -1 \pmod{29} .</m>
+                        We build from there:
+                        <md>
+                                <mrow> 28! \amp \equiv -1 \pmod{29}</mrow>
+                                <mrow> 26!\cdot 27 \cdot 28 \amp \equiv -1 \pmod{29} </mrow>
+                                <mrow> 26! \cdot (-2) \cdot (-1) \amp \equiv -1 \pmod{29}</mrow>
+                                <mrow> 26! \cdot (-1) \cdot (2) \cdot (-1)  \amp \equiv -1 \pmod{29}</mrow>
+                                <mrow>2\cdot 26!  \amp \equiv -1 \pmod{29}.</mrow>
+                        </md>
+                        So, the remainder when <m>2\cdot 26!</m> is divided by <m>29</m> is <m>28</m>.
+                </p>
+        </li>
+     </ol>
 </subsection>
 
+<subsection xml:id="Question_5_3_6">
+     <title>Problem 6</title>
+     <p>
+        First, notice the the modulus can be simplified:
+        <md>
+                1+2+\cdots + (p-1)=\frac{p(p-1)}{2}.
+        </md>
+        We need to show that
+        <md>
+               \left. \frac{p(p-1)}{2} \right \rvert (p-1)!-(p-1).
+        </md>
+        Clearly <md>\left. \frac{p-1}{2} \right \rvert p-1.</md>
+
+        From Wilson's Theorem we have
+        <md>
+                <mrow> (p-1)! \amp \equiv -1 \pmod{p}  </mrow>
+                <mrow> (p-2)! (p-1)  \amp \equiv -1 \pmod{p} </mrow>
+                <mrow> (p-2)!  \amp   \equiv 1 \pmod{p}. </mrow>
+                
+        </md>
+        That is, 
+        <md>
+                p | (p-2)!-1.
+        </md>
+        
+        
+        Since
+        <md>
+                (p-1)!-(p-1)=(p-1)((p-2)!-1)
+        </md>
+        we have the desired result.
+        
+     </p>
+</subsection>
+
+<subsection xml:id="Question_5_3_10">
+     <title>Problem 10</title>
+     <ol marker="(a)">
+        <li>
+                <p>
+                        From the work in Theorem 5.5 we have
+                        <md>
+                                -1 \equiv (-1)^{\frac{p-1}{2}} \left[\left(\frac{p-1}{2}\right)!\right]^2 \pmod{p}.
+                        </md>
+                        If <m>p \equiv 3 \pmod{4}</m>, then <m>(-1)^{\frac{p-1}{2}}=-1</m> and the above becomes
+                        <md>
+                                1 \equiv  \left[\left(\frac{p-1}{2}\right)!\right]^2 \pmod{p}.
+                        </md>
+                       Thus, 
+                       <md>
+                        \left(\frac{p-1}{2}\right)! \equiv \pm 1 \pmod{p}.
+                       </md>
+                       
+                </p>
+        </li>
+        <li>
+                <p> Consider:
+
+                        <md>
+                                <mrow> 
+                                2\cdot 4 \cdot 6 \cdots (p-1) \amp  = 2(1)\cdot 2(2) \cdot 2(3) \cdots 2\left(\frac{p-1}{2}\right)</mrow>
+                                <mrow> \amp = 2^{\frac{p-1}{2}}\left(\frac{p-1}{2}\right)! </mrow>
+                        </md>
+                        From Fermat's Theorem we have <m>2^{p-1} \equiv 1 \pmod{p}</m> and since
+                        <md>
+                               \left(2^{\frac{p-1}{2}}\right)^2=2^{p-1},
+                        </md>
+                        <md>
+                                2^{\frac{p-1}{2}} \equiv \pm 1 \pmod{p}.
+                        </md>
+                        
+                        
+                      Combine this with the result from part (a) to obtain:
+                        <md>
+                                <mrow> 
+                              2\cdot 4 \cdot 6 \cdots (p-1) \amp \equiv   2^{\frac{p-1}{2}}\left(\frac{p-1}{2}\right)! \pmod{p}</mrow>
+                              <mrow>  \amp \equiv \pm 1 \pmod{p}.</mrow>
+                        </md>
+                        
+                        
+                </p>
+        </li>
+     </ol>
+</subsection>
+
+<subsection xml:id="Question_5_3_11">
+     <title>Problem 11</title>
+     <p>
+        We need to compute <m>\left(\frac{p-1}{2}\right)! \pmod{p}.</m> For <m>p=29:</m>
+        <md>
+                <mrow> 2\cdot 3 \amp \equiv 6 \pmod{29} </mrow>
+                <mrow> 2\cdot 3 \cdot 4 \amp \equiv 24 \pmod{29} </mrow>
+                <mrow> 2\cdot 3 \cdot 4 \cdot 5 \amp  \equiv 120 \equiv 4 \pmod{29}  </mrow>
+                <mrow> 2\cdot 3 \cdot 4 \cdot 5 \cdot 6 \amp \equiv 24 \pmod{29} </mrow>
+                <mrow> 2\cdot 3 \cdot 4 \cdot 5 \cdot 6 \cdot 7 \amp \equiv 168 \equiv 23 \equiv -6 \pmod{29}</mrow>
+                <mrow> 2\cdot 3 \cdot 4 \cdot 5 \cdot 6 \cdot 7 \cdot 8 \amp \equiv -48 \equiv 10 \pmod{29} </mrow>
+                <mrow> 2\cdot 3 \cdot 4 \cdot 5 \cdot 6 \cdot 7 \cdot 8 \cdot 9 \amp  \equiv 90 \equiv 3 \pmod{29}</mrow>
+                <mrow> 2\cdot 3 \cdot 4 \cdot 5 \cdot 6 \cdot 7 \cdot 8 \cdot 9 \cdot 10 \amp \equiv 30 \equiv 1 \pmod{29} </mrow>
+                <mrow>  2\cdot 3 \cdot 4 \cdot 5 \cdot 6 \cdot 7 \cdot 8 \cdot 9 \cdot 10 \cdot 11 \amp \equiv 11 \pmod{29} </mrow>
+                <mrow> 2\cdot 3 \cdot 4 \cdot 5 \cdot 6 \cdot 7 \cdot 8 \cdot 9 \cdot 10 \cdot 11 \cdot 12 \amp \equiv 132 \equiv 16 \pmod{29} </mrow>
+                <mrow>2\cdot 3 \cdot 4 \cdot 5 \cdot 6 \cdot 7 \cdot 8 \cdot 9 \cdot 10 \cdot 11 \cdot 12 \cdot 13 \amp \equiv 208 \equiv 5 \pmod{29} </mrow>
+                <mrow>14! \amp \equiv 70 \equiv 12 \pmod{29} </mrow>   
+        </md>
+        Let's check: <m>12^2 = 144 \equiv 28 \equiv -1 \pmod{29}.</m>
+        The second solution is <m>29-12=17.</m> Check it: <m>17^2 = 289 \equiv -1 \pmod{29}. </m>
+     </p>
+</subsection>
     
 </section>
