@@ -124,7 +124,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Section 5.3",
-  "body": " Section 5.3   Problem 1   "
+  "body": " Section 5.3   Problem 1        From Wilson's Theorem we have We build from there: So, the remainder when is divided by is .      Problem 6  First, notice the the modulus can be simplified: We need to show that Clearly From Wilson's Theorem we have That is, Since we have the desired result.    Problem 10    From the work in Theorem 5.5 we have If , then and the above becomes Thus,     Consider: From Fermat's Theorem we have and since  Combine this with the result from part (a) to obtain:       Problem 11  We need to compute For  Let's check: The second solution is Check it:    "
 },
 {
   "id": "Section_5_4",
