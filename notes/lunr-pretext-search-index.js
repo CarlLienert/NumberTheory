@@ -136,6 +136,15 @@ var ptx_lunr_docs = [
   "body": " Section 5.4   Problem 1     so          and You might notice 493 is not prime. Repeat for the prime factorization.      Problem 1    Let Use the Euclidean algorithm to find  then        Let and Notice is not prime.      Problem 7        From the hint so Let and      "
 },
 {
+  "id": "Section_6_1",
+  "level": "1",
+  "url": "Section_6_1.html",
+  "type": "Section",
+  "number": "",
+  "title": "Section 6.1",
+  "body": " Section 6.1   Problem 1  If is square free then its prime factorization is of the form where the primes are distinct. (Otherwise there would be some prime such that .) The function is multiplicative so     Problem 15  If and are prime then     Problem 17  In fact is completely multiplicative:     Problem 20    Let Since and are relatively prime, we can write: where the and are distinct sets primes. Now and     Since the divisor sum is multiplicative, we only need to establish this for prime powers. and      "
+},
+{
   "id": "Quiz_4",
   "level": "1",
   "url": "Quiz_4.html",
