@@ -1,0 +1,108 @@
+<section xml:id="Section_6_2">
+        <title>Section 6.2</title>
+<subsection xml:id="Question_6_2_1">
+     <title>Problem 1</title>
+     <ol marker="(a)">
+        <li>
+            <p>
+                Hint: What can you say about any 4 consecutive integers?
+            </p>
+        </li>
+        <li>
+            <p>
+                Hint: <m>\mu(k!)</m> is almost always <m>0.</m>
+            </p>
+        </li>
+     </ol>
+</subsection>
+
+<subsection xml:id="Question_6_2_2">
+     <title>Problem 2</title>
+     <p>
+
+     First, let's show that <m>\Lambda(n)</m> is multiplicative. In fact <m>\Lambda(n)</m> is completely mulitiplicative:
+     <md>
+        <mrow>\Lambda(mn)=\log(mn)=\log(m)+\log(n)=\Lambda(m)+\Lambda(n). </mrow>
+     </md>
+
+     We'll show that <m>\sum_{d|n}\Lambda(n)=\log(n).</m> Since <m>\Lambda(n)</m> is multiplicative we only need to show this for prime powers:
+     <md>
+        <mrow>\sum_{d|p^a}\Lambda(d) \amp = \Lambda(1)+\Lambda(p)+\cdots \Lambda(p^a)</mrow>
+        <mrow> \amp = 0+\log(p)+\log(p)+\cdots + \log(p)</mrow>
+        <mrow>` \amp =\log(p^a)</mrow>
+     </md>
+
+     In the notation from class:
+     <md>
+        (\Lambda \star I)(n)=\log(n)
+     </md>
+    composing both sides with <m>\mu</m> gives:
+     <md>
+        <mrow>\Lambda \star I \amp = \log</mrow>
+        <mrow> \Lambda \star I \star \mu \amp = \log \star \mu</mrow>
+       <mrow> \Lambda \star u \amp = \log \star \mu </mrow>
+       <mrow> \sum_{d|n} \Lambda(d)u\left(\frac{n}{d}\right) \amp= \sum_{d|n}\log(d)\mu\left(\frac{n}{d}\right) </mrow>
+       <mrow> \Lambda(n) \amp = \sum_{d|n}\log(d)\mu\left(\frac{n}{d}\right). </mrow>
+     </md>
+    </p>
+     <p>You can, of course, obtain the same result applying Möbius inversion as it is stated in the book.</p>
+
+     <p>
+     To obtain the second equality, notice that
+  
+     <md>
+        <mrow> \sum_{d|n}\log(d)\mu\left(\frac{n}{d}\right) \amp = \sum_{d|n}\log\left(\frac{n}{d}\right)\mu(d) </mrow>
+        <mrow> \amp = \sum_{d|n}(\log(n)-\log(d))\mu(d)</mrow>
+        <mrow> \amp = \sum_{d|n} \log(n)\mu(d)-\sum_{d|n} \log(d)\mu(d)</mrow>
+        <mrow> \amp= \log(n)\sum_{d|n}\mu(d)-\sum_{d|n} \log(d)\mu(d) </mrow>
+        <mrow> \amp =\log(n)u(n)-\sum_{d|n} \log(d)\mu(d) </mrow>
+        <mrow> \amp =-\sum_{d|n} \log(d)\mu(d)</mrow>
+     </md>
+     
+     since <m>u(n)=0</m> unless <m>n=1</m>, and in the case <m>n=1,</m> <m>\log(1)=0.</m>
+     
+     
+     </p>
+</subsection>
+
+<subsection xml:id="Question_6_2_6">
+     <title>Problem 6</title>
+     <p> First, check that <md>
+        \frac{\mu^2(n)}{\tau(n)}
+     </md>
+     is multiplicative, if <m>\text{gcd}(m,n)=1</m>, then:
+
+     <md>
+        <mrow> \frac{\mu^2(mn)}{\tau(mn)} \amp = \frac{\mu^2(m)\mu^2(n)}{\tau(m)\tau(n)} = \left(\frac{\mu^2(m)}{\tau(m)} \right)\left(\frac{\mu^2(n)}{\tau(n)}\right) </mrow>
+     </md>
+     since both <m>\mu^2</m> and <m>\tau</m> are multiplicative.
+
+     Now, compute the desired divisor sum for a prime power:
+     <md>
+        <mrow>\sum_{d|p^a}\frac{\mu^2(d)}{\tau(d)} \amp = \frac{1}{1}+\frac{1}{2}+0 </mrow>
+        <mrow> \amp = \frac{3}{2}.</mrow>
+     </md>
+     Thus, <md>
+        \sum_{d|n}\frac{\mu^2(d)}{\tau(d)}=\left(\frac{3}{2}\right)^{\omega(n)}
+     </md>
+     where <m>\omega(n)</m> is the number of distinct prime divisors of <m>n.</m>
+    
+     
+    </p>
+    <p>
+        For the second divisor sum, similary, check that <m>\frac{\mu^2(n)}{\sigma(n)}</m> is multiplicative.
+        Then, compute:
+         <md>
+        <mrow>\sum_{d|p^a}\frac{\mu^2(d)}{\sigma(d)} \amp = \frac{1}{1}+\frac{1}{1+p}+0 </mrow>
+        <mrow> \amp = \frac{2+p}{1+p}.</mrow>
+     </md>
+     and 
+     <md>
+        \sum_{d|n}\frac{\mu^2(d)}{\sigma(d)}=\prod_{p|n}\frac{2+p}{1+p}.
+     </md>
+     
+    </p>
+</subsection>
+
+
+</section>

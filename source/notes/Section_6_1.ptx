@@ -1,0 +1,83 @@
+<section xml:id="Section_6_1">
+        <title>Section 6.1</title>
+<subsection xml:id="Question_6_1_9">
+     <title>Problem 1</title>
+
+     <p>
+        If <m>n</m> is square free then its prime factorization is of the form <md>
+            n=p_1\cdot p_2 \cdots p_r
+        </md>
+        where the primes are distinct.  (Otherwise there would be some prime <m>p</m> such that <m>p^2|n</m>.)
+        The function <m>\tau</m> is multiplicative so
+        <md>
+            \tau(n)=\tau(p_1)\tau(p_2)\cdots \tau(p_r)=2\cdot 2\cdots 2=2^r.
+        </md>
+     </p>
+</subsection>
+
+<subsection xml:id="Question_6_1_15">
+    <title>Problem 15</title>
+    <p> If <m>n</m> and <m>n+2</m> are prime then
+        <md>
+            \sigma(n+2)=1+(n+2)=(1+n)+2=\sigma(n)+2.
+        </md>
+        
+    </p>
+    
+    </subsection>
+
+<subsection xml:id="Question_6_1_17">
+    <title>Problem 17</title>
+    <p>
+        In fact <m>f</m> is completely multiplicative:
+        <md>
+            f(mn)=(mn)^k=m^kn^k=f(m)f(n)
+        </md>
+        
+    </p>
+
+</subsection>
+
+<subsection xml:id="Question_6_1_20">
+    <title>Problem 20</title>
+    <ol marker="(a)">
+        <li>
+            <p>
+                Let <m>\text{gcd}(m,n)=1.</m> Since <m>m</m> and <m>n</m> are relatively prime, we can write:
+                <md>
+                <mrow> m \amp =p_1^{\alpha_1}\cdots p_t^{\alpha_t} </mrow>
+                <mrow> n \amp = q_1^{\beta_1} \cdots q_s^{\beta_s} </mrow>
+
+                </md>
+                where the <m>p's</m> and <m>q's</m> are distinct sets primes.
+                Now
+                <md>
+                    \omega(mn)=t+s=\omega(m)+\omega(n),
+                </md>
+                and
+                <md>
+                    2^{\omega(mn)}=2^{\omega(m)+\omega(n)}=2^{\omega(m)}\cdot 2^{\omega(n)}.
+                </md>
+                
+            </p>
+        </li>
+        <li>
+            <p>
+                Since the divisor sum is multiplicative, we only need to establish this for prime powers.
+                <md>
+                    <mrow> \sum_{d|p^\alpha} 2^{\omega(d)} \amp =2^0+2^1+2^1+\cdots +2^1 </mrow>
+                    <mrow> \amp =1+2\alpha </mrow>
+                    
+                </md>
+                
+                and
+                <md>
+                    <mrow> \tau((p^\alpha)^2) \amp =\tau(p^{2\alpha})=1+2\alpha. </mrow>
+                </md>
+                
+            
+            </p>
+        </li>
+    </ol>
+</subsection>
+</section>
