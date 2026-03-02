@@ -145,6 +145,15 @@ var ptx_lunr_docs = [
   "body": " Section 6.1   Problem 1  If is square free then its prime factorization is of the form where the primes are distinct. (Otherwise there would be some prime such that .) The function is multiplicative so     Problem 15  If and are prime then     Problem 17  In fact is completely multiplicative:     Problem 20    Let Since and are relatively prime, we can write: where the and are distinct sets primes. Now and     Since the divisor sum is multiplicative, we only need to establish this for prime powers. and      "
 },
 {
+  "id": "Section_6_2",
+  "level": "1",
+  "url": "Section_6_2.html",
+  "type": "Section",
+  "number": "",
+  "title": "Section 6.2",
+  "body": " Section 6.2   Problem 1    Hint: What can you say about any 4 consecutive integers?    Hint: is almost always       Problem 2  First, let's show that is multiplicative. In fact is completely mulitiplicative: We'll show that Since is multiplicative we only need to show this for prime powers: In the notation from class: composing both sides with gives:   You can, of course, obtain the same result applying Möbius inversion as it is stated in the book.  To obtain the second equality, notice that since unless , and in the case      Problem 6  First, check that is multiplicative, if , then: since both and are multiplicative. Now, compute the desired divisor sum for a prime power: Thus, where is the number of distinct prime divisors of   For the second divisor sum, similary, check that is multiplicative. Then, compute: and    "
+},
+{
   "id": "Quiz_4",
   "level": "1",
   "url": "Quiz_4.html",
