@@ -154,6 +154,15 @@ var ptx_lunr_docs = [
   "body": " Section 6.2   Problem 1    Hint: What can you say about any 4 consecutive integers?    Hint: is almost always       Problem 2  First, let's show that is multiplicative. In fact is completely mulitiplicative: We'll show that Since is multiplicative we only need to show this for prime powers: In the notation from class: composing both sides with gives:   You can, of course, obtain the same result applying Möbius inversion as it is stated in the book.  To obtain the second equality, notice that since unless , and in the case      Problem 6  First, check that is multiplicative, if , then: since both and are multiplicative. Now, compute the desired divisor sum for a prime power: Thus, where is the number of distinct prime divisors of   For the second divisor sum, similary, check that is multiplicative. Then, compute: and    "
 },
 {
+  "id": "Section_7_2",
+  "level": "1",
+  "url": "Section_7_2.html",
+  "type": "Section",
+  "number": "",
+  "title": "Section 7.2",
+  "body": " Section 7.2   Problem 1   so     Problem 4    Since is multiplicative and  since     Let where Then       Problem 5    Make sure you know where the fact that and are odd primes is used. (2 places.)    Problem 8  Let be the prime factorization of where may be zero. Then Each of the  factors is divisible by 2, thus     Problem 11  Suppose is not square free. Then there is some prime such that where and We have so If , then From the prime factorization, But, this gives the contradition: . Thus, if , then is square free. That is, none of the exponents in the prime factorization can be 2 or larger. Make sure you see where we used the fact that    "
+},
+{
   "id": "Quiz_4",
   "level": "1",
   "url": "Quiz_4.html",
