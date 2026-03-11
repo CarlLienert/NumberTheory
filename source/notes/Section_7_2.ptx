@@ -1,0 +1,91 @@
+<section xml:id="Section_7_2">
+        <title>Section 7.2</title>
+<subsection xml:id="Question_7_2_1">
+     <title>Problem 1</title>
+     <p>
+        <m>1001=7\cdot 11\cdot 13</m>
+        so 
+        <md>
+            \phi(1001)=1001\left(1-\frac{1}{7}\right)\left(1-\frac{1}{11}\right)\left(1-\frac{1}{13}\right)=720
+        </md>
+        
+     </p>
+
+</subsection>
+
+<subsection xml:id="Question_7_2_4">
+     <title>Problem 4</title>
+     <ol marker="(a)">
+        <li>
+            <p>
+                Since <m> \phi </m> is multiplicative and <m>\text{gcd}(2,n)=1</m>
+                <md>
+                    \phi(2n)=\phi(2)\phi(n)=\phi(n)
+                </md>
+                since <m>\phi(2)=1.</m>
+                
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Let <m>n=2^k\cdot m</m> where <m>\text{gcd}(m,2)=1.</m> Then 
+                <md>
+                    \phi(2n)=\phi(2^{k+1}m)=\phi(2^{k+1})\phi(m)=2^k \phi(m)=2\cdot 2^{k-1}\phi(m)=2\phi(2^k)\phi(m)=2\phi(n)
+                </md>
+                
+            </p>
+        </li>
+    </ol>
+</subsection>
+
+<subsection xml:id="Question_7_2_5">
+     <title>Problem 5</title>
+
+     <p>
+        <md>
+            <mrow>\phi(n) \amp =\phi(2(2p-1)) </mrow>
+            <mrow> \amp = \phi(2)\phi(2p-1)</mrow>
+            <mrow> \amp =1\cdot (2p-2)</mrow>
+        </md>
+
+        <md>
+            <mrow> \phi(n+2) \amp = \phi(2(2p-1)+2)</mrow>
+            <mrow> \amp = \phi(4p)</mrow>
+            <mrow> \amp =\phi(4)\phi(p)</mrow>
+            <mrow> \amp = 2\cdot (p-1)</mrow>
+            <mrow> \amp = 2p-2</mrow>
+        </md>
+
+        Make sure you know where the fact that <m>p</m> and <m>2p-1</m> are odd primes is used. (2 places.)
+        
+        
+     </p>
+</subsection>
+
+<subsection xml:id="Question_7_2_8">
+     <title>Problem 8</title>
+     <p>
+        Let <m>n=2^{b}p_1^{a_1}a_2^{a_2}\cdots p_r^{a_r}</m> be the prime factorization of <m>n</m> where <m>b</m> may be zero.
+        Then <md>
+           <mrow> \phi(n) \amp =\phi(2^b)\prod_{i=1}^r (p_i^{a_i}-p^{a_i-1}) </mrow>
+           <mrow> \amp = \phi(2^b)\prod_{i=1}^r p_i^{a_i-1}(p_i-1).</mrow>
+        </md>
+        Each of the <m>r</m>  <m>p_i-1</m> factors is divisible by 2, thus <m>2^r|\phi(n).</m>
+     </p>
+</subsection>
+
+<subsection xml:id="Question_7_2_11">
+     <title>Problem 11</title>
+     <p>
+        Suppose <m>n</m> is not square free. Then there is some prime <m>p</m> such that <m>n=p^am</m> where <m>\text{gcd}(m,n)=1</m> and <m>a \geq 2.</m> We have <md>
+            \phi(n)=\phi(p^a)\phi(m)=(p^a-p^{a-1})\phi(m)=p(p^{a-1}-p^{a-2})\phi(m),
+        </md>
+        so <m>p|\phi(n).</m> If <m>phi(n)|n-1</m>, then <m>p|n-1.</m> From the prime factorization, <m>p|n.</m>
+        But, this gives the contradition: <m>p|1</m>. Thus, if <m>\phi(n)|n-1</m>, then <m>n</m> is square free. That is, none of the exponents in the prime factorization can be 2 or larger.
+
+        Make sure you see where we used the fact that <m>a \geq 2.</m>
+     </p>
+</subsection>
+
+</section>
