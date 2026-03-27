@@ -34,7 +34,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Section 2.2",
-  "body": " Section 2.2     Problem 3       Any integer, can be written in the form where Then It remains to show that is of the desired form:     Let where  for some integer . Consider each of the 5 cases for the value of :        Problem 6  Let by the division algorithm. There are 6 cases. Below the results are shown for some . For example on the first line .       Problem 11  If is odd, then where is 1, 3, 5, 7, 9, 11, 13, or 15. Then It remains to check that is of the form for each of the possible values of . (You should do this.)   "
+  "body": " Section 2.2     Problem 3       Any integer, can be written in the form where Then It remains to show that is of the desired form:     Let where  for some integer . Consider each of the 5 cases for the value of :        Problem 6  Let by the division algorithm. There are 6 cases. Below the results are shown for some . For example on the first line .       "
 },
 {
   "id": "Section_2_3",
@@ -170,6 +170,15 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "Quiz 4",
   "body": " Quiz 4   Question 1  The idea is to use the Fundamental Theorem of Arithmetic. Since ,   (This follows from Corollary 1 to Theorem 3.1. You don't need to be able to cite the Theorem\/Corollary.)  Thus, we can write as   (alterntively you could simply write )  Then and hence     Question 2  Counter-example: ,     Question 3  For all integers , is even. So is odd and all its prime divisors must also be odd. Let be any prime divisor of Suppose Then and so . That is, which is impossible.    Question 4  The difference of two odd integers is even. So, if then (Clearly won't work.) Then    "
+},
+{
+  "id": "Quiz_7",
+  "level": "1",
+  "url": "Quiz_7.html",
+  "type": "Section",
+  "number": "",
+  "title": "Quiz 7",
+  "body": " Quiz 7   Problem 1  Prove: if and only if for some   Suppose first that for some Then   Conversely, suppose . Write where Then Since we have: That is, . But this is only true if Thus, for some integer   Note: The key to this problem is the technique of writing where and are relatively prime.    Problem 2  For any integer , show that and have the same last digit.  Use Euler's Theorem to show that if   Also, address the case where That is, if For example, if , then  . In fact since successive powers of 6 all end in 6. Finally So, if ends in 2, so does   Note: We used Euler's Theorem; you have to be careful to take the hypothesis of this theorem into account. The cases are dealt with using the process we learned when we first encountered modular arithmetic.    Problem 3    If is a square-free integer, prove that   First argue that the sum is multiplicative. Both and are multiplicative. Then is also multiplicative, and as a result the divisor sum is multiplicative.  Then, we only need to check the desired result for prime powers. BUT, since is square-free, we only need check      If is a square-free integer, prove that for all integers   Notice that part (a) is for . We'll prove the result using induction on . The base case, is part (a).  We have seen that the divisor sum is multiplicative, and since is square-free, we consider the case . We have: where we used the inductive hypothosis from the third to the fourth line.    Notes:   It's important to manipulate the sums very carefully! is NOT equal to     The use of the muliplicativity of the divisor sum is crucial! This is one of the main tools in number theory. In the solutions above I left out the step where you piece the case for back together for the general case.    Don't forget tools from long ago: induction in this case.      "
 }
 ]
 
