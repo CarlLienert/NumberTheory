@@ -1,0 +1,93 @@
+<section xml:id="Quiz_7">
+        <title>Quiz 7</title>
+<subsection xml:id="Question_Quiz_7_1">
+     <title>Problem 1</title>
+<p> Prove:
+     <m> \phi(n)=\frac{n}{2}</m> if and only if <m> n=2^k</m> for some <m>k \geq 1. </m>
+</p>
+
+<p>
+    Suppose first that  <m> n=2^k</m> for some <m>k \geq 1. </m>  Then <m>\phi(n)=2^{k}-2^{k-1}=2^{k-1}=\frac{n}{2}.</m>
+</p>
+
+<p>
+    Conversely, suppose <m> \phi(n)=\frac{n}{2}</m>.  Write <m>n=2^kN</m> where <m>(N,2)=1.</m>
+    Then <md>
+        \phi(n)=\phi(2^k)\phi(N)=2^{k-1}\phi(N).
+    </md>
+    Since  <m> \phi(n)=\frac{n}{2}</m> we have:
+    <md>
+        2^{k-1}\phi(N)=\frac{n}{2}=2^{k-1}N.
+    </md>
+
+    That is, <m>\phi(N)=N</m>.  But this is only true if <m>N=1.</m> Thus, <m>n=2^k</m> for some integer <m>k \geq 1.</m>
+</p>
+    
+<p>
+    Note: The key to this problem is the technique of writing <m>n=2^kN</m> where <m>N</m> and <m>2</m> are relatively prime.
+</p>
+</subsection>
+
+<subsection xml:id="Question_Quiz_7_2">
+     <title>Problem 2</title>
+<p>
+     For any integer <m>a</m>, show that <m>a</m> and <m>a^{4n+1}</m> have the same last digit.</p>
+
+    <p>
+        Use Euler's Theorem to show that <m>a \equiv a^{4n+1} \pmod{10}</m> if <m>(a,10)=1.</m>
+    </p>
+
+    <p>
+        Also, address the case where <m>(a,10) \neq 1.</m>  That is, if <m>a \equiv 0, 2, 4, 5, 6, 8 \pmod{10}.</m> For example, if <m>a \equiv 2 \pmod{10}</m>, then <m>a^2 \equiv 4 \pmod{10},</m> <m>a^4 \equiv 6 \pmod{10}</m>. In fact <m>a^{4n} \equiv 6 \pmod{10}</m> since successive powers of 6 all end in 6. Finally <m>a^{4n+1} \equiv 6\cdot 2 \equiv 2 \pmod{10}.</m> So, if <m>a</m> ends in 2, so does <m>a^{4n+1}.</m>
+    </p>
+</subsection>
+
+<subsection xml:id="Question_Quiz_7_3">
+     <title>Problem 3</title>
+
+     <ol marker="(a)">
+        <li>
+
+            <p>
+                If <m>n</m> is a square-free integer, prove that <md>\sum_{d|n}\sigma(d)\phi(d)=n^2.</md>
+            </p>
+            <p>
+                First argue that the sum is multiplicative.  Both <m>\sigma(n)</m> and <m>\phi(n)</m> are multiplicative.  Then <m>\sigma(n)\phi(n)</m> is also multiplicative, and as a result the divisor sum is multiplicative.
+            </p>
+
+            <p>
+                Then, we only need to check the desired result for prime powers. BUT, since <m>n</m> is square-free, we only need check <m>n=p:</m>
+                <md>
+                    \sum_{d|p}\sigma(d)\phi(d)=\sigma(1)\phi(1)+\sigma(p)\phi(p)=1+(p+1)(p-1)=p^2.
+                </md>
+                
+            </p>
+        </li>
+
+       
+
+        <li>
+            <p>
+                If <m>n</m> is a square-free integer, prove that <md>\sum_{d|n}\sigma(d^{k-1})\phi(d)=n^k</md> for all integers <m>k\geq 2.</m>
+            </p>
+
+            <p>
+                Notice that part (a) is for <m>k=2</m>.  We'll prove the result using induction.  The base case, is part (a).
+            </p>
+
+            <p>
+                We have seen that the divisor sum is multiplicative, and since <m>n</m> is square-free,  we consider the case <m>n=p</m>. We have:
+                <md>
+                    <mrow> \sum_{d|p}\sigma(d^{k})\phi(d) \amp = \sigma(1)\phi(1)+\sigma(p^k)\phi(p)</mrow> = \sigma(1)\phi(1)+\sigma(p^k)\phi(p)
+                    <mrow> \amp = 1+(1+p+p^2+\cdots +p^{k-1})\phi(p)+p^k\phi(p) </mrow>
+                    <mrow> \amp =</mrow>
+                    <mrow> \amp = \sum_{d|p} \sigma(d^{k-1})\phi(d) + \sum_{d|p} d^k\phi(d) </mrow> 
+                    <mrow> \amp  = p^k +1\cdot\phi(1)+p^k\phi(p)</mrow>
+                    <mrow> \amp = p^k+1+p^k(p-1)</mrow>
+                </md>
+                
+            </p>
+        </li>
+     </ol>
+</subsection>
+</section>
