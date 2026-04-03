@@ -1,0 +1,95 @@
+<section xml:id="Quiz_8">
+        <title>Quiz 8</title>
+<subsection xml:id="Question_Quiz_8_1">
+     <title>Problem 1</title>
+     <p>
+        Prove that if <m>p</m> and <m>q</m> are odd primes and <md>q|a^p-1,</md> then either <m>q|a-1</m> or <m>q=2kp+1</m> for some integer <m>k</m>. Hint: think about the possible values for <m>\text{ord}_na.</m>
+     </p>
+
+     <p> Since <m>q|a^p-1,</m> we have <md>
+        a^p \equiv 1 \pmod{q}
+     </md>
+     which means <m>\text{ord}_qa|p.</m> Thus, <m>\text{ord}_qa</m> is either <m>1</m> or <m>p</m>.
+     
+        
+     </p>
+
+     <p>
+        If <m>\text{ord}_qa=1,</m> then <m>a\equiv \pmod{q}</m> so <m>q|a-1.</m>
+     </p>
+
+     <p>
+        If <m>\text{ord}_qa=p,</m> then <m>p|\phi(q)</m>. That is, <m>p|q-1</m>. So, <m>pk=q-1</m>, or <m>q=pk+1.</m> But, <m>k</m> must be even so we can write <m>q=2kp+1.</m> (slight abuse of notation, the second <m>k</m> is not the same as the first.)
+     </p>
+</subsection>
+
+<subsection xml:id="Question_Quiz_8_2">
+     <title>Problem 2</title>
+     
+
+     <p>
+        Use question 1 to show that if <m>p</m> is an odd prime, then the prime divisors, <m>q</m>, of <m>2^p-</m> are of the form <m>q=2kp+1.</m>
+     </p>
+
+     <p>
+        Apply problem 1 with <m>a=2.</m> If <m>q</m> is prime then <m>q|2-1</m> isn't possible, so it must be that the prime divisors of <m>2^p-1</m> are of the form <m>q=2kp+1.</m>
+     </p>
+
+</subsection>
+
+<subsection> xml:id="Question_Quiz_8_3">
+     <title>Problem 3</title>
+<p>
+    The following table shows the first several values of <m>2kp+1</m> for <m>p=11</m>. Use the table to find the smallest prime divisor of <m>2^{11}-1</m>.
+</p>
+
+<p>
+   I'll leave out the table. The idea is to:
+   <ol>
+    <li>
+        <p>
+            Generate integers of the form <m>2kp+1</m>.
+        </p>
+    </li>
+    <li>
+        <p>
+            Determine if the integer is prime. That is if <m>2kp+1</m> is a candidate divisor of <m>2^p-1.</m>
+        </p>
+    </li>
+    <li>
+        <p>
+            If <m>q=2kp+1</m> is in fact prime, determine if <m>q|2^p-1.</m> To do this compute <m>2^p \pmod{q}.</m>
+        </p>
+    </li>
+   </ol>
+</p>
+
+<p>
+    For this example <m>p=11.</m> (It isn't a particulaly intersesting example, but the computation quickly becomes too much for a quiz if <m>p</m> is much larger.)
+</p>
+
+<p>
+    With <m>p=11</m>, the first integer to consider if <m>q=2\cdot1\cdot11+1=23,</m> which is prime. So, we compute <m>2^{11} \pmod{23}:</m>
+    <md>
+        <mrow> 2^2 \amp \equiv 4 \pmod{23}</mrow>
+        <mrow> 2^4 \amp \equiv \left(2^2\right)^2 \equiv 4^2 \equiv 16 \pmod{23} </mrow>
+        <mrow> 2^8 \amp \equiv 16 \cdot 16 \equiv (-7)\cdot(-7) \equiv 49 \equiv 3 \pmod{23}</mrow>
+        <mrow> 2^{11}  \amp \equiv 2^8\cdot 2^2 \cdot 2 \equiv 3 \cdot 4 \cdot 2\equiv 24 \equiv 1 \pmod{23}.</mrow>
+    </md>
+    
+    Thus, our result indicates that <m>23</m> divides <m>2^{11}-1.</m> 
+</p>
+
+
+
+<p>
+    We were lucky.  The first value of <m>2kp+1</m> was a divisor of <m>2^p-1.</m> If either <m>2kp+1</m> isn't prime, or it doesn't in fact divide <m>2^p-1</m>, then we'd go on to the next value of <m>2kp+1</m>. If <m>2kp+1</m> reaches the size of <m>2^p-1</m> then it must be that <m>2^p-1</m> is itself prime.
+</p>
+
+<p>
+    The point of the process is that, in practice, we'd pick a much larger exponent in <m>2^p-1.</m> Finding a prime divisor is non-trivial.  This process, as tedious as it might seem, is more efficient than simply running through all the primes until you find one that divides <m>2^p-1.</m>
+</p>
+
+</subsection>
+
+</section>
