@@ -1,0 +1,143 @@
+<section xml:id="Oral_Exam_3">
+        <title>Oral_Exam_3</title>
+<subsection xml:id="Problem_OE3_1">
+     <title>Problem 8_1_2a</title>
+     <p>
+        If <m>a</m> has order <m>n-1</m> modulo <m>n</m>, then <m>n</m> is prime.
+     </p>
+
+     <p>
+        If <m>\text{ord}_n a=n-1</m>, then <m>n-1 | \phi(n).</m> So <m>n-1 \leq \phi(n). </m>If <m>n</m> is composite then <m>\phi(n) \leq n-2.</m> But this would mean <md>
+            n-1 \leq \phi(n) &lt; n-2.
+        </md>
+        Thus, <m>n</m> must be prime.
+        
+     </p>
+</subsection>
+
+<subsection xml:id="Problem_OE3_2">
+    <title>Problem 8_1_4</title>
+    <p>
+        We have <md>
+            a^h \equiv 1 \pmod{n}
+        </md> and <md>
+            b^k \equiv 1 \pmod{n}.
+        </md>
+        So <md>
+            a^{kh} \equiv 1 \pmod{n}
+        </md> and <md>
+            b^{kh} \equiv 1 \pmod{n}.
+        </md>
+        which gives 
+        <md>
+            (ab)^{hk} \equiv 1 \pmod{n}.
+        </md>
+        Thus <md>
+            \text{ord}_n (ab) | hk.
+        </md>    
+    </p>
+
+    <p>
+        Let <md>
+            \text{ord}_n(ab)=r.
+        </md>
+        Then <m>r|hk.</m>
+        We have <md>
+            1 \equiv ((ab)^r)^h\equiv (a^h)^r(b^h)^r \equiv b^{hr} \pmod{n}
+        </md>
+        which gives <m>k|hr.</m> If <m>\text{gcd}(k,h)=1</m>, then <m>k|r.</m>
+        Similarly <m>h|r.</m> Again if <m>\text{gcd}(k,h)=1</m>, we have <m>hk|r.</m>
+        From earlier, we have <m>r|hk</m>, thus if <m>\text{gcd}(k,h)=1</m> then <m>hk=r.</m>
+        
+        
+    </p>
+</subsection>
+
+<subsection xml:id="Problem_OE3_3">
+    <title>Problem 8_2_4</title>
+    <p>
+        One element of order 6 is <m>r^7.</m> Then <m>(r^7)^h</m> also has order 6 if <m>\text{gcd}(6,h)=1.</m>
+        The values of <m>h</m> are <m>1,5.</m> This gives <m>3^7 \equiv 37</m> and <m>3^{35}\equiv 7.</m>
+    </p>
+
+    <p>
+        One element of order 21 is <m>r^{2}.</m> hen <m>(r^2)^h</m> also has order 21 if <m>\text{gcd}(21,h)=1.</m>
+        The values of <m>h</m> are <m>1,2, 4,5, 8, 10, 11, 13, 16, 17, 19, 20</m> This gives <m>3^2 \equiv 9</m> and <m>3^{4}\equiv 38.</m> 
+        <md>
+            <mrow> 3^8 \amp \equiv 25 </mrow>
+            <mrow> 3^{10} \amp \equiv 10 </mrow>
+            <mrow> 3^{16} \amp \equiv 23 </mrow>
+            <mrow> 3^{20} \amp \equiv 14</mrow>
+            <mrow> 3^{22} \amp \equiv 40 </mrow>
+            <mrow> 3^{26} \amp \equiv 15 </mrow>
+            <mrow> 3^{32} \amp \equiv 13 </mrow>
+            <mrow> 3^{34} \amp \equiv 31 </mrow>
+            <mrow> 3^{38} \amp \equiv 17 </mrow>
+             <mrow> 3^{40} \amp \equiv 24 </mrow>
+
+        </md>
+        
+    </p>
+</subsection>
+
+<subsection xml:id="Problem_OE3_4">
+    <title>Problem 8_2_11</title>
+    <p>
+        The first part of the hint follows from the corollary to Theorem 8.3. 
+        This gives via Theorem 7.7 (with <m>n=p-1</m>):
+        <md>
+            r^1\cdot r^{k_1} \cdots r^{k_t}=r^{\sum k}=r^{\frac{1}{2}(p-1) \phi(p-1)}
+        </md>
+       But, <md>
+        r^{\frac{p-1}{2}\equiv -1} 
+       </md>
+       
+      which gives the result.
+    </p>
+</subsection>
+
+<subsection xml:id="Problem_OE3_5">
+    <title>Problem 8_3_2c)</title>
+</subsection>
+
+<subsection xml:id="Problem_OE3_6">
+    <title>Problem 8_3_6a)</title>
+    <p>
+        Supppose <m>r</m> is a primitive root modulo <m>p^k</m> and that <m>r</m> is odd. We show that <m>r</m> is a primitive root modulo <m>2p^k.</m> Clearly <m>\text{gcd}(r, 2p^k)=1.</m> Let <m>h=\text{ord}_{2p^k}(r).</m> Then,  <m>h | \phi(2p^k).</m> 
+    </p>
+    <p>
+        Since <md>
+            a^h \equiv 1 \pmod{2p^k},
+        </md>
+        also <md>
+            a^h \equiv 1 \pmod{p^k}
+        </md>
+        and hence <md>
+            \phi(p^k)|h
+        </md>
+        sine <m>r</m> has order <m>\phi(p^k)</m> modulo <m>p^k.</m> But, <m>\phi(p^k)=\phi(2p^k)</m> and hence <m>h=\phi(2p^k).</m>
+        
+        
+        
+    </p>
+
+    <p>
+        For the converse if <m>r</m> is even is can't be a primmitive root modulo <m>2p^k.</m>
+    </p>
+</subsection>
+
+<subsection xml:id="Problem_OE3_7">
+    <title>Problem 9_1_5c)</title>
+    <p>
+        Since <m>a</m> is a quadratic residue we know <md>
+            a^{\frac{p-1}{2}}\equiv 1 \pmod{p}
+        </md>
+        
+        We need only check:
+        <md>
+            (\pm a^{(p+1)/4})^2=a^{(p+1)/2}=a^{\frac{p-1}{2}+1)\equiv a \pmod{p}
+        </md>
+        
+    </p>
+</subsection>
+</section>

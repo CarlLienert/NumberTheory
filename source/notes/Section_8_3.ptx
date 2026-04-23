@@ -1,13 +1,38 @@
 <section xml:id="Section_8_3">
         <title>Section 8.3</title>
-<subsection xml:id="8_3_2">
+<subsection xml:id="Problem_8_3_2">
      <title>Problem 1</title>
 </subsection>
 <ol marker="(a)">
     <li>
         <p>
             Let <m>r</m> be a primitive root modulo <m>p^n.</m> 
+            Let
+            <md>
+                k=\text{ord}_p r.
             </md>
+            Then 
+            <md>
+            r^k \equiv 1 \pmod{p}.   
+            </md>
+            We have <m>p-1|k.</m>
+            We can also write: 
+            <md>
+                p|r^k-1
+            </md>
+            or 
+            <md>
+                ps+1=r^k
+            </md>
+            for some integer <m>s.</m>
+        </p>
+        <p>
+            Per the hint: Show 
+            <md>
+                r^{pk} \equiv 1 \pmod{p^2}.
+            </md>
+            
+        
             
         </p>
     </li>

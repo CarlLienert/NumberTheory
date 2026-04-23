@@ -32,6 +32,7 @@
     <xi:include href="./notes/Quiz_7.ptx" />
     <xi:include href="./notes/Quiz_8.ptx" />
      <xi:include href="./notes/Section_8_3.ptx" />
+     <xi:include href="./notes/Oral_Exam_3.ptx" />
 
     <!-- Add more xi:include files here to include them in the main course -->
   </article>
