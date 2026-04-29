@@ -97,11 +97,14 @@
 </subsection>
 
 <subsection xml:id="Problem_OE3_5">
-    <title>Problem 8_3_2c)</title>
+    <title>Problem 8_3_2c</title>
+    <p>
+        Why isn't this working.
+    </p>
 </subsection>
 
 <subsection xml:id="Problem_OE3_6">
-    <title>Problem 8_3_6a)</title>
+    <title>Problem 8_3_6a</title>
     <p>
         Supppose <m>r</m> is a primitive root modulo <m>p^k</m> and that <m>r</m> is odd. We show that <m>r</m> is a primitive root modulo <m>2p^k.</m> Clearly <m>\text{gcd}(r, 2p^k)=1.</m> Let <m>h=\text{ord}_{2p^k}(r).</m> Then,  <m>h | \phi(2p^k).</m> 
     </p>
@@ -109,25 +112,26 @@
         Since <md>
             a^h \equiv 1 \pmod{2p^k},
         </md>
+
         also <md>
             a^h \equiv 1 \pmod{p^k}
         </md>
         and hence <md>
             \phi(p^k)|h
         </md>
-        sine <m>r</m> has order <m>\phi(p^k)</m> modulo <m>p^k.</m> But, <m>\phi(p^k)=\phi(2p^k)</m> and hence <m>h=\phi(2p^k).</m>
+        since <m>r</m> has order <m>\phi(p^k)</m> modulo <m>p^k.</m> But, <m>\phi(p^k)=\phi(2p^k)</m> and hence <m>h=\phi(2p^k).</m>
         
         
         
     </p>
 
     <p>
-        For the converse if <m>r</m> is even is can't be a primmitive root modulo <m>2p^k.</m>
+        For the converse if <m>r</m> is even is can't be a primitive root modulo <m>2p^k.</m>
     </p>
 </subsection>
 
 <subsection xml:id="Problem_OE3_7">
-    <title>Problem 9_1_5c)</title>
+    <title>Problem 9_1_5c</title>
     <p>
         Since <m>a</m> is a quadratic residue we know <md>
             a^{\frac{p-1}{2}}\equiv 1 \pmod{p}
@@ -135,9 +139,92 @@
         
         We need only check:
         <md>
-            (\pm a^{(p+1)/4})^2=a^{(p+1)/2}=a^{\frac{p-1}{2}+1)\equiv a \pmod{p}
+            (\pm a^{(p+1)/4})^2=a^{(p+1)/2}=a^{\frac{p-1}{2}+1} \equiv a \pmod{p}
+        </md>
+
+        which doesn't seem to have anything to do with <m>p \equiv 3 \pmod{4}</m>
+
+        I think I am misinterpreting the negative sign.
+
+        Let's write <md>
+            \left((p-a)^{(p+1)/4}\right)^2= \left((p-a)^{(p+1)/2}\right)
         </md>
         
     </p>
 </subsection>
+
+<subsection xml:id="Problem_OE3_8">
+    <title>Problem 9_1_7</title>
+<p>
+    Let <m>p=2^k+1</m> be prime.
+    If <m>\text{gcd}(a,p)=1</m>, we compute, assuming <m>a</m> is a quadratic non-residue:
+    <md>
+        a^{(p-1)/2}=a^{2^{k-1}} =a^{\phi(p)/2} \equiv -1.
+    </md>
+
+    If <m>a</m> is not a primitive root, then <m>a^{\phi(p)/2} \not \equiv -1</m>
+  
+</p>
+</subsection>
+
+<subsection xml:id="Problem_OE3_9">
+    <title>Problem 9_2_1</title>
+    <p>
+        legendre symbol problems
+    </p>
+</subsection>
+
+<subsection xml:id="Problem_OE3_10">
+    <title>Problem 9_2_5</title>
+    <p>
+        If <m>n=1</m>, <m>p=7</m> so <m>2</m> is a quadratic residue and hence not a primitve root.
+    </p>
+      <p>
+        If <m>n=2</m>, <m>p=13</m> and the table in chapter 8 shows that <m>2</m> is a primitive root.
+      </p>  
+      <p>
+        If <m>n &gt; 2</m>, <m>p \equiv 1 \pmod{8}</m> so <m>2</m> is a quadratic residue and hence not a primitve root.
+    </p>
+</subsection>
+
+<subsection xml:id="Problem_OE3_11">
+    <title>Problem 9_3_1</title>
+<p>
+    legendre symbols
+</p>
+</subsection>
+
+<subsection xml:id="Problem_OE3_12">
+    <title>Problem 9_3_9</title>
+<p>
+    If <m>p=q+4a</m>, then <m>-q \equiv 4a \pmod{p}</m> which gives
+    <md>
+        \left(\frac{4a}{p}\right)=\left(\frac{4}{p}\right)\cdot \left(\frac{a}{p}\right)=\left(\frac{a}{p}\right)=\left(\frac{-q}{p}\right)
+    </md>
+    Now 
+    <md>
+        \left(\frac{-q}{p}\right)=\left(\frac{-1}{p}\right)\left(\frac{q}{p}\right)=(-1)^{\frac{p-1}{2}}\left(\frac{p}{q}\right)(-1)^{\frac{p-1}{2}\frac{q-1}{2}}
+    </md>
+     Next
+     <md>
+        \left(\frac{p}{q}\right)=\left(\frac{a+4q}{q}\right)=\left(\frac{a}{q}\right).
+     </md>
+
+     So, it remains to show that the exponent on <m>-1</m>:
+
+     <md>
+        \frac{p-1}{2}+\frac{p-1}{2}\frac{q-1}{2}
+     </md>
+     is always even.
+
+     Notice that <m>p</m> and <m>q</m> are congruent to each other modulo <m>4</m>. If <m>p \equiv 1 \pmod{4}</m> then <m>\frac{p-1}{2}</m> is even so the exponent is even.
+
+     If <m>p \equiv q \equiv 3 \pmod{4}</m> then both additive terms in the exponent are odd so the sum is even.
+
+     
+     
+</p>
+</subsection>
+
+
 </section>

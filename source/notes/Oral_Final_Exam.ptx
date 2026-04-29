@@ -1,0 +1,236 @@
+<section xml:id="Oral_Final_Exam">
+        <title>Oral_Final_Exam</title>
+<subsection xml:id="Problem_OFE_1">
+     <title>Problem 13_3_3a</title>
+     <p>
+        Each of the integers <m>2^n</m>, where <m>n=1,2,3,\dots</m> is a sum of two squares
+     </p>
+     <p>
+        If <m>n</m> is even then <md>
+            2^n=\left(2^{\frac{n}{2}}\right)^2 +0^2.
+        </md>
+        
+     </p>
+     <p>
+        If <m>n</m> is odd, write <m>n=2k+1</m> and 
+        <md>
+            2^n=2^{2k+1}=2\cdot 2^{2k}=2 \cdot (2^k)^2=(2^k)^2 +(2^k)^2.
+        </md>
+        
+     </p>
+</subsection>
+
+<subsection xml:id="Problem_OFE_2">
+     <title>Problem 13_3_3b</title>
+     <p>
+        If <m>n \equiv 3, 6 \pmod{9}</m>, then <m>n</m> cannot be represented as a sum of two squares.
+     </p>
+     <p>
+        If <m>n=3+9k=3(1+3k)</m>. Since <m>3 \nmid 1+3k</m>, <m>3</m> is in the square-free part of <m>n=N^2m.</m>
+        By Theorem 13.3, <m>n</m> cannot be written as a sum of squares.
+     </p>
+     <p>
+        Similarly, <m>n=6+9k=3(2+9k)</m> and <m>3 \nmid 2+9k.</m>
+     </p>
+</subsection>
+
+<subsection xml:id="Problem_OFE_3">
+     <title>Problem 13_2_6</title>
+     <p>
+       Find a positive integer having at least three different representations as the sum of two squares, disregarding signs and the order of the summands. [Hint: Choose an integer that has three distinct prime factors, each of the form <m>4k + 1</m>.]
+     </p>
+     <p>
+        The first 3 primes of the form <m>4k + 1</m> are <m>5,13,17.</m> Then <m>n=5\cdot13\cdot17=1105</m>
+     </p>
+     <p>
+        We'll use the identity <md>
+            (a^2+b^2)(c^2+d^2)=(ac+bd)^2+(ad-bc)^2
+        </md>
+        
+     </p>
+     <p>
+        <md>
+            (5\cdot13)(17)=(65)(17)=(1+8^2)(1+4^2)=(1+32)^2+(4-8)^2=33^2+4^2
+        </md>
+        <md>
+            (5)(13\cdot 17)=(5)(221)=(1+2^2)(5^2+14^2)=(5+28)^2+(14-10)^2=33^2+4^2
+        </md>
+        No good, but:
+        <md>
+            (5)(13\cdot 17)=(5)(221)=(1+2^2)(10^2+11^2)=(10+22)^2+(11-20)^2=32^2+9^2
+        </md>
+        
+        <md>
+            (5\cdot 17)(13)=(85)(13)=(2^2+9^2)(2^2+3^2)=(4+27)^2+(6-18)^2=31^2+12^2
+        </md>
+        
+
+        
+        
+     </p>
+</subsection>
+
+<subsection xml:id="Problem_OFE_4">
+     <title>Problem 13_2_8</title>
+     <p>
+        Prove that the positive integer <m>n</m> has as many representations as the sum of two squares as does the integer <m>2n</m>.
+[Hint: Starting with a representation of <m></m> as a sum of two squares obtain a similar representation for <m>2n</m>, and conversely.]
+     </p>
+     <p>
+        Say <m>n=a^2+b^2</m>. Then 
+        <md>
+            (a+b)^2+(b-a)^2=a^2+2ab+b^2+b^2-2ab+a^2=2a^2+2b^2=2n.
+        </md>
+        
+     </p>
+     <p>
+        Say <m>2n=c^2+d^2</m>. 
+        <md>
+            \left(\frac{c+d}{2}\right)^2+\left(\frac{c-d}{2}\right)^2=\frac{c^2+2cd+d^2+c^2-2cd+d^2}{4}=\frac{2c^2+2d^2}{4}=\frac{c^2+d^2}{2}=n.
+        </md>
+        
+           
+        
+     </p>
+</subsection>
+
+<subsection xml:id="Problem_OFE_5">
+     <title>Problem 13_2_10b</title>
+     <p>
+         If a prime number is the sum of three squares of different primes, then one of these
+primes must be equal to 3.
+     </p>
+     <p>
+        If <m>p</m> is a prime other than <m>3</m> then <m>p \equiv 1,2 \pmod{3}.</m> Then <m>p^2 \equiv 1 \pmod{3}</m> and the sum of the squares of three such primes is congruent to <m>0 \pmod{3}.</m> Such a sum is prime only if that sum is 3, but this isn't possible since <m>3</m> is clearly not the sum of 3 squares of primes. Thus, one of the primes must be 3.
+        
+        
+     </p>
+    </subsection>
+
+    <subsection xml:id="Problem_OFE_6">
+     <title>Problem 13_2_16</title>
+     <p>
+        Prove that every prime <m>p \equiv 1 \pmod{4}</m> divides the sum of two relatively prime squares, where each square exceeds 3. [Hint: Given an odd primitive root <m>r</m> of <m>p</m>, we have <m>r^k \equiv 2 \pmod{p}</m> for some <m>k</m>; hence <m>r^{2[k+(p−1)/4]} \equiv −4 \pmod{p}</m>
+     </p>
+     <p>
+        First we prove the hint. If <m>r</m> is a primitive root mod <m>p</m>, then 
+        <md>
+            r^{\frac{p-1}{2}}\equiv -1 \pmod{p}.
+        </md>
+        Also 
+        <md>
+            <mrow> r^k \amp \equiv 2 \pmod{4}</mrow>
+            <mrow> r^{2k} \amp \equiv 4 \pmod{p}  </mrow>.
+        </md>
+        Combining:
+        <md>
+            <mrow> r^{2k}\cdot r^{2\frac{p-1}{4}} \amp \equiv r^{2k + 2\frac{p-1}{4}} \pmod{p} </mrow>
+            <mrow> \amp \equiv r^{2\left(k+\frac{p-1}{4}\right)} \equiv -4 \pmod{p}</mrow>
+        </md>
+        
+        
+     </p>
+     <p>
+        Now, let <m>p=4l+1</m> and the identity above becomes:
+        <md>
+            <mrow> r^{2\left(k+\frac{4l}{4}\right)} \equiv -4 \pmod{p} </mrow>
+            <mrow>r^{2\left(k+l\right)}  +4 \amp \equiv 0 \pmod{p} </mrow>
+        </md>
+        
+        So, 
+        <md>
+            p | \left(r^{k+l}\right)^2 +2^2.
+        </md>
+        Since <m>r</m> is odd the the addends are relatively prime. The part about each square exceeeding 3 isn't true: <m>5=1^2+2^2.</m>
+        
+        
+     </p>
+    </subsection>
+
+     <subsection xml:id="Problem_OFE_7">
+     <title>Problem 13_3_4</title>
+   
+        <p>
+           Establish that the equation <m>a^2 +b^2 +c^2 +a+b+c=1</m> has no solution in the integers.
+[Hint: The equation in question is equivalent to the equation <m> (2a+1)^2 +(2b+1)^2 +(2c+1)^2 =7</m>.]
+
+        </p>
+     
+
+  
+        <p>
+            To show the equivalence of the hint, we'll work backwards:
+            <md>
+                <mrow>(2a+1)^2 +(2b+1)^2 +(2c+1)^2 \amp =7 </mrow>
+                <mrow>4a^2+4a+1+4b^2+4b+1+4c^2+4c+1 \amp =7</mrow>
+                <mrow> 4(a^2+a+b^2+b+c^2+c) \amp =4</mrow>
+                <mrow> a^2+a+b^2+b+c^2+c \amp =1.</mrow>
+            </md>
+
+            Now, the hint equation is congurent to <m>0, 1, 4 \mod{8}</m> but never congruent to <m>7 \pmod{8}.</m>
+            Or, this follows immediately from Theorem 13.5.
+        </p>
+
+        
+     
+     </subsection>
+
+     <subsection xml:id="Problem_OFE_8">
+     <title>Problem 13_3_5</title>
+
+     <p>
+        For a given positive integer <m>n</m>, show that <m>n</m> or <m>2n</m> is a sum of three squares.
+     </p>
+     <p>
+        If <m>n</m> is of the form <m>4^k(8m+7)</m> then <m>2n=2\cdot 4^k(8m+7)</m> which is not of this form. The factor <m>8m+7</m> is odd, so it would need to be the case that
+        <md>
+            2\cdot 4^k=4^l
+        </md>
+        for some <m>l.</m>
+        Equivalently,
+        <md>
+            2=4^{l-k}
+        </md>
+        which clearly has no solutions.
+        
+     </p>
+     <p>
+        Similarly, if <m>2n</m> is of the form <m>4^k(8m+7)</m> then <m>n=2\cdot 4^{k-1}(8m+7)</m> which is not of the from <m>4^l(8m+7).</m>
+     </p>
+     </subsection>
+
+     <subsection xml:id="Problem_OFE_9">
+     <title>Problem 13_3_9a</title>
+     <p>
+        No integer of the form <m>9k+4</m> or <m>9k+5</m> can be the sum of three or fewer cubes.
+[Hint: Notice that <m>a^3 \equiv 0, 1, or 8 \pmod{9}</m> for any integer <m>a</m>.]
+     </p>
+     <p>
+        Following the hint, the sum of three or fewer cubes is equivalent to <m>0,1,2,3,6,7,8 \pmod{9}</m> but never <m>4,5 \pmod{9}.</m>
+     </p>
+     </subsection>
+
+
+      <subsection xml:id="Problem_OFE_10">
+     <title>Problem 13_3_13</title>
+     <p>
+        Express the integers <m>231 = 3 \cdot 7\cdot 11</m>, <m>391 = 17 \cdot 23</m>, and <m>2109 = 3 7\cdot 57</m> as sums of four squares.
+     </p>
+     <p>
+        Use Euler's identity. We'll illustrate with <m>391</m>
+        <md>
+            17=4^2+1^2+0^2+0^2
+        </md>
+        <md>
+            23=3^2+3^2+2^2+1^2
+        </md>
+        <md>
+            17\cdot23=(12+3)^2+(12-3)^2+(8-1)^2+(4+2)^2=15^2+9^2+7^2+6^2
+        </md>
+        
+        
+        
+     </p>
+
+      </subsection>
+</section>

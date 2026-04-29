@@ -10,10 +10,7 @@
         These activities are designed to be used in class to help students understand the material. They are not graded, but students are encouraged to work on them in groups and ask the instructor for help when needed.
       </p>
     </introduction>
-    <xi:include href="./activities/113sample-wksht.ptx"/>
-    <xi:include href="./activities/121sample-wksht.ptx"/>
-    <xi:include href="./activities/221sample-wksht.ptx"/>
-    <xi:include href="./activities/222sample-wksht.ptx"/>
+     <xi:include href="./activities/LA_1_1.ptx"/>
     
 
     <!-- Add more xi:include files here to include them in the main course -->
